@@ -1,0 +1,6 @@
+# Exportaciones y vistas previas de GDevelop
+export/
+preview/
+*.bak
+.DS_Store
+Thumbs.db
