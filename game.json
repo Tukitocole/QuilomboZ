@@ -65,6 +65,30 @@
   "resources": {
     "resources": [
       {
+        "file": "assets/armas/ak-47empunada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/armas/ak-47empunada.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/armas/pistolaempunada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/armas/pistolaempunada.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/armas/uziempunada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/armas/uziempunada.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
         "file": "assets/escenario/auto_azul.png",
         "kind": "image",
         "metadata": "",
@@ -161,6 +185,14 @@
         "userAdded": true
       },
       {
+        "file": "assets/interfaz/barra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/interfaz/barra.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
         "file": "assets/interfaz/boton.png",
         "kind": "image",
         "metadata": "",
@@ -177,66 +209,26 @@
         "userAdded": true
       },
       {
-        "file": "assets/jugador/abajo_0.png",
+        "file": "assets/interfaz/punto_aparicion.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/jugador/abajo_0.png",
+        "name": "assets/interfaz/punto_aparicion.png",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "file": "assets/jugador/abajo_1.png",
+        "file": "assets/jugador/prota.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/jugador/abajo_1.png",
+        "name": "assets/jugador/prota.png",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "file": "assets/jugador/arriba_0.png",
+        "file": "assets/jugador/prota1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/jugador/arriba_0.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/jugador/arriba_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/jugador/arriba_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/jugador/derecha_0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/jugador/derecha_0.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/jugador/derecha_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/jugador/derecha_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/jugador/izquierda_0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/jugador/izquierda_0.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/jugador/izquierda_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/jugador/izquierda_1.png",
+        "name": "assets/jugador/prota1.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -245,6 +237,54 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/objetos/bala.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/objetos/billete.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/objetos/billete.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/objetos/botiquin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/objetos/botiquin.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/objetos/dolar_blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/objetos/dolar_blue.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/objetos/mate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/objetos/mate.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/objetos/municion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/objetos/municion.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/zombies/zgenerico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/zombies/zgenerico.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -354,7 +394,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Fondo",
-          "persistentUuid": "47cf6010-8625-4a67-abbd-199c319073d7",
+          "persistentUuid": "87c39e08-c037-49f2-84d9-91ff7c3d2f5c",
           "width": 0,
           "x": 0,
           "y": 0,
@@ -370,7 +410,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Titulo",
-          "persistentUuid": "60d0a3c6-6a17-42e8-8528-644abbb5b85a",
+          "persistentUuid": "a81b8dc0-1534-4f5d-8d28-f78c5a7aff4c",
           "width": 640,
           "x": 0,
           "y": 70,
@@ -386,7 +426,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Subtitulo",
-          "persistentUuid": "dc3a1ddf-0e05-4b01-9502-b97bedfac6a5",
+          "persistentUuid": "025f914d-875b-4cc0-8d6a-3b8fe00521e6",
           "width": 640,
           "x": 0,
           "y": 130,
@@ -402,7 +442,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Boton",
-          "persistentUuid": "46567c7b-aef0-4cd0-a233-406892436d11",
+          "persistentUuid": "8d5d9a85-d2d6-461a-8e90-ca796c335e57",
           "width": 0,
           "x": 240,
           "y": 230,
@@ -418,7 +458,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "TextoBoton",
-          "persistentUuid": "d3016a7f-4cbb-4ce2-bb43-34066280b317",
+          "persistentUuid": "def534ec-3b2e-4d9c-842b-61ece99e9a2b",
           "width": 160,
           "x": 240,
           "y": 240,
@@ -434,7 +474,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Controles",
-          "persistentUuid": "2f216887-11b4-4d11-9071-0fea64518e06",
+          "persistentUuid": "1815af02-0b6f-458c-84a6-22ad36fbed89",
           "width": 640,
           "x": 0,
           "y": 320,
@@ -1095,6 +1135,20 @@
               "name": "Auto"
             }
           ]
+        },
+        {
+          "name": "Zombies",
+          "objects": [
+            {
+              "name": "ZombieChorro"
+            },
+            {
+              "name": "ZombieJubilado"
+            },
+            {
+              "name": "ZombieHincha"
+            }
+          ]
         }
       ],
       "variables": [
@@ -1107,6 +1161,31 @@
           "name": "VelocidadBala",
           "type": "number",
           "value": 320
+        },
+        {
+          "name": "AnguloApunte",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "IntervaloSpawn",
+          "type": "number",
+          "value": 4
+        },
+        {
+          "name": "MaxZombiesBase",
+          "type": "number",
+          "value": 4
+        },
+        {
+          "name": "TipoSpawn",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PlataTexto",
+          "type": "string",
+          "value": "0"
         }
       ],
       "instances": [
@@ -1117,7 +1196,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "PisoAnden",
-          "persistentUuid": "3dfd7717-507c-4903-914b-a313ae6520b3",
+          "persistentUuid": "0f7e6e25-9236-4445-80ba-06cb360ec03a",
           "width": 2560,
           "x": 0,
           "y": 0,
@@ -1133,7 +1212,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "PisoKiosco",
-          "persistentUuid": "e9f32856-0eae-419e-be46-bdb0de733223",
+          "persistentUuid": "ee173389-6df8-499c-81e6-eb259abd9dad",
           "width": 288,
           "x": 32,
           "y": 288,
@@ -1149,7 +1228,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Vereda",
-          "persistentUuid": "d6d47a8c-ff1e-43de-82d2-e28f2344e928",
+          "persistentUuid": "b08f8da8-db62-4fb3-891c-bcc29313dcf2",
           "width": 320,
           "x": 2208,
           "y": 32,
@@ -1165,7 +1244,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "PisoKiosco",
-          "persistentUuid": "a056d19f-a1df-463e-8b1a-2e04a2754c30",
+          "persistentUuid": "14fb67eb-2ed0-40ff-8378-0a9e7b6bc5c0",
           "width": 160,
           "x": 2368,
           "y": 288,
@@ -1181,7 +1260,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Vias",
-          "persistentUuid": "996baecc-42f7-4c36-9aac-52a0e85adabd",
+          "persistentUuid": "ffd6d4a1-6254-4e36-8e88-747c1d563cc1",
           "width": 1632,
           "x": 480,
           "y": 144,
@@ -1197,7 +1276,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Vias",
-          "persistentUuid": "46472c73-163b-4ab6-a24c-3abb15d64923",
+          "persistentUuid": "56b703d6-d26d-4019-8d1e-8de7aaabc7b8",
           "width": 1632,
           "x": 480,
           "y": 528,
@@ -1213,7 +1292,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "BordeAnden",
-          "persistentUuid": "3a31629d-437b-4fbf-a301-c8c9efa66cc9",
+          "persistentUuid": "d432d90c-f4e5-47e9-8515-49d9ec5e3e5f",
           "width": 1632,
           "x": 480,
           "y": 136,
@@ -1229,7 +1308,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "BordeAnden",
-          "persistentUuid": "9373e83d-76a2-4664-b251-513cd7d1b698",
+          "persistentUuid": "428698e7-12c6-481c-86ab-3801a33f0186",
           "width": 1632,
           "x": 480,
           "y": 240,
@@ -1245,7 +1324,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "BordeAnden",
-          "persistentUuid": "b65d0377-ba12-4105-9242-6b540797245d",
+          "persistentUuid": "8301936c-06e1-49fa-8a84-6b2ed933facb",
           "width": 1632,
           "x": 480,
           "y": 520,
@@ -1261,7 +1340,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "BordeAnden",
-          "persistentUuid": "c3c02c50-49a5-40ad-a75c-22b5a746697f",
+          "persistentUuid": "26a7067b-c38d-4994-856c-e1be781a11db",
           "width": 1632,
           "x": 480,
           "y": 624,
@@ -1277,7 +1356,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Refugio",
-          "persistentUuid": "04f17276-8657-4d59-b2e5-973cf6ef9079",
+          "persistentUuid": "17ed37e3-4481-4fe4-8cbc-4fdc13415ba0",
           "width": 160,
           "x": 2368,
           "y": 288,
@@ -1293,7 +1372,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "1f98b5f7-6006-4ebe-a2eb-8d0c3eec7864",
+          "persistentUuid": "57054038-dfe7-4f71-87af-73437c0cfb02",
           "width": 2560,
           "x": 0,
           "y": 0,
@@ -1309,7 +1388,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "d5ac5da7-2e5b-4a90-8e14-9a6eaa9d64a4",
+          "persistentUuid": "d5a85e13-0644-4eab-8896-985309352d31",
           "width": 2560,
           "x": 0,
           "y": 736,
@@ -1325,7 +1404,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "a8d7015a-2435-4d07-8802-c9e9bc56f2f1",
+          "persistentUuid": "017641e4-d180-422f-8904-9faa2a62bdcd",
           "width": 32,
           "x": 0,
           "y": 32,
@@ -1341,7 +1420,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "719d4e2b-9f80-4696-a01c-9b6c49ffbc3c",
+          "persistentUuid": "b2a1581c-19d7-47f4-8539-9cb3786e4dcb",
           "width": 32,
           "x": 2528,
           "y": 32,
@@ -1357,7 +1436,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "2695a288-7667-4935-af03-15f012f85b9a",
+          "persistentUuid": "ac28e166-1028-47b9-8327-6f536e06fd75",
           "width": 320,
           "x": 32,
           "y": 256,
@@ -1373,7 +1452,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "c6bca58b-e284-4682-b2b5-58749aab3fb9",
+          "persistentUuid": "66850726-6500-4005-8cf2-26c7109d5427",
           "width": 320,
           "x": 32,
           "y": 512,
@@ -1389,7 +1468,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "046eee83-951e-4be9-bc51-790a314d399c",
+          "persistentUuid": "ad155b32-c8f7-4096-85bf-7762e47d3e66",
           "width": 32,
           "x": 320,
           "y": 288,
@@ -1405,7 +1484,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "9693e519-525e-4d4a-8768-c6ce0c110c1d",
+          "persistentUuid": "740b333c-ef78-4ad6-8a33-5fb7ac64e0f9",
           "width": 32,
           "x": 320,
           "y": 448,
@@ -1421,7 +1500,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "987c33e1-3081-4e4b-8677-ee80e09e8b21",
+          "persistentUuid": "14f0a117-a076-4390-8507-8945f190f9a1",
           "width": 32,
           "x": 448,
           "y": 32,
@@ -1437,7 +1516,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "a9ae1125-e081-4edb-bc7c-978281e529fd",
+          "persistentUuid": "6148ea60-8d66-4864-8b29-6ce2f5a27255",
           "width": 32,
           "x": 448,
           "y": 512,
@@ -1453,7 +1532,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Molinete",
-          "persistentUuid": "6a07b32e-faf2-4983-a48f-5e7758cf8132",
+          "persistentUuid": "59115075-0128-4fd0-8a8c-7ac28ad13780",
           "width": 0,
           "x": 448,
           "y": 256,
@@ -1469,7 +1548,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Molinete",
-          "persistentUuid": "0248f3df-6132-460e-bd2c-df6c8fa50fee",
+          "persistentUuid": "46c8b51f-eefd-4899-814d-032bf8c92526",
           "width": 0,
           "x": 448,
           "y": 288,
@@ -1485,7 +1564,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Molinete",
-          "persistentUuid": "8de77f61-2d71-4a8f-8e9d-0927a73435ae",
+          "persistentUuid": "0a88d38c-b0eb-4655-896a-1fc93686a8d3",
           "width": 0,
           "x": 448,
           "y": 384,
@@ -1501,7 +1580,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Molinete",
-          "persistentUuid": "848e9e30-4f48-4c60-a9e7-a6fd2f189dcb",
+          "persistentUuid": "b95166c0-1f9b-4fa8-8647-faa85346d6bb",
           "width": 0,
           "x": 448,
           "y": 416,
@@ -1517,7 +1596,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "6c5ee7ef-5924-42c2-b813-aa47694a0e7c",
+          "persistentUuid": "e3a61c70-0feb-4005-873f-2d4ec463ecab",
           "width": 224,
           "x": 576,
           "y": 160,
@@ -1533,7 +1612,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "5dfdd289-8ea3-40e7-b865-c4d999a27604",
+          "persistentUuid": "711bb1e2-18af-4ae2-8153-b6c5a87737c9",
           "width": 224,
           "x": 864,
           "y": 160,
@@ -1549,7 +1628,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "f601bf88-4150-413a-9547-37d7bf9d2c53",
+          "persistentUuid": "5fe28bee-bc5b-427d-8433-725957557666",
           "width": 224,
           "x": 1152,
           "y": 160,
@@ -1565,7 +1644,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "f5c14c87-c424-4fdc-a92f-f35a1c5cfa11",
+          "persistentUuid": "0e708cd5-2609-4659-8195-8dfa0d23485f",
           "width": 224,
           "x": 1440,
           "y": 160,
@@ -1581,7 +1660,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "e32b0b0e-1648-40c9-9426-9281f139b162",
+          "persistentUuid": "7481be42-5504-4b4c-8bfd-c5540274b5b6",
           "width": 224,
           "x": 1728,
           "y": 160,
@@ -1597,7 +1676,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "6733a72a-320f-4066-9ff3-bd970d395fc0",
+          "persistentUuid": "9cd37b9a-06d0-4705-805f-05a209274e82",
           "width": 224,
           "x": 640,
           "y": 544,
@@ -1613,7 +1692,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "a8bcc1a9-31a7-4d3d-9f51-bc06052fe221",
+          "persistentUuid": "faa437e5-9986-4694-8c18-47bb7aba01be",
           "width": 224,
           "x": 928,
           "y": 544,
@@ -1629,7 +1708,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "fb0747f4-8301-40ff-984e-bcb01d6f9f48",
+          "persistentUuid": "43ee1c30-2f2d-4315-8055-ef57976b2aaf",
           "width": 224,
           "x": 1216,
           "y": 544,
@@ -1645,7 +1724,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "97ac2468-6d07-43f3-8a48-d0dd8549bbda",
+          "persistentUuid": "62fad3de-c16f-4d9a-8652-92862b0eb2ed",
           "width": 224,
           "x": 1504,
           "y": 544,
@@ -1661,7 +1740,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tren",
-          "persistentUuid": "727dd555-7535-4217-a788-b7ac8314f85c",
+          "persistentUuid": "d0ffed48-c24f-41b7-8b02-a8326636f6c4",
           "width": 224,
           "x": 1792,
           "y": 544,
@@ -1677,7 +1756,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "ea98aaff-7b02-495b-b399-a60aefc7210d",
+          "persistentUuid": "cf16dbe9-e340-48a3-80d4-fc96ab375d2d",
           "width": 0,
           "x": 700,
           "y": 300,
@@ -1693,7 +1772,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "477d80fa-15af-4160-aff3-868cbb793376",
+          "persistentUuid": "7d06a08b-1467-4b69-88a1-727768fb5b85",
           "width": 0,
           "x": 700,
           "y": 440,
@@ -1709,7 +1788,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "639c279a-8d5e-48e2-82db-4bb11796c605",
+          "persistentUuid": "ba465f86-8da4-4de3-800f-39ff4a96cb4e",
           "width": 0,
           "x": 1000,
           "y": 300,
@@ -1725,7 +1804,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "48bc572b-adc3-4cb4-ab68-fde47488c3d8",
+          "persistentUuid": "b9f62f32-3071-45ce-8808-e81aca8716c5",
           "width": 0,
           "x": 1000,
           "y": 440,
@@ -1741,7 +1820,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "cd199dab-2065-4154-bfb7-ffcf44296120",
+          "persistentUuid": "d463ce59-2972-44ea-8002-73f23a443365",
           "width": 0,
           "x": 1300,
           "y": 300,
@@ -1757,7 +1836,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "058f582a-aa18-4db1-b748-8eea454d2378",
+          "persistentUuid": "2e4b7c49-545b-4b56-8d97-481393f7e6a5",
           "width": 0,
           "x": 1300,
           "y": 440,
@@ -1773,7 +1852,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "4ba2c7fd-b0da-48df-affa-a32fdd82ed0e",
+          "persistentUuid": "3d502e38-216f-4378-85a1-21db9128a157",
           "width": 0,
           "x": 1600,
           "y": 300,
@@ -1789,7 +1868,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "3f5d8559-b91b-467a-8d2b-afe1493a971a",
+          "persistentUuid": "8a4e816f-27c0-4102-8b77-55c89adde389",
           "width": 0,
           "x": 1600,
           "y": 440,
@@ -1805,7 +1884,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "08019f96-2195-49a9-82f4-3d0423849143",
+          "persistentUuid": "983cb83e-9b37-4fc5-8ddf-95bb63895fa7",
           "width": 0,
           "x": 1900,
           "y": 300,
@@ -1821,7 +1900,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Columna",
-          "persistentUuid": "2875b370-cdea-4ed6-8260-fb3d9dda103e",
+          "persistentUuid": "2bb3e0e2-f7c6-44d4-8fcc-4c37221f17d0",
           "width": 0,
           "x": 1900,
           "y": 440,
@@ -1837,7 +1916,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "0c1c93ec-8836-4ad1-b757-99220181254a",
+          "persistentUuid": "f3a4f52b-b8af-4d3e-811f-82a983a54001",
           "width": 32,
           "x": 2176,
           "y": 32,
@@ -1853,7 +1932,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "71444e6a-cded-4eba-89e3-6d44cd2ae798",
+          "persistentUuid": "be00dab9-ccc3-4051-8063-6e0589189975",
           "width": 32,
           "x": 2176,
           "y": 448,
@@ -1869,7 +1948,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "075f399c-1f2d-4a9d-9ac2-ee4e485d77f9",
+          "persistentUuid": "dfac574b-9f4c-45fb-8e00-237131fe4c26",
           "width": 192,
           "x": 2336,
           "y": 256,
@@ -1885,7 +1964,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "dab67e2b-93b7-4e52-9ccc-1d7e8b1d4814",
+          "persistentUuid": "d77fb5d0-e15b-4250-80ea-dc8ed56c24ba",
           "width": 192,
           "x": 2336,
           "y": 480,
@@ -1901,7 +1980,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "ce0f44e9-88be-4689-9d16-280388dd6f8c",
+          "persistentUuid": "164b2661-e7b8-4d68-8c31-e2ffce40329b",
           "width": 32,
           "x": 2336,
           "y": 288,
@@ -1917,7 +1996,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
-          "persistentUuid": "7bf3c203-6cfa-4374-aecc-988dfb843e18",
+          "persistentUuid": "bf7fdfe5-8399-4fd7-8332-3cce30ab42d1",
           "width": 32,
           "x": 2336,
           "y": 432,
@@ -1933,7 +2012,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Auto",
-          "persistentUuid": "8f770cb6-a808-450d-8198-9a90ffab9e78",
+          "persistentUuid": "5999a870-4e32-47e1-8575-910208f98be6",
           "width": 0,
           "x": 2224,
           "y": 96,
@@ -1954,7 +2033,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Auto",
-          "persistentUuid": "9f4f8a48-497c-4e67-a534-db722d9bca1a",
+          "persistentUuid": "0c014c98-b7ba-469b-8fa1-b9963eab51e3",
           "width": 0,
           "x": 2400,
           "y": 600,
@@ -1970,7 +2049,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Auto",
-          "persistentUuid": "ba9532fa-96c4-4b42-8a69-70b93e25a27a",
+          "persistentUuid": "5ebad722-9ec0-47bf-8e45-121aa12c5c70",
           "width": 0,
           "x": 2240,
           "y": 560,
@@ -1986,7 +2065,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Auto",
-          "persistentUuid": "c348ecff-1ec3-4e0e-9cb4-5d1833e4cff0",
+          "persistentUuid": "4abef505-1a03-49dc-82b2-41a0bd7b358f",
           "width": 0,
           "x": 2420,
           "y": 120,
@@ -2006,11 +2085,547 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "name": "ZombieJubilado",
+          "persistentUuid": "07e12838-e1af-4f8a-825e-70f7e769cb4c",
+          "width": 0,
+          "x": 900,
+          "y": 96,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ZombieChorro",
+          "persistentUuid": "f40d8697-e6ee-4bfb-8736-4ea555dc8e41",
+          "width": 0,
+          "x": 1250,
+          "y": 380,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ZombieJubilado",
+          "persistentUuid": "5b3ff7f6-ec53-4c62-8db8-69071562d697",
+          "width": 0,
+          "x": 1650,
+          "y": 690,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ZombieChorro",
+          "persistentUuid": "6ea3e904-7e76-4a58-878d-639dd4f37312",
+          "width": 0,
+          "x": 2000,
+          "y": 380,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "b7a3758f-a0f1-4dbe-804a-81f3bfb45940",
+          "width": 0,
+          "x": 612,
+          "y": 88,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "579f0fa8-665f-4ecf-87cd-299c904fec55",
+          "width": 0,
+          "x": 992,
+          "y": 88,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "2f0df570-4d52-4622-873a-d19384abae5f",
+          "width": 0,
+          "x": 1392,
+          "y": 88,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "6dfddf7c-fcb7-4b3a-84e7-ed918ea9d02d",
+          "width": 0,
+          "x": 1792,
+          "y": 88,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "1f422d79-596b-4dd4-8fb1-4b774790ce3f",
+          "width": 0,
+          "x": 2092,
+          "y": 88,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "eac48d9f-4337-4480-8594-858c5e6a7fb4",
+          "width": 0,
+          "x": 692,
+          "y": 682,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "4595bc2a-89b7-4f28-8c2d-06082a6ad338",
+          "width": 0,
+          "x": 1092,
+          "y": 682,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "289e37da-bc2a-4507-87e7-a2aa7da48189",
+          "width": 0,
+          "x": 1492,
+          "y": 682,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "2f431ea4-70dc-4ad9-8d55-006d1da74995",
+          "width": 0,
+          "x": 1942,
+          "y": 682,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "baa40245-dabd-4857-891c-e45b25a9e32b",
+          "width": 0,
+          "x": 1142,
+          "y": 372,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "d37e2df1-f62f-47df-8002-c5ecd933e4a0",
+          "width": 0,
+          "x": 1442,
+          "y": 372,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "4872d631-da05-47b7-8452-71118c86c8c9",
+          "width": 0,
+          "x": 1742,
+          "y": 372,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "56b2c749-d053-431f-846c-0b1b4eda9b03",
+          "width": 0,
+          "x": 2042,
+          "y": 372,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "ad43019f-0223-4d28-885c-1b0fcb325708",
+          "width": 0,
+          "x": 2262,
+          "y": 242,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoAparicion",
+          "persistentUuid": "680168ea-8dd2-42d5-891d-f61835d9dc02",
+          "width": 0,
+          "x": 2262,
+          "y": 682,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CajaMunicion",
+          "persistentUuid": "87376411-9ce9-4a87-8a7b-8d484156af8a",
+          "width": 0,
+          "x": 592,
+          "y": 372,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CajaMunicion",
+          "persistentUuid": "13f6e32b-3a26-4214-8b23-7558fe43c9c6",
+          "width": 0,
+          "x": 1442,
+          "y": 322,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CajaMunicion",
+          "persistentUuid": "aba40d29-4cd0-426d-847d-3806ab4e0a6f",
+          "width": 0,
+          "x": 1842,
+          "y": 88,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CajaMunicion",
+          "persistentUuid": "5240d1cf-329e-4b52-877f-c8a3c657aa88",
+          "width": 0,
+          "x": 1292,
+          "y": 682,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mate",
+          "persistentUuid": "0a8f7f7c-00f1-42c8-83d6-24408201e2b2",
+          "width": 0,
+          "x": 992,
+          "y": 682,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mate",
+          "persistentUuid": "8d097ab7-659e-4041-813d-9a59cb4dc832",
+          "width": 0,
+          "x": 1592,
+          "y": 372,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Botiquin",
+          "persistentUuid": "6447d24e-8448-4026-8c7f-037186d6a6bc",
+          "width": 20,
+          "x": 2240,
+          "y": 390,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Botiquin",
+          "persistentUuid": "7260e1c8-f174-4d20-8f0f-fbde2b62d5ac",
+          "width": 20,
+          "x": 1150,
+          "y": 96,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Billete",
+          "persistentUuid": "7af1cb18-fcbe-4794-848b-f6b047feefee",
+          "width": 0,
+          "x": 792,
+          "y": 88,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Valor",
+              "type": "number",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Billete",
+          "persistentUuid": "1a03fb66-864d-4e7c-83b0-f3a7d98b5b66",
+          "width": 0,
+          "x": 1142,
+          "y": 642,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Valor",
+              "type": "number",
+              "value": 2000
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Billete",
+          "persistentUuid": "8bb96064-c1b6-4d33-8d0f-8a590e2e99cb",
+          "width": 0,
+          "x": 1742,
+          "y": 432,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Valor",
+              "type": "number",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Billete",
+          "persistentUuid": "704a18db-5cbc-47bf-89c0-1748e68f65e0",
+          "width": 0,
+          "x": 2442,
+          "y": 652,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Valor",
+              "type": "number",
+              "value": 5000
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DolarBlue",
+          "persistentUuid": "4acae588-1eaa-4a5d-8976-73d0042d1ed3",
+          "width": 0,
+          "x": 2482,
+          "y": 712,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
           "name": "Jugador",
-          "persistentUuid": "80262e77-72a8-4ebc-bf67-2be5e75d98e2",
+          "persistentUuid": "99aa4e6c-242e-4fa4-8a72-38cda284d621",
           "width": 0,
           "x": 150,
-          "y": 380,
+          "y": 370,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -2022,8 +2637,24 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "name": "Arma",
+          "persistentUuid": "483669d8-3b35-47df-8f74-9c28d6c52684",
+          "width": 0,
+          "x": 166,
+          "y": 384,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
           "name": "Frase",
-          "persistentUuid": "9d6a6f84-edcd-49f6-bf8e-5c041e788866",
+          "persistentUuid": "ceab7e15-eec7-498b-8738-eb9d3f6f7d78",
           "width": 0,
           "x": 150,
           "y": 360,
@@ -2034,14 +2665,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 14,
           "keepRatio": true,
           "layer": "HUD",
-          "name": "HUD_Vida",
-          "persistentUuid": "26fd3a7b-5d63-467c-b1e3-9c5f2a0dd332",
-          "width": 0,
-          "x": 8,
+          "name": "HUD_BarraFondo",
+          "persistentUuid": "457c71ad-fbd5-469d-8ae6-b0ca76c74534",
+          "width": 124,
+          "x": 6,
           "y": 6,
           "zOrder": 6,
           "numberProperties": [],
@@ -2050,15 +2681,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 10,
           "keepRatio": true,
           "layer": "HUD",
-          "name": "HUD_Balas",
-          "persistentUuid": "d8a0d4fe-5162-4865-ad00-3150f22daaf0",
-          "width": 0,
+          "name": "HUD_BarraVida",
+          "persistentUuid": "e4455eab-d19e-4b46-8d66-088068637689",
+          "width": 120,
           "x": 8,
-          "y": 22,
+          "y": 8,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2070,12 +2701,76 @@
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
+          "name": "HUD_Vida",
+          "persistentUuid": "ba4098fc-0f2d-46b8-837f-7c3b5e383519",
+          "width": 0,
+          "x": 136,
+          "y": 7,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "HUD_Balas",
+          "persistentUuid": "3d8e591e-1bab-4f5f-84ea-b9c540522b47",
+          "width": 0,
+          "x": 8,
+          "y": 24,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "HUD_Kills",
+          "persistentUuid": "d85ec602-5c63-4168-8fcf-f3a0e93ff393",
+          "width": 0,
+          "x": 8,
+          "y": 40,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "HUD_Plata",
+          "persistentUuid": "6cd8bdff-91cd-4bb6-883a-03f7b8c7307f",
+          "width": 0,
+          "x": 520,
+          "y": 6,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
           "name": "HUD_Ayuda",
-          "persistentUuid": "10099ecf-900c-4bd4-b9dc-e9f49485b53a",
+          "persistentUuid": "c48bc4ac-fe53-42f0-8640-7180a18db620",
           "width": 0,
           "x": 8,
           "y": 344,
-          "zOrder": 8,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2146,7 +2841,14 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "ObstaculoCamino",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -2157,7 +2859,14 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "ObstaculoCamino",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -2167,7 +2876,14 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ObstaculoCamino",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2208,7 +2924,14 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ObstaculoCamino",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2249,7 +2972,14 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ObstaculoCamino",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            }
+          ],
           "animations": [
             {
               "name": "rojo",
@@ -2356,7 +3086,7 @@
           ],
           "animations": [
             {
-              "name": "abajo",
+              "name": "con_arma",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2365,7 +3095,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/abajo_0.png",
+                      "image": "assets/jugador/prota.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2381,56 +3111,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 10,
-                            "y": 17
+                            "x": 11,
+                            "y": 14
                           },
                           {
-                            "x": 22,
-                            "y": 17
+                            "x": 20,
+                            "y": 14
                           },
                           {
-                            "x": 22,
-                            "y": 30
+                            "x": 20,
+                            "y": 21
                           },
                           {
-                            "x": 10,
-                            "y": 30
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/abajo_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 30
-                          },
-                          {
-                            "x": 10,
-                            "y": 30
+                            "x": 11,
+                            "y": 21
                           }
                         ]
                       ]
@@ -2440,7 +3134,7 @@
               ]
             },
             {
-              "name": "arriba",
+              "name": "sin_arma",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2449,7 +3143,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/arriba_0.png",
+                      "image": "assets/jugador/prota1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2465,56 +3159,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 10,
-                            "y": 17
+                            "x": 11,
+                            "y": 14
                           },
                           {
-                            "x": 22,
-                            "y": 17
+                            "x": 20,
+                            "y": 14
                           },
                           {
-                            "x": 22,
-                            "y": 30
+                            "x": 20,
+                            "y": 21
                           },
                           {
-                            "x": 10,
-                            "y": 30
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/arriba_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 30
-                          },
-                          {
-                            "x": 10,
-                            "y": 30
+                            "x": 11,
+                            "y": 21
                           }
                         ]
                       ]
@@ -2522,170 +3180,101 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Arma",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
             {
-              "name": "izquierda",
+              "name": "pistola",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "timeBetweenFrames": 0.18,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/izquierda_0.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/armas/pistolaempunada.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 7,
+                        "y": 13
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 7,
+                        "y": 13
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 30
-                          },
-                          {
-                            "x": 10,
-                            "y": 30
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/izquierda_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 30
-                          },
-                          {
-                            "x": 10,
-                            "y": 30
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
               ]
             },
             {
-              "name": "derecha",
+              "name": "uzi",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "timeBetweenFrames": 0.18,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/derecha_0.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/armas/uziempunada.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 10,
+                        "y": 17
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 10,
+                        "y": 17
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 30
-                          },
-                          {
-                            "x": 10,
-                            "y": 30
-                          }
-                        ]
-                      ]
-                    },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ak47",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/jugador/derecha_1.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/armas/ak-47empunada.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 15
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 15
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 17
-                          },
-                          {
-                            "x": 22,
-                            "y": 30
-                          },
-                          {
-                            "x": 10,
-                            "y": 30
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -2726,6 +3315,588 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets/objetos/bala.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ZombieChorro",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Vida",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Danio",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "Velocidad",
+              "type": "number",
+              "value": 95
+            },
+            {
+              "name": "Plata",
+              "type": "number",
+              "value": 1000
+            },
+            {
+              "name": "Alerta",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Color",
+              "type": "string",
+              "value": "255;255;255"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 800,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 16,
+              "cellWidth": 16,
+              "extraBorder": 6,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 95,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "caminar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/zombies/zgenerico.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 20,
+                            "y": 6
+                          },
+                          {
+                            "x": 20,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ZombieJubilado",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Vida",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Danio",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "Velocidad",
+              "type": "number",
+              "value": 40
+            },
+            {
+              "name": "Plata",
+              "type": "number",
+              "value": 500
+            },
+            {
+              "name": "Alerta",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Color",
+              "type": "string",
+              "value": "160;185;255"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 800,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 16,
+              "cellWidth": 16,
+              "extraBorder": 6,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 40,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "caminar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/zombies/zgenerico.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 20,
+                            "y": 6
+                          },
+                          {
+                            "x": 20,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ZombieHincha",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Vida",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Danio",
+              "type": "number",
+              "value": 12
+            },
+            {
+              "name": "Velocidad",
+              "type": "number",
+              "value": 70
+            },
+            {
+              "name": "Plata",
+              "type": "number",
+              "value": 1500
+            },
+            {
+              "name": "Alerta",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Color",
+              "type": "string",
+              "value": "255;190;110"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 800,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 16,
+              "cellWidth": 16,
+              "extraBorder": 6,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 70,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "caminar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/zombies/zgenerico.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 20,
+                            "y": 6
+                          },
+                          {
+                            "x": 20,
+                            "y": 21
+                          },
+                          {
+                            "x": 10,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "PuntoAparicion",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/punto_aparicion.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "CajaMunicion",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/objetos/municion.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Mate",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/objetos/mate.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Botiquin",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/objetos/botiquin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Billete",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Valor",
+              "type": "number",
+              "value": 1000
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/objetos/billete.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "DolarBlue",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Valor",
+              "type": "number",
+              "value": 15000
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/objetos/dolar_blue.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2790,6 +3961,88 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "HUD_BarraFondo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/barra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "HUD_BarraVida",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/barra.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -2800,10 +4053,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Vida: 100",
+          "string": "100 / 100",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 12,
+          "characterSize": 9,
           "color": {
             "b": 255,
             "g": 255,
@@ -2823,11 +4076,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Vida: 100",
+            "text": "100 / 100",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 12,
+            "characterSize": 9,
             "lineHeight": 0,
             "color": "255;255;255"
           }
@@ -2843,7 +4096,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Balas: 12",
+          "string": "Balas: 12 / 24",
           "font": "",
           "textAlignment": "left",
           "characterSize": 12,
@@ -2866,13 +4119,99 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Balas: 12",
+            "text": "Balas: 12 / 24",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 12,
             "lineHeight": 0,
             "color": "255;220;120"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HUD_Kills",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Zombies: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 140,
+            "g": 140,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Zombies: 0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "255;140;140"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "HUD_Plata",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "$ 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "b": 154,
+            "g": 233,
+            "r": 140
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "$ 0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "140;233;154"
           }
         },
         {
@@ -2886,7 +4225,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "WASD o flechas: moverse   ·   Clic o Espacio: disparar",
+          "string": "WASD o flechas: moverse   ·   Mouse: apuntar   ·   Clic o Espacio: disparar",
           "font": "",
           "textAlignment": "left",
           "characterSize": 9,
@@ -2909,7 +4248,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "WASD o flechas: moverse   ·   Clic o Espacio: disparar",
+            "text": "WASD o flechas: moverse   ·   Mouse: apuntar   ·   Clic o Espacio: disparar",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2959,16 +4298,58 @@
             "objectName": "Jugador"
           },
           {
+            "objectName": "Arma"
+          },
+          {
             "objectName": "Bala"
           },
           {
+            "objectName": "ZombieChorro"
+          },
+          {
+            "objectName": "ZombieJubilado"
+          },
+          {
+            "objectName": "ZombieHincha"
+          },
+          {
+            "objectName": "PuntoAparicion"
+          },
+          {
+            "objectName": "CajaMunicion"
+          },
+          {
+            "objectName": "Mate"
+          },
+          {
+            "objectName": "Botiquin"
+          },
+          {
+            "objectName": "Billete"
+          },
+          {
+            "objectName": "DolarBlue"
+          },
+          {
             "objectName": "Frase"
+          },
+          {
+            "objectName": "HUD_BarraFondo"
+          },
+          {
+            "objectName": "HUD_BarraVida"
           },
           {
             "objectName": "HUD_Vida"
           },
           {
             "objectName": "HUD_Balas"
+          },
+          {
+            "objectName": "HUD_Kills"
+          },
+          {
+            "objectName": "HUD_Plata"
           },
           {
             "objectName": "HUD_Ayuda"
@@ -2986,7 +4367,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Quilombo Z · Nivel 1: Estación Retiro y el tren Sarmiento. Fase 1: movimiento, disparo, mapa y cámara."
+          "comment": "Quilombo Z · Nivel 1: Estación Retiro y el tren Sarmiento. Fase 1: movimiento, disparo, mapa y cámara. Fase 2: zombies, daño, aparición, HUD y objetos."
         },
         {
           "colorB": 90,
@@ -3073,10 +4454,63 @@
                 },
                 {
                   "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"spawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"danio\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Hide"
                   },
                   "parameters": [
                     "Frase"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PuntoAparicion"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "HUD_BarraFondo",
+                    "\"30;30;30\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Zombies.Color"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "\"ruta\""
                   ]
                 }
               ]
@@ -3215,196 +4649,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Animación según la dirección en la que camina."
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::XVelocity"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "TopDownMovement",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "Animation",
-                    "=",
-                    "\"derecha\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::XVelocity"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "TopDownMovement",
-                    "<",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "Animation",
-                    "=",
-                    "\"izquierda\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::YVelocity"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "TopDownMovement",
-                    "<",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "Animation",
-                    "=",
-                    "\"arriba\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::YVelocity"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "TopDownMovement",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "Animation",
-                    "=",
-                    "\"abajo\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "TopDownMovement"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "Animation"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "TopDownMovementBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "TopDownMovement"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "Animation"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetElapsedTime"
-                  },
-                  "parameters": [
-                    "Jugador",
-                    "Animation",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
               "comment": "Colisiones: Lionel no atraviesa paredes, trenes, columnas, molinetes ni autos."
             },
             {
@@ -3419,6 +4663,164 @@
                     "Jugador",
                     "Obstaculos",
                     ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 90,
+          "colorG": 140,
+          "colorR": 45,
+          "creationTime": 0,
+          "name": "Arma y puntería",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Lionel sin manos (prota.png) y el arma empuñada flotando al costado, girando hacia el mouse sobre la mano."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AnguloApunte",
+                    "=",
+                    "AngleBetweenPositions(Jugador.X() + 16, Jugador.Y() + 14, MouseX(\"\", 0), MouseY(\"\", 0))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "=",
+                    "Jugador.X() + 16 + cos(ToRad(AnguloApunte)) * 7",
+                    "=",
+                    "Jugador.Y() + 14 + sin(ToRad(AnguloApunte)) * 3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "=",
+                    "AnguloApunte"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "=",
+                    "Jugador.ZOrder() + 1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Lionel mira hacia donde apunta; el arma se da vuelta para no quedar boca abajo."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "MouseX(\"\", 0)",
+                    "<",
+                    "Jugador.X() + 16"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "MouseX(\"\", 0)",
+                    ">=",
+                    "Jugador.X() + 16"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "Flippable",
+                    "no"
                   ]
                 }
               ]
@@ -3445,7 +4847,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Clic izquierdo (mantenido o corto), toque en pantalla o Espacio, respetando la cadencia del arma. La bala sale hacia el mouse."
+              "comment": "Clic izquierdo (mantenido o corto), toque en pantalla o Espacio, respetando la cadencia del arma. La bala sale pegada al cuerpo (así le pega también a un zombie que está encima) hacia el mouse."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3520,19 +4922,18 @@
                       "parameters": [
                         "",
                         "Bala",
-                        "Jugador.CenterX() - 4",
-                        "Jugador.CenterY() - 2",
+                        "Jugador.X() + 16 + cos(ToRad(AnguloApunte)) * 6 - 4",
+                        "Jugador.Y() + 14 + sin(ToRad(AnguloApunte)) * 6 - 4",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "AddForceTowardPosition"
+                        "value": "AddForceAL"
                       },
                       "parameters": [
                         "Bala",
-                        "MouseX(\"\", 0)",
-                        "MouseY(\"\", 0)",
+                        "AnguloApunte",
                         "VelocidadBala",
                         "1"
                       ]
@@ -3659,6 +5060,1377 @@
           "parameters": []
         },
         {
+          "colorB": 60,
+          "colorG": 160,
+          "colorR": 120,
+          "creationTime": 0,
+          "name": "Zombies: persecución",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Cada 0,4 s cada zombie recalcula el camino hacia Lionel esquivando obstáculos. Los que están lejos esperan hasta verlo (450 px) o hasta que les disparen."
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Zombies",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "\"ruta\"",
+                    ">=",
+                    "0.4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "\"ruta\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Zombies",
+                        "Jugador",
+                        "450",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Zombies",
+                        "Alerta",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Zombies",
+                        "Alerta",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "Zombies",
+                        "Pathfinding",
+                        "",
+                        "Jugador.X() + 16",
+                        "Jugador.Y() + 16"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Por las dudas, ningún zombie se mete adentro de una pared."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Obstaculos",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Miran hacia Lionel."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    ">",
+                    "Jugador.X() + 16"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "<=",
+                    "Jugador.X() + 16"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 70,
+          "colorG": 70,
+          "colorR": 190,
+          "creationTime": 0,
+          "name": "Zombies: daño y muerte",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bala contra zombie: resta vida según el daño de la bala (más DanioExtra de la tienda), lo pone en alerta y lo hace parpadear en rojo."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bala",
+                    "Zombies",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Vida",
+                    "-",
+                    "Bala.Danio + DanioExtra"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Alerta",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "\"255;80;80\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "\"golpe\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bala",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "\"golpe\"",
+                    ">=",
+                    "0.12"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Zombies.Color"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zombie sin vida: suma al contador, suelta su plata en un billete y a veces una caja de balas."
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Zombies",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Zombies",
+                    "Vida",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Kills",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Billete",
+                    "Zombies.CenterX() - 8",
+                    "Zombies.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Billete",
+                    "Valor",
+                    "=",
+                    "Zombies.Plata"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomInRange(1, 100)",
+                        "<=",
+                        "30"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "CajaMunicion",
+                        "Zombies.CenterX() - 8",
+                        "Zombies.CenterY() - 14",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Zombies",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 70,
+          "colorG": 70,
+          "colorR": 190,
+          "creationTime": 0,
+          "name": "Vida y daño de Lionel",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Un zombie que llega a Lionel (centros a menos de 24 px) le saca su daño, con 1 segundo de espera entre golpes."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Zombies",
+                    "24",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"danio\"",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    "-",
+                    "Zombies.Danio"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"danio\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "El Chorro además te afana: 2 balas y $500."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Jugador",
+                        "ZombieChorro",
+                        "24",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Municion",
+                        "=",
+                        "max(0, Municion - 2)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Plata",
+                        "=",
+                        "max(0, Plata - 500)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Frase",
+                        "Text",
+                        "=",
+                        "\"¡Ey, pibe! Me afanó balas y plata\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Frase",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"frase\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Derrota\"",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 60,
+          "colorG": 160,
+          "colorR": 120,
+          "creationTime": 0,
+          "name": "Aparición de zombies",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Aparición progresiva: cada vez más seguido (hasta 1,5 s) y con más zombies a medida que Lionel se acerca al kiosco de Don Ramón. Nacen fuera de cámara (entre 380 y 900 px)."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"spawn\"",
+                    ">=",
+                    "IntervaloSpawn"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Zombies",
+                    "<",
+                    "MaxZombiesBase + floor(Jugador.X() / 500)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"spawn\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "PuntoAparicion",
+                        "Jugador",
+                        "380",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "PuntoAparicion",
+                        "Jugador",
+                        "900",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickRandomInstance"
+                      },
+                      "parameters": [
+                        "",
+                        "PuntoAparicion"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TipoSpawn",
+                        "=",
+                        "RandomInRange(1, 100)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "IntervaloSpawn",
+                        "=",
+                        "max(1.5, IntervaloSpawn - 0.15)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TipoSpawn",
+                            "<=",
+                            "45"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "ZombieChorro",
+                            "PuntoAparicion.CenterX()",
+                            "PuntoAparicion.CenterY()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "ZombieChorro",
+                            "Alerta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "ZombieChorro",
+                            "ZombieChorro.Color"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "ZombieChorro",
+                            "\"ruta\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TipoSpawn",
+                            ">",
+                            "45"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TipoSpawn",
+                            "<=",
+                            "80"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "ZombieJubilado",
+                            "PuntoAparicion.CenterX()",
+                            "PuntoAparicion.CenterY()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "ZombieJubilado",
+                            "Alerta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "ZombieJubilado",
+                            "ZombieJubilado.Color"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "ZombieJubilado",
+                            "\"ruta\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "El Hincha viene en manada de 3."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TipoSpawn",
+                            ">",
+                            "80"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "ZombieHincha",
+                            "PuntoAparicion.CenterX()",
+                            "PuntoAparicion.CenterY()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "Alerta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "ZombieHincha.Color"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "\"ruta\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "ZombieHincha",
+                            "PuntoAparicion.CenterX() + 20",
+                            "PuntoAparicion.CenterY() + 12",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "Alerta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "ZombieHincha.Color"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "\"ruta\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "ZombieHincha",
+                            "PuntoAparicion.CenterX() - 20",
+                            "PuntoAparicion.CenterY() + 12",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "Alerta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "ZombieHincha.Color"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "ZombieHincha",
+                            "\"ruta\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 40,
+          "colorG": 160,
+          "colorR": 230,
+          "creationTime": 0,
+          "name": "Objetos para juntar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "CajaMunicion",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Municion",
+                    "=",
+                    "min(MunicionMaxima, Municion + 6)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "CajaMunicion",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Frase",
+                    "Text",
+                    "=",
+                    "\"+6 balas\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Frase",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"frase\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Mate",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    "=",
+                    "min(VidaMaxima, Jugador.Vida + 15)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Mate",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Frase",
+                    "Text",
+                    "=",
+                    "\"Un matecito: +15 de vida\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Frase",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"frase\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Botiquin",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    "=",
+                    "min(VidaMaxima, Jugador.Vida + 60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Botiquin",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Frase",
+                    "Text",
+                    "=",
+                    "\"Botiquín: +60 de vida\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Frase",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"frase\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Billete",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Billete",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Plata",
+                    "+",
+                    "Billete.Valor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Frase",
+                    "Text",
+                    "=",
+                    "\"+$\" + ToString(Billete.Valor)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Frase",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"frase\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Billete",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "DolarBlue",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Plata",
+                    "+",
+                    "DolarBlue.Valor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "DolarBlue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Frase",
+                    "Text",
+                    "=",
+                    "\"¡Un dólar blue! Esto vale oro\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Frase",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"frase\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "colorB": 110,
           "colorG": 110,
           "colorR": 110,
@@ -3712,9 +6484,32 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Barra de vida: ancho proporcional a la vida y color según cuánto queda."
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "HUD_BarraVida",
+                    "Resizable",
+                    "=",
+                    "120 * max(0, Jugador.Vida) / VidaMaxima"
+                  ]
+                },
                 {
                   "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -3723,7 +6518,7 @@
                     "HUD_Vida",
                     "Text",
                     "=",
-                    "\"Vida: \" + ToString(Jugador.Vida) + \" / \" + ToString(VidaMaxima)"
+                    "ToString(max(0, Jugador.Vida)) + \" / \" + ToString(VidaMaxima)"
                   ]
                 },
                 {
@@ -3739,14 +6534,200 @@
                 },
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HUD_Kills",
+                    "Text",
+                    "=",
+                    "\"Zombies: \" + ToString(Kills)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetXY"
                   },
                   "parameters": [
                     "Frase",
                     "=",
-                    "Jugador.CenterX() - Frase.Width() / 2",
+                    "Jugador.X() + 16 - Frase.Width() / 2",
                     "=",
-                    "Jugador.Y() - 12"
+                    "Jugador.Y() - 14"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    ">",
+                    "VidaMaxima * 0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "HUD_BarraVida",
+                    "\"81;207;102\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    "<=",
+                    "VidaMaxima * 0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    ">",
+                    "VidaMaxima * 0.25"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "HUD_BarraVida",
+                    "\"252;196;25\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    "<=",
+                    "VidaMaxima * 0.25"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "HUD_BarraVida",
+                    "\"240;62;62\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Plata con punto de miles, como en el documento: $ 4.500"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Plata",
+                    ">=",
+                    "1000"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "PlataTexto",
+                    "=",
+                    "ToString(floor(Plata / 1000)) + \".\" + SubStr(\"00\" + ToString(mod(Plata, 1000)), StrLength(ToString(mod(Plata, 1000))) - 1, 3)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Plata",
+                    "<",
+                    "1000"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "PlataTexto",
+                    "=",
+                    "ToString(Plata)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HUD_Plata",
+                    "Text",
+                    "=",
+                    "\"$ \" + PlataTexto"
                   ]
                 }
               ]
@@ -3864,7 +6845,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Fondo",
-          "persistentUuid": "81f57ad5-f0ea-4f07-9fb8-c49a61c434d0",
+          "persistentUuid": "8fb5ca9e-2ed4-4bc4-8a57-41576764c828",
           "width": 0,
           "x": 0,
           "y": 0,
@@ -3880,11 +6861,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Titulo",
-          "persistentUuid": "1a8040e5-2198-44e1-8a72-58480a61a081",
+          "persistentUuid": "40e27607-3175-4eae-871f-80a8c2dab196",
           "width": 640,
           "x": 0,
           "y": 70,
-          "zOrder": 9,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3896,11 +6877,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Subtitulo",
-          "persistentUuid": "f9f9680f-92f3-4c43-849e-05202e21b74e",
+          "persistentUuid": "f9ffa4bd-eb77-4a30-85af-affece0da496",
           "width": 640,
           "x": 0,
           "y": 130,
-          "zOrder": 10,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3912,11 +6893,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Boton",
-          "persistentUuid": "3606e6f5-8d27-4760-bfed-8a2af51fc130",
+          "persistentUuid": "f0a2bb7a-541a-42dc-85c5-26e76dbaacae",
           "width": 0,
           "x": 240,
           "y": 230,
-          "zOrder": 11,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3928,11 +6909,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "TextoBoton",
-          "persistentUuid": "b8c548ef-9ee7-435e-892f-d2641ca89b86",
+          "persistentUuid": "167a7b71-8126-45b4-86bb-028fe45904a4",
           "width": 160,
           "x": 240,
           "y": 240,
-          "zOrder": 12,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4374,7 +7355,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Fondo",
-          "persistentUuid": "cb7e199e-26b5-4412-8abb-bafebab7e741",
+          "persistentUuid": "00758e25-440f-4258-83f0-fb43dc121d12",
           "width": 0,
           "x": 0,
           "y": 0,
@@ -4390,11 +7371,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Titulo",
-          "persistentUuid": "a9c4ee5a-a321-4129-b9d6-cb63ddbcabe6",
+          "persistentUuid": "098d265c-5b9c-4181-8f62-880fc717f4ba",
           "width": 640,
           "x": 0,
           "y": 70,
-          "zOrder": 13,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4406,11 +7387,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Subtitulo",
-          "persistentUuid": "b00476e0-d2bb-4239-9ecc-695a95bf3ca8",
+          "persistentUuid": "a24f2972-9c8c-4b6b-8d9b-ea96e21d438d",
           "width": 640,
           "x": 0,
           "y": 130,
-          "zOrder": 14,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4422,11 +7403,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Boton",
-          "persistentUuid": "76f8a665-b3a3-4e90-906a-44f10fb080fa",
+          "persistentUuid": "da704eb4-2b9d-446d-8930-0d9f11d06dfd",
           "width": 0,
           "x": 240,
           "y": 230,
-          "zOrder": 15,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4438,11 +7419,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "TextoBoton",
-          "persistentUuid": "ce40a912-ba71-44a0-92a1-937938d7ebf2",
+          "persistentUuid": "8c0a9346-de6c-4e1f-863e-537c498f444b",
           "width": 160,
           "x": 240,
           "y": 240,
-          "zOrder": 16,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4884,7 +7865,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Fondo",
-          "persistentUuid": "0ac4d168-d5c1-46a5-a989-146af17c3ad6",
+          "persistentUuid": "9dfe0100-c57b-4584-829c-5305017db67b",
           "width": 0,
           "x": 0,
           "y": 0,
@@ -4900,11 +7881,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Titulo",
-          "persistentUuid": "99fca7aa-1a28-4f5f-a4dd-576fc4a12548",
+          "persistentUuid": "2190b462-cae7-4b79-898e-9816f828c2c3",
           "width": 640,
           "x": 0,
           "y": 70,
-          "zOrder": 17,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4916,11 +7897,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Subtitulo",
-          "persistentUuid": "302e8058-2158-455e-85aa-1d93b78d69f2",
+          "persistentUuid": "e3a5c1e3-5d67-414e-84c3-03f43eaa969e",
           "width": 640,
           "x": 0,
           "y": 130,
-          "zOrder": 18,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4932,11 +7913,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Boton",
-          "persistentUuid": "31aa0665-820c-4509-b27d-8ac7b07f056a",
+          "persistentUuid": "b6aeb3e0-4400-4675-82ab-1d6f687d9ebe",
           "width": 0,
           "x": 240,
           "y": 230,
-          "zOrder": 19,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4948,11 +7929,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "TextoBoton",
-          "persistentUuid": "0194b52d-f75a-4014-b8b6-a3eef42d8329",
+          "persistentUuid": "d7c950af-3833-42be-8e05-678192969069",
           "width": 160,
           "x": 240,
           "y": 240,
-          "zOrder": 20,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
