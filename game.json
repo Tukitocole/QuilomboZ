@@ -1,0 +1,5380 @@
+{
+  "firstLayout": "Menu",
+  "gdVersion": {
+    "build": 283,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "initialGDVersion": "5.6.283",
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.quilomboz.juego",
+    "pixelsRounding": true,
+    "projectUuid": "",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "0.1.0",
+    "name": "Quilombo Z",
+    "description": "Acción y supervivencia 2D con vista desde arriba: cruzá Buenos Aires infestada de zombies hasta el Club Último Refugio.",
+    "author": "Equipo Quilombo Z",
+    "windowWidth": 640,
+    "windowHeight": 360,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/escenario/auto_azul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/auto_azul.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/auto_rojo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/auto_rojo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/borde_anden.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/borde_anden.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/columna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/columna.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/molinete.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/molinete.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/pared.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/pared.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/piso_anden.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/piso_anden.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/piso_kiosco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/piso_kiosco.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/refugio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/refugio.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/tren.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/tren.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/vereda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/vereda.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/escenario/vias.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/escenario/vias.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/interfaz/boton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/interfaz/boton.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/interfaz/fondo_menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/interfaz/fondo_menu.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/abajo_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/abajo_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/abajo_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/abajo_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/arriba_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/arriba_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/arriba_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/arriba_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/derecha_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/derecha_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/derecha_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/derecha_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/izquierda_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/izquierda_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/jugador/izquierda_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/jugador/izquierda_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/objetos/bala.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/objetos/bala.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Kills",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Municion",
+      "type": "number",
+      "value": 12
+    },
+    {
+      "name": "MunicionMaxima",
+      "type": "number",
+      "value": 24
+    },
+    {
+      "name": "Plata",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "NivelActual",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "Inflacion",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "VidaMaxima",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "VelocidadBase",
+      "type": "number",
+      "value": 110
+    },
+    {
+      "name": "DanioExtra",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ArmaActual",
+      "type": "string",
+      "value": "Pistola"
+    },
+    {
+      "name": "HabilidadActiva",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "TieneEscopeta",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "PlataInicioNivel",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MunicionInicioNivel",
+      "type": "number",
+      "value": 12
+    },
+    {
+      "name": "KillsInicioNivel",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "b": 28,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Menu",
+      "name": "Menu",
+      "r": 20,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 16,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fondo",
+          "persistentUuid": "47cf6010-8625-4a67-abbd-199c319073d7",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo",
+          "persistentUuid": "60d0a3c6-6a17-42e8-8528-644abbb5b85a",
+          "width": 640,
+          "x": 0,
+          "y": 70,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Subtitulo",
+          "persistentUuid": "dc3a1ddf-0e05-4b01-9502-b97bedfac6a5",
+          "width": 640,
+          "x": 0,
+          "y": 130,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boton",
+          "persistentUuid": "46567c7b-aef0-4cd0-a233-406892436d11",
+          "width": 0,
+          "x": 240,
+          "y": 230,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoBoton",
+          "persistentUuid": "d3016a7f-4cbb-4ce2-bb43-34066280b317",
+          "width": 160,
+          "x": 240,
+          "y": 240,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Controles",
+          "persistentUuid": "2f216887-11b4-4d11-9071-0fea64518e06",
+          "width": 640,
+          "x": 0,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Fondo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/fondo_menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Titulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "QUILOMBO Z",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 59,
+            "g": 212,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "QUILOMBO Z",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 36,
+            "lineHeight": 0,
+            "color": "255;212;59"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Subtitulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sobrevivir en Argentina ya era difícil. Ahora, con zombies.",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 240,
+            "g": 240,
+            "r": 240
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Sobrevivir en Argentina ya era difícil. Ahora, con zombies.",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "240;240;240"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Boton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/boton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoBoton",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "JUGAR",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "JUGAR",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Controles",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "WASD o flechas: moverse  ·  Mouse: apuntar  ·  Clic o Espacio: disparar  ·  Enter: jugar",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 9,
+          "color": {
+            "b": 200,
+            "g": 200,
+            "r": 200
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "WASD o flechas: moverse  ·  Mouse: apuntar  ·  Clic o Espacio: disparar  ·  Enter: jugar",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 9,
+            "lineHeight": 0,
+            "color": "200;200;200"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Fondo"
+          },
+          {
+            "objectName": "Titulo"
+          },
+          {
+            "objectName": "Subtitulo"
+          },
+          {
+            "objectName": "Boton"
+          },
+          {
+            "objectName": "TextoBoton"
+          },
+          {
+            "objectName": "Controles"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Menú principal. Enter, Espacio o clic en JUGAR arrancan una partida nueva."
+        },
+        {
+          "colorB": 90,
+          "colorG": 140,
+          "colorR": 45,
+          "creationTime": 0,
+          "name": "Al entrar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Kills",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Municion",
+                    "=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MunicionMaxima",
+                    "=",
+                    "24"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Plata",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "NivelActual",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Inflacion",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VidaMaxima",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VelocidadBase",
+                    "=",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DanioExtra",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ArmaActual",
+                    "=",
+                    "\"Pistola\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "HabilidadActiva",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "TieneEscopeta",
+                    "True",
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 189,
+          "colorG": 105,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Botón",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"170;220;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel1_Retiro\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Return\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Space\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel1_Retiro\"",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 24,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Nivel1_95Retiro",
+      "name": "Nivel1_Retiro",
+      "r": 20,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 20,
+      "uiSettings": {},
+      "objectsGroups": [
+        {
+          "name": "Obstaculos",
+          "objects": [
+            {
+              "name": "Pared"
+            },
+            {
+              "name": "Tren"
+            },
+            {
+              "name": "Columna"
+            },
+            {
+              "name": "Molinete"
+            },
+            {
+              "name": "Auto"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "CadenciaDisparo",
+          "type": "number",
+          "value": 0.3
+        },
+        {
+          "name": "VelocidadBala",
+          "type": "number",
+          "value": 320
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 768,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PisoAnden",
+          "persistentUuid": "3dfd7717-507c-4903-914b-a313ae6520b3",
+          "width": 2560,
+          "x": 0,
+          "y": 0,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PisoKiosco",
+          "persistentUuid": "e9f32856-0eae-419e-be46-bdb0de733223",
+          "width": 288,
+          "x": 32,
+          "y": 288,
+          "zOrder": -90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Vereda",
+          "persistentUuid": "d6d47a8c-ff1e-43de-82d2-e28f2344e928",
+          "width": 320,
+          "x": 2208,
+          "y": 32,
+          "zOrder": -90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PisoKiosco",
+          "persistentUuid": "a056d19f-a1df-463e-8b1a-2e04a2754c30",
+          "width": 160,
+          "x": 2368,
+          "y": 288,
+          "zOrder": -89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Vias",
+          "persistentUuid": "996baecc-42f7-4c36-9aac-52a0e85adabd",
+          "width": 1632,
+          "x": 480,
+          "y": 144,
+          "zOrder": -80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Vias",
+          "persistentUuid": "46472c73-163b-4ab6-a24c-3abb15d64923",
+          "width": 1632,
+          "x": 480,
+          "y": 528,
+          "zOrder": -80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BordeAnden",
+          "persistentUuid": "3a31629d-437b-4fbf-a301-c8c9efa66cc9",
+          "width": 1632,
+          "x": 480,
+          "y": 136,
+          "zOrder": -79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BordeAnden",
+          "persistentUuid": "9373e83d-76a2-4664-b251-513cd7d1b698",
+          "width": 1632,
+          "x": 480,
+          "y": 240,
+          "zOrder": -79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BordeAnden",
+          "persistentUuid": "b65d0377-ba12-4105-9242-6b540797245d",
+          "width": 1632,
+          "x": 480,
+          "y": 520,
+          "zOrder": -79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BordeAnden",
+          "persistentUuid": "c3c02c50-49a5-40ad-a75c-22b5a746697f",
+          "width": 1632,
+          "x": 480,
+          "y": 624,
+          "zOrder": -79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Refugio",
+          "persistentUuid": "04f17276-8657-4d59-b2e5-973cf6ef9079",
+          "width": 160,
+          "x": 2368,
+          "y": 288,
+          "zOrder": -70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "1f98b5f7-6006-4ebe-a2eb-8d0c3eec7864",
+          "width": 2560,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "d5ac5da7-2e5b-4a90-8e14-9a6eaa9d64a4",
+          "width": 2560,
+          "x": 0,
+          "y": 736,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "a8d7015a-2435-4d07-8802-c9e9bc56f2f1",
+          "width": 32,
+          "x": 0,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "719d4e2b-9f80-4696-a01c-9b6c49ffbc3c",
+          "width": 32,
+          "x": 2528,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "2695a288-7667-4935-af03-15f012f85b9a",
+          "width": 320,
+          "x": 32,
+          "y": 256,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "c6bca58b-e284-4682-b2b5-58749aab3fb9",
+          "width": 320,
+          "x": 32,
+          "y": 512,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "046eee83-951e-4be9-bc51-790a314d399c",
+          "width": 32,
+          "x": 320,
+          "y": 288,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "9693e519-525e-4d4a-8768-c6ce0c110c1d",
+          "width": 32,
+          "x": 320,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "987c33e1-3081-4e4b-8677-ee80e09e8b21",
+          "width": 32,
+          "x": 448,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "a9ae1125-e081-4edb-bc7c-978281e529fd",
+          "width": 32,
+          "x": 448,
+          "y": 512,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Molinete",
+          "persistentUuid": "6a07b32e-faf2-4983-a48f-5e7758cf8132",
+          "width": 0,
+          "x": 448,
+          "y": 256,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Molinete",
+          "persistentUuid": "0248f3df-6132-460e-bd2c-df6c8fa50fee",
+          "width": 0,
+          "x": 448,
+          "y": 288,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Molinete",
+          "persistentUuid": "8de77f61-2d71-4a8f-8e9d-0927a73435ae",
+          "width": 0,
+          "x": 448,
+          "y": 384,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Molinete",
+          "persistentUuid": "848e9e30-4f48-4c60-a9e7-a6fd2f189dcb",
+          "width": 0,
+          "x": 448,
+          "y": 416,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "6c5ee7ef-5924-42c2-b813-aa47694a0e7c",
+          "width": 224,
+          "x": 576,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "5dfdd289-8ea3-40e7-b865-c4d999a27604",
+          "width": 224,
+          "x": 864,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "f601bf88-4150-413a-9547-37d7bf9d2c53",
+          "width": 224,
+          "x": 1152,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "f5c14c87-c424-4fdc-a92f-f35a1c5cfa11",
+          "width": 224,
+          "x": 1440,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "e32b0b0e-1648-40c9-9426-9281f139b162",
+          "width": 224,
+          "x": 1728,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "6733a72a-320f-4066-9ff3-bd970d395fc0",
+          "width": 224,
+          "x": 640,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "a8bcc1a9-31a7-4d3d-9f51-bc06052fe221",
+          "width": 224,
+          "x": 928,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "fb0747f4-8301-40ff-984e-bcb01d6f9f48",
+          "width": 224,
+          "x": 1216,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "97ac2468-6d07-43f3-8a48-d0dd8549bbda",
+          "width": 224,
+          "x": 1504,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tren",
+          "persistentUuid": "727dd555-7535-4217-a788-b7ac8314f85c",
+          "width": 224,
+          "x": 1792,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "ea98aaff-7b02-495b-b399-a60aefc7210d",
+          "width": 0,
+          "x": 700,
+          "y": 300,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "477d80fa-15af-4160-aff3-868cbb793376",
+          "width": 0,
+          "x": 700,
+          "y": 440,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "639c279a-8d5e-48e2-82db-4bb11796c605",
+          "width": 0,
+          "x": 1000,
+          "y": 300,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "48bc572b-adc3-4cb4-ab68-fde47488c3d8",
+          "width": 0,
+          "x": 1000,
+          "y": 440,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "cd199dab-2065-4154-bfb7-ffcf44296120",
+          "width": 0,
+          "x": 1300,
+          "y": 300,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "058f582a-aa18-4db1-b748-8eea454d2378",
+          "width": 0,
+          "x": 1300,
+          "y": 440,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "4ba2c7fd-b0da-48df-affa-a32fdd82ed0e",
+          "width": 0,
+          "x": 1600,
+          "y": 300,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "3f5d8559-b91b-467a-8d2b-afe1493a971a",
+          "width": 0,
+          "x": 1600,
+          "y": 440,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "08019f96-2195-49a9-82f4-3d0423849143",
+          "width": 0,
+          "x": 1900,
+          "y": 300,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Columna",
+          "persistentUuid": "2875b370-cdea-4ed6-8260-fb3d9dda103e",
+          "width": 0,
+          "x": 1900,
+          "y": 440,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "0c1c93ec-8836-4ad1-b757-99220181254a",
+          "width": 32,
+          "x": 2176,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "71444e6a-cded-4eba-89e3-6d44cd2ae798",
+          "width": 32,
+          "x": 2176,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "075f399c-1f2d-4a9d-9ac2-ee4e485d77f9",
+          "width": 192,
+          "x": 2336,
+          "y": 256,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "dab67e2b-93b7-4e52-9ccc-1d7e8b1d4814",
+          "width": 192,
+          "x": 2336,
+          "y": 480,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "ce0f44e9-88be-4689-9d16-280388dd6f8c",
+          "width": 32,
+          "x": 2336,
+          "y": 288,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "7bf3c203-6cfa-4374-aecc-988dfb843e18",
+          "width": 32,
+          "x": 2336,
+          "y": 432,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Auto",
+          "persistentUuid": "8f770cb6-a808-450d-8198-9a90ffab9e78",
+          "width": 0,
+          "x": 2224,
+          "y": 96,
+          "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Auto",
+          "persistentUuid": "9f4f8a48-497c-4e67-a534-db722d9bca1a",
+          "width": 0,
+          "x": 2400,
+          "y": 600,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Auto",
+          "persistentUuid": "ba9532fa-96c4-4b42-8a69-70b93e25a27a",
+          "width": 0,
+          "x": 2240,
+          "y": 560,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Auto",
+          "persistentUuid": "c348ecff-1ec3-4e0e-9cb4-5d1833e4cff0",
+          "width": 0,
+          "x": 2420,
+          "y": 120,
+          "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Jugador",
+          "persistentUuid": "80262e77-72a8-4ebc-bf67-2be5e75d98e2",
+          "width": 0,
+          "x": 150,
+          "y": 380,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Frase",
+          "persistentUuid": "9d6a6f84-edcd-49f6-bf8e-5c041e788866",
+          "width": 0,
+          "x": 150,
+          "y": 360,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "HUD_Vida",
+          "persistentUuid": "26fd3a7b-5d63-467c-b1e3-9c5f2a0dd332",
+          "width": 0,
+          "x": 8,
+          "y": 6,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "HUD_Balas",
+          "persistentUuid": "d8a0d4fe-5162-4865-ad00-3150f22daaf0",
+          "width": 0,
+          "x": 8,
+          "y": 22,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "HUD_Ayuda",
+          "persistentUuid": "10099ecf-900c-4bd4-b9dc-e9f49485b53a",
+          "width": 0,
+          "x": 8,
+          "y": 344,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "PisoAnden",
+          "texture": "assets/escenario/piso_anden.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "PisoKiosco",
+          "texture": "assets/escenario/piso_kiosco.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Vereda",
+          "texture": "assets/escenario/vereda.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Vias",
+          "texture": "assets/escenario/vias.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BordeAnden",
+          "texture": "assets/escenario/borde_anden.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Pared",
+          "texture": "assets/escenario/pared.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Tren",
+          "texture": "assets/escenario/tren.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Columna",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/escenario/columna.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Molinete",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/escenario/molinete.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Auto",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "rojo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/escenario/auto_rojo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "azul",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/escenario/auto_azul.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Refugio",
+          "texture": "assets/escenario/refugio.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Jugador",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Vida",
+              "type": "number",
+              "value": 100
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 1200,
+              "deceleration": 1600,
+              "maxSpeed": 110,
+              "allowDiagonals": false,
+              "rotateObject": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "ignoreDefaultControls": false,
+              "customIsometryAngle": 30,
+              "movementAngleOffset": 0,
+              "viewpoint": "TopDown",
+              "useLegacyTurnBack": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "abajo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/abajo_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/abajo_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "arriba",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/arriba_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/arriba_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "izquierda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/izquierda_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/izquierda_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "derecha",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/derecha_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/jugador/derecha_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 17
+                          },
+                          {
+                            "x": 22,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Bala",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Danio",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 32
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/objetos/bala.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Frase",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 150,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 10,
+            "lineHeight": 0,
+            "color": "255;255;150"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HUD_Vida",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Vida: 100",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Vida: 100",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HUD_Balas",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Balas: 12",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 12,
+          "color": {
+            "b": 120,
+            "g": 220,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Balas: 12",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "255;220;120"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HUD_Ayuda",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "WASD o flechas: moverse   ·   Clic o Espacio: disparar",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 9,
+          "color": {
+            "b": 220,
+            "g": 220,
+            "r": 220
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "WASD o flechas: moverse   ·   Clic o Espacio: disparar",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 9,
+            "lineHeight": 0,
+            "color": "220;220;220"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "PisoAnden"
+          },
+          {
+            "objectName": "PisoKiosco"
+          },
+          {
+            "objectName": "Vereda"
+          },
+          {
+            "objectName": "Vias"
+          },
+          {
+            "objectName": "BordeAnden"
+          },
+          {
+            "objectName": "Pared"
+          },
+          {
+            "objectName": "Tren"
+          },
+          {
+            "objectName": "Columna"
+          },
+          {
+            "objectName": "Molinete"
+          },
+          {
+            "objectName": "Auto"
+          },
+          {
+            "objectName": "Refugio"
+          },
+          {
+            "objectName": "Jugador"
+          },
+          {
+            "objectName": "Bala"
+          },
+          {
+            "objectName": "Frase"
+          },
+          {
+            "objectName": "HUD_Vida"
+          },
+          {
+            "objectName": "HUD_Balas"
+          },
+          {
+            "objectName": "HUD_Ayuda"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Quilombo Z · Nivel 1: Estación Retiro y el tren Sarmiento. Fase 1: movimiento, disparo, mapa y cámara."
+        },
+        {
+          "colorB": 90,
+          "colorG": 140,
+          "colorR": 45,
+          "creationTime": 0,
+          "name": "Inicio del nivel",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Vida",
+                    "=",
+                    "VidaMaxima"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement",
+                    "=",
+                    "VelocidadBase"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlataInicioNivel",
+                    "=",
+                    "Plata"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MunicionInicioNivel",
+                    "=",
+                    "Municion"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KillsInicioNivel",
+                    "=",
+                    "Kills"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"disparo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Frase"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 90,
+          "colorG": 140,
+          "colorR": 45,
+          "creationTime": 0,
+          "name": "Movimiento de Lionel",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Las flechas ya las maneja el comportamiento de movimiento top-down. Acá se suman WASD."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"a\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"w\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::SimulateUpKey"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"s\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::SimulateDownKey"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Animación según la dirección en la que camina."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::XVelocity"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Animation",
+                    "=",
+                    "\"derecha\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::XVelocity"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Animation",
+                    "=",
+                    "\"izquierda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::YVelocity"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Animation",
+                    "=",
+                    "\"arriba\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::YVelocity"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Animation",
+                    "=",
+                    "\"abajo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Animation"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "TopDownMovement"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetElapsedTime"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Colisiones: Lionel no atraviesa paredes, trenes, columnas, molinetes ni autos."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Jugador",
+                    "Obstaculos",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 70,
+          "colorG": 70,
+          "colorR": 190,
+          "creationTime": 0,
+          "name": "Disparo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Clic izquierdo (mantenido o corto), toque en pantalla o Espacio, respetando la cadencia del arma. La bala sale hacia el mouse."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HasAnyTouchOrMouseStarted"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Space\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"disparo\"",
+                    ">=",
+                    "CadenciaDisparo"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Municion",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bala",
+                        "Jugador.CenterX() - 4",
+                        "Jugador.CenterY() - 2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceTowardPosition"
+                      },
+                      "parameters": [
+                        "Bala",
+                        "MouseX(\"\", 0)",
+                        "MouseY(\"\", 0)",
+                        "VelocidadBala",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Municion",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"disparo\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Municion",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Frase",
+                        "Text",
+                        "=",
+                        "\"Uh, no, me quedé sin balas\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Frase",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"frase\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"disparo\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "La bala se borra al chocar con un obstáculo (y al salir de pantalla, por su comportamiento)."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bala",
+                    "Obstaculos",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bala",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 110,
+          "colorG": 110,
+          "colorR": 110,
+          "creationTime": 0,
+          "name": "Cámara",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CenterCameraOnObject"
+                  },
+                  "parameters": [
+                    "",
+                    "Jugador",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "0",
+                    "2560",
+                    "768",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 160,
+          "colorG": 90,
+          "colorR": 140,
+          "creationTime": 0,
+          "name": "HUD y frases",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HUD_Vida",
+                    "Text",
+                    "=",
+                    "\"Vida: \" + ToString(Jugador.Vida) + \" / \" + ToString(VidaMaxima)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HUD_Balas",
+                    "Text",
+                    "=",
+                    "\"Balas: \" + ToString(Municion) + \" / \" + ToString(MunicionMaxima) + \"   (\" + ArmaActual + \")\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Frase",
+                    "=",
+                    "Jugador.CenterX() - Frase.Width() / 2",
+                    "=",
+                    "Jugador.Y() - 12"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"frase\"",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Frase"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "HUD",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 28,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Tienda",
+      "name": "Tienda",
+      "r": 20,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 16,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fondo",
+          "persistentUuid": "81f57ad5-f0ea-4f07-9fb8-c49a61c434d0",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo",
+          "persistentUuid": "1a8040e5-2198-44e1-8a72-58480a61a081",
+          "width": 640,
+          "x": 0,
+          "y": 70,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Subtitulo",
+          "persistentUuid": "f9f9680f-92f3-4c43-849e-05202e21b74e",
+          "width": 640,
+          "x": 0,
+          "y": 130,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boton",
+          "persistentUuid": "3606e6f5-8d27-4760-bfed-8a2af51fc130",
+          "width": 0,
+          "x": 240,
+          "y": 230,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoBoton",
+          "persistentUuid": "b8c548ef-9ee7-435e-892f-d2641ca89b86",
+          "width": 160,
+          "x": 240,
+          "y": 240,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Fondo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/fondo_menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Titulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "KIOSCO DE DON RAMÓN",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 120,
+            "g": 220,
+            "r": 120
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "KIOSCO DE DON RAMÓN",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 36,
+            "lineHeight": 0,
+            "color": "120;220;120"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Subtitulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Tienda en construcción (fase 3).",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 240,
+            "g": 240,
+            "r": 240
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Tienda en construcción (fase 3).",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "240;240;240"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Boton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/boton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoBoton",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "SEGUIR VIAJE",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "SEGUIR VIAJE",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Fondo"
+          },
+          {
+            "objectName": "Titulo"
+          },
+          {
+            "objectName": "Subtitulo"
+          },
+          {
+            "objectName": "Boton"
+          },
+          {
+            "objectName": "TextoBoton"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 189,
+          "colorG": 105,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Botón",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"170;220;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Victoria\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Return\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Space\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Victoria\"",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 28,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Victoria",
+      "name": "Victoria",
+      "r": 20,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 16,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fondo",
+          "persistentUuid": "cb7e199e-26b5-4412-8abb-bafebab7e741",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo",
+          "persistentUuid": "a9c4ee5a-a321-4129-b9d6-cb63ddbcabe6",
+          "width": 640,
+          "x": 0,
+          "y": 70,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Subtitulo",
+          "persistentUuid": "b00476e0-d2bb-4239-9ecc-695a95bf3ca8",
+          "width": 640,
+          "x": 0,
+          "y": 130,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boton",
+          "persistentUuid": "76f8a665-b3a3-4e90-906a-44f10fb080fa",
+          "width": 0,
+          "x": 240,
+          "y": 230,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoBoton",
+          "persistentUuid": "ce40a912-ba71-44a0-92a1-937938d7ebf2",
+          "width": 160,
+          "x": 240,
+          "y": 240,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Fondo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/fondo_menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Titulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "¡LLEGASTE!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 120,
+            "g": 220,
+            "r": 120
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "¡LLEGASTE!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 36,
+            "lineHeight": 0,
+            "color": "120;220;120"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Subtitulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sobreviviste a Retiro. El Club Último Refugio te espera...",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 240,
+            "g": 240,
+            "r": 240
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Sobreviviste a Retiro. El Club Último Refugio te espera...",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "240;240;240"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Boton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/boton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoBoton",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "VOLVER AL MENÚ",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "VOLVER AL MENÚ",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Fondo"
+          },
+          {
+            "objectName": "Titulo"
+          },
+          {
+            "objectName": "Subtitulo"
+          },
+          {
+            "objectName": "Boton"
+          },
+          {
+            "objectName": "TextoBoton"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 189,
+          "colorG": 105,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Botón",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"170;220;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Return\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Space\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu\"",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 28,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Derrota",
+      "name": "Derrota",
+      "r": 20,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 16,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fondo",
+          "persistentUuid": "0ac4d168-d5c1-46a5-a989-146af17c3ad6",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo",
+          "persistentUuid": "99fca7aa-1a28-4f5f-a4dd-576fc4a12548",
+          "width": 640,
+          "x": 0,
+          "y": 70,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Subtitulo",
+          "persistentUuid": "302e8058-2158-455e-85aa-1d93b78d69f2",
+          "width": 640,
+          "x": 0,
+          "y": 130,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boton",
+          "persistentUuid": "31aa0665-820c-4509-b27d-8ac7b07f056a",
+          "width": 0,
+          "x": 240,
+          "y": 230,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoBoton",
+          "persistentUuid": "0194b52d-f75a-4014-b8b6-a3eef42d8329",
+          "width": 160,
+          "x": 240,
+          "y": 240,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Fondo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/fondo_menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Titulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "¡QUÉ BAJÓN!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 107,
+            "g": 107,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "¡QUÉ BAJÓN!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 36,
+            "lineHeight": 0,
+            "color": "255;107;107"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Subtitulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Te zombificaron. Reintento con penalización en la fase 3.",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 240,
+            "g": 240,
+            "r": 240
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Te zombificaron. Reintento con penalización en la fase 3.",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "240;240;240"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Boton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.18,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/interfaz/boton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoBoton",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "VOLVER AL MENÚ",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "VOLVER AL MENÚ",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Fondo"
+          },
+          {
+            "objectName": "Titulo"
+          },
+          {
+            "objectName": "Subtitulo"
+          },
+          {
+            "objectName": "Boton"
+          },
+          {
+            "objectName": "TextoBoton"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 189,
+          "colorG": 105,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Botón",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"170;220;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Boton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Return\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Space\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu\"",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
