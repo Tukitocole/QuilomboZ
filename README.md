@@ -21,8 +21,11 @@ GDevelop). No hay bloques de JavaScript.
 |---|---|
 | Moverse (4 direcciones) | WASD o flechas |
 | Apuntar | Mouse (Lionel y el arma giran hacia el puntero) |
-| Disparar | Clic izquierdo (o mantenerlo), toque en pantalla o Espacio |
+| Usar (disparar / pegar) | Clic izquierdo (o mantenerlo), toque en pantalla o Espacio |
+| Inventario | 1 puños · 2 pistola · 3 arma principal (la que se compra) |
+| Tienda | 1, 2, 3 o clic para comprar · Enter para seguir viaje |
 | Empezar desde el menú | Enter, Espacio o clic en JUGAR |
+| Victoria / Derrota | Enter: jugar de nuevo / reintentar · M: menú |
 
 ## Estructura
 
@@ -30,8 +33,9 @@ GDevelop). No hay bloques de JavaScript.
 |---|---|
 | `Menu` | Pantalla de inicio; reinicia las variables globales (partida nueva) |
 | `Nivel1_Retiro` | Kiosco de inicio, molinetes, andenes con el Sarmiento parado y salida al Kiosco de Don Ramón. Zombies, objetos para juntar y HUD |
-| `Tienda` | Provisoria (se completa en la fase 3) |
-| `Victoria` / `Derrota` | Provisorias, con vuelta al menú |
+| `Tienda` | Kiosco de Don Ramón: chaleco, mochila y escopeta con inflación |
+| `Victoria` | Resumen, jugar de nuevo y menú |
+| `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
 
 - **Variables globales:** `Kills`, `Municion`, `MunicionMaxima`, `Plata`, `NivelActual`,
   `Inflacion`, `VidaMaxima`, `VelocidadBase`, `DanioExtra`, `ArmaActual`, `HabilidadActiva`,
@@ -72,11 +76,11 @@ cambian.
 
 | Carpeta | Contenido |
 |---|---|
-| `assets/jugador/` | Lionel del equipo: `prota.png` (sin manos, se usa con arma) y `prota1.png` (con manos), `manos.png`. Un solo cuadro por ahora |
-| `assets/armas/` | Uzi y AK-47 del equipo (sueltas y empuñadas) y pistola provisoria. El arma empuñada gira sobre la mano: el punto de giro es el centro de los píxeles color piel |
-| `assets/zombies/` | `zgenerico.png` (los tres tipos, con tinte distinto) y `ztincho1.png` (para un zombie futuro) |
+| `assets/jugador/` | Lionel del equipo: `prota.png` (sin manos), `prota1.png` (con manos), `manos.png`. Caminata provisoria derivada de esos sprites: `lionel_<dir>_<0-3>.png` (con arma) y `lionel_manos_<dir>_<0-3>.png` (con los puños); `mano.png` (mano suelta) |
+| `assets/armas/` | Uzi y AK-47 del equipo (sueltas y empuñadas), pistola y escopeta provisorias. El arma empuñada gira sobre la mano: el punto de giro es el centro de los píxeles color piel |
+| `assets/zombies/` | `zgenerico.png` y su caminata provisoria `zombie_<dir>_<0-3>.png` (los tres tipos, con tinte distinto); `ztincho1.png` para un zombie futuro |
 | `assets/objetos/` | Bala, caja de balas, mate, botiquín (del equipo), billete y dólar blue |
 | `assets/escenario/` | Pisos, vías, paredes, tren, columnas, molinetes, autos, zona segura |
-| `assets/interfaz/` | Botón, fondo del menú, barra (HUD) y marcador de punto de aparición |
+| `assets/interfaz/` | Botón, fondos del menú y de la tienda, barra (HUD), íconos (puño, chaleco, mochila), cartel y marcador de punto de aparición |
 
 El avance por fases está en [FASES.md](FASES.md).

@@ -10,18 +10,22 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 0 · Base técnica | ✅ Hecha | Formato de proyecto relevado y validador con libGD funcionando | El `game.json` carga en el motor sin errores |
 | 1 · Núcleo jugable | 🧪 En prueba | Escenas `Menu`, `Nivel1_Retiro`, `Tienda`, `Victoria` y `Derrota`; variables globales; Lionel con movimiento en 4 direcciones (WASD y flechas) y disparo al mouse con munición; mapa de Retiro con paredes; cámara que sigue al jugador | Se abre en GDevelop, se mueve y dispara dentro del mapa |
 | 2 · Enemigos y supervivencia | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con pathfinding; daño con cooldown de 1 s; spawn progresivo; HUD (vida, balas, kills, plata); munición, mate, botiquín y billetes para juntar | Se puede morir, matar zombies y juntar recursos |
-| 3 · Objetivo, plata y pantallas | ⬜ Pendiente | Zona segura (Kiosco de Don Ramón); tienda mínima (chaleco, mochila, escopeta) con inflación; Victoria y Derrota con reintento y penalización de plata; carteles, frases de Lionel y radio | Se juega de principio a fin y se vuelve a jugar desde ambas pantallas |
+| 3 · Objetivo, plata y pantallas | 🧪 En prueba | Zona segura (Kiosco de Don Ramón); tienda mínima (chaleco, mochila, escopeta) con inflación; Victoria y Derrota con reintento y penalización de plata; carteles, frases de Lionel y radio | Se juega de principio a fin y se vuelve a jugar desde ambas pantallas |
 | 4 · Pulido y entrega | ⬜ Pendiente | Música y efectos; parpadeo al recibir daño; pausa con Esc; balance; exportación web; guía de pruebas con terceros | Cumple los criterios de aceptación del MVP (sección 7 del documento de diseño) |
 
 ## Cuadro de avance
 
-| Fase | Estado | Se agregó | Se mejoró | Se modificó |
+| Fase | Estado | Implementado | Mejorado / modificado | Falta |
 |---|---|---|---|---|
-| 0 · Base técnica | ✅ Hecha | Validador con libGD (el motor del editor), exportador HTML5 para probar en el navegador, plan de fases y tablero de Trello | — | — |
-| 1 · Núcleo jugable | 🧪 En prueba | 5 escenas, variables globales, movimiento WASD/flechas, disparo al mouse con munición, mapa de Retiro con obstáculos, cámara, HUD de vida y balas | — | En la fase 2: Lionel pasó a los sprites del equipo y el arma empuñada es un objeto aparte que apunta al mouse |
-| 2 · Enemigos y supervivencia | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con búsqueda de caminos; daño con 1 s de espera; robo del Chorro; muerte y paso a Derrota; aparición progresiva fuera de cámara; billetes que sueltan los zombies; caja de balas, mate, botiquín, billetes y dólar blue en el mapa; HUD con barra de vida, kills y plata | Disparo: la bala sale pegada al cuerpo para pegarle también a un zombie que está encima; Lionel y el arma miran hacia donde se apunta | Sprites provisorios de Lionel y zombies reemplazados por los del equipo (`prota`, `zgenerico`, botiquín); objeto de munición renombrado `CajaMunicion` (chocaba con la variable `Municion`) |
-| 3 · Objetivo, plata y pantallas | ⬜ Pendiente | — | — | — |
-| 4 · Pulido y entrega | ⬜ Pendiente | — | — | — |
+| 0 · Base técnica | ✅ Hecha | Validador con libGD (el motor del editor), exportador HTML5 para probar en el navegador, plan de fases y tablero de Trello | Fase 2: el validador maneja bien los eventos "para cada objeto" | — |
+| 1 · Núcleo jugable | 🧪 En prueba | 5 escenas, variables globales, movimiento WASD/flechas, disparo al mouse con munición, mapa de Retiro con obstáculos, cámara | Fase 2: sprites del equipo y arma empuñada aparte. Fase 3: corregido el reinicio de `TieneEscopeta` (quedaba en verdadero) | Aprobación de otro integrante en Trello |
+| 2 · Enemigos y supervivencia | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con búsqueda de caminos; daño con 1 s de espera; robo del Chorro; derrota; aparición progresiva fuera de cámara; billetes; caja de balas, mate, botiquín, billetes y dólar blue; HUD de vida, balas, kills y plata | Fase 3: zombies con caminata en 4 direcciones y manos que se balancean | Aprobación en Trello; sprites definitivos de billete y dólar blue |
+| 3 · Objetivo, plata y pantallas | 🧪 En prueba | Caminata en 4 direcciones (Lionel y zombies); inventario 1 puños · 2 pistola · 3 arma principal con HUD; mano suelta estilo Among Us; zona segura → tienda; tienda con chaleco, mochila y escopeta, inflación y mensajes; escopeta en abanico; Victoria con resumen y "Jugar de nuevo"; Derrota con reintento y pérdida de la mitad de la plata del nivel; radio, 4 carteles y frases de Lionel | Golpe de puño que también alcanza a un zombie encimado; perdigones con ángulo exacto | Aprobación en Trello; cuadros de caminata definitivos (hoy derivados de los sprites de panchito) |
+| 4 · Pulido y entrega | ⬜ Pendiente | — | — | Ver "Fase siguiente" |
+
+**Fase siguiente: 4 · Pulido y entrega.** Pausa con Esc, parpadeo al recibir daño y aviso
+al juntar objetos, balance de números, exportación web y guía de pruebas con terceros.
+La música y los efectos de sonido entran cuando el equipo pase los archivos.
 
 ## Correspondencia con Trello ("Quilombo Z – MVP")
 
@@ -153,3 +157,46 @@ No verificado:
   con Espacio y el apuntado moviendo el mouse desde el motor.
 - Los sprites de Lionel y del zombie tienen un solo cuadro: no hay animación de caminata hasta
   que el equipo pase los cuadros que faltan.
+
+### Fase 3 · Objetivo, plata y pantallas (🧪 en prueba)
+
+Entregado:
+- Caminata en 4 direcciones con 4 cuadros por dirección: Lionel con arma (cuerpo sin manos),
+  Lionel con los puños (cuerpo con manos que se balancean) y los zombies. Son provisorios,
+  derivados de `prota.png`, `prota1.png` y `zgenerico.png`: `assets/jugador/lionel_<dir>_<n>.png`,
+  `lionel_manos_<dir>_<n>.png` y `assets/zombies/zombie_<dir>_<n>.png`.
+- Lionel mira hacia donde apunta el mouse y los pies se mueven solo cuando camina. Los zombies
+  miran hacia donde caminan.
+- Inventario (`SlotActual`, `ArmaActual`, `ArmaPrincipal`): 1 = puños (golpe de 0,5 de daño,
+  alcance ~29 px), 2 = pistola, 3 = arma principal (la escopeta, si se compró). Casilleros
+  con íconos abajo a la derecha.
+- Con arma: el arma empuñada gira sobre la mano y la otra mano flota (sostiene el caño de la
+  escopeta). Mirando hacia arriba, el arma queda detrás del cuerpo.
+- Zona segura: entrar al Kiosco de Don Ramón lleva a la `Tienda`.
+- Tienda: chaleco (+20 de vida máxima, $3.000), mochila (+6 de capacidad, $2.000) y escopeta
+  ($15.000), multiplicados por la inflación (×1,2 por nivel). Las mejoras suben 50 % por compra,
+  hasta el nivel 5. Mensajes "No te alcanza, pibe", "Ya la tenés, pibe" y cartel de Don Ramón.
+  Se compra con 1, 2, 3 o clic; "Seguir viaje" sube la inflación y el nivel y pasa a `Victoria`.
+- Escopeta: tres perdigones a −10°, 0° y +10°, cadencia 0,7 s, una bala por tiro.
+- `Victoria`: resumen (zombies y plata), "Jugar de nuevo" (partida nueva) y "Menú".
+- `Derrota`: pierde la mitad de la plata juntada en el nivel y vuelve a las balas y kills del
+  inicio del nivel; "Reintentar" (conserva lo comprado) y "Menú".
+- Radio al empezar el nivel (7 s), 4 carteles del documento y frases de Lionel ("¡Qué bajón!"
+  con poca vida, "¡Uh, se vino la hinchada!", sin balas: "¡A las piñas!").
+
+Verificado:
+- Validador libGD: 552 instrucciones en 5 escenas, 0 errores, 0 avisos.
+- Exportación HTML5 en el navegador: animación por puntería y movimiento; teclas 1-2-3; piñas
+  (Chorro en 2 golpes, alcance a 28 px); animaciones de zombie; zona segura → Tienda; las tres
+  compras, "No te alcanza", "Ya la tenés", compra con clic; precios con punto de miles e
+  inflación; "Seguir viaje" (inflación 1,2, nivel 2); escopeta (3 perdigones, 1 bala, cadencia);
+  Derrota (perdió $3.000 de $6.000 juntados); Reintentar conserva la escopeta; "Jugar de nuevo"
+  reinicia todo; capturas del nivel, la tienda y la derrota.
+- Probado por el equipo en el editor de GDevelop con ▶ (2026-10-17).
+
+Errores encontrados y corregidos en las pruebas:
+- El puño no alcanzaba a un zombie encimado: el área del golpe pasó a 28×28 y más cerca.
+- "Crear objeto" suma el objeto nuevo a los elegidos y los perdigones se sumaban las fuerzas.
+  Cada perdigón va ahora en su propio subevento.
+- El atajo de variables booleanas ponía siempre verdadero (venía de la fase 1).
+- Íconos del inventario de distinto tamaño: ahora todos miden 32×32.
