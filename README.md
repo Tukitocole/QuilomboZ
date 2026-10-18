@@ -23,6 +23,7 @@ GDevelop). No hay bloques de JavaScript.
 | Apuntar | Mouse (Lionel y el arma giran hacia el puntero) |
 | Usar (disparar / pegar) | Clic izquierdo (o mantenerlo), toque en pantalla o Espacio |
 | Inventario | 1 puños · 2 pistola · 3 arma principal (la que se compra) |
+| Pausa | Esc (Esc o Enter para seguir, M para ir al menú) |
 | Tienda | 1, 2, 3 o clic para comprar · Enter para seguir viaje |
 | Empezar desde el menú | Enter, Espacio o clic en JUGAR |
 | Victoria / Derrota | Enter: jugar de nuevo / reintentar · M: menú |
@@ -80,7 +81,7 @@ cambian.
 | `assets/armas/` | Uzi y AK-47 del equipo (sueltas y empuñadas), pistola y escopeta provisorias. El arma empuñada gira sobre la mano: el punto de giro es el centro de los píxeles color piel |
 | `assets/zombies/` | `zgenerico.png` y su caminata provisoria `zombie_<dir>_<0-3>.png` (los tres tipos, con tinte distinto); `ztincho1.png` para un zombie futuro |
 | `assets/objetos/` | Bala, caja de balas, mate, botiquín (del equipo), billete y dólar blue |
-| `assets/escenario/` | Pisos, vías, paredes, tren, columnas, molinetes, autos, zona segura |
+| `assets/escenario/` | Estación Retiro: piso del hall, franja táctil, vías de hormigón, topes, muro de piedra, vagones y cabinas, columnas de hierro, sombra del techo, puesto de diarios, bancos, cestos, faroles, bandera, banderines, grafitis, bolsas, perro, palomas; además paredes de ladrillo, molinetes, autos y zona segura |
 | `assets/interfaz/` | Botón, fondos del menú y de la tienda, barra (HUD), íconos (puño, chaleco, mochila), cartel y marcador de punto de aparición |
 
-El avance por fases está en [FASES.md](FASES.md).
+El avance por fases y sprints está en [FASES.md](FASES.md). Guion de la demo: [DEMO.md](DEMO.md). Pruebas con terceros: [PRUEBAS.md](PRUEBAS.md).

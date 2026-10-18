@@ -11,21 +11,48 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 1 · Núcleo jugable | 🧪 En prueba | Escenas `Menu`, `Nivel1_Retiro`, `Tienda`, `Victoria` y `Derrota`; variables globales; Lionel con movimiento en 4 direcciones (WASD y flechas) y disparo al mouse con munición; mapa de Retiro con paredes; cámara que sigue al jugador | Se abre en GDevelop, se mueve y dispara dentro del mapa |
 | 2 · Enemigos y supervivencia | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con pathfinding; daño con cooldown de 1 s; spawn progresivo; HUD (vida, balas, kills, plata); munición, mate, botiquín y billetes para juntar | Se puede morir, matar zombies y juntar recursos |
 | 3 · Objetivo, plata y pantallas | 🧪 En prueba | Zona segura (Kiosco de Don Ramón); tienda mínima (chaleco, mochila, escopeta) con inflación; Victoria y Derrota con reintento y penalización de plata; carteles, frases de Lionel y radio | Se juega de principio a fin y se vuelve a jugar desde ambas pantallas |
-| 4 · Pulido y entrega | ⬜ Pendiente | Música y efectos; parpadeo al recibir daño; pausa con Esc; balance; exportación web; guía de pruebas con terceros | Cumple los criterios de aceptación del MVP (sección 7 del documento de diseño) |
+| 4 · Pulido y entrega | 🧪 En prueba | Música y efectos; parpadeo al recibir daño; pausa con Esc; balance; exportación web; guía de pruebas con terceros | Cumple los criterios de aceptación del MVP (sección 7 del documento de diseño) |
 
 ## Cuadro de avance
 
-| Fase | Estado | Implementado | Mejorado / modificado | Falta |
-|---|---|---|---|---|
-| 0 · Base técnica | ✅ Hecha | Validador con libGD (el motor del editor), exportador HTML5 para probar en el navegador, plan de fases y tablero de Trello | Fase 2: el validador maneja bien los eventos "para cada objeto" | — |
-| 1 · Núcleo jugable | 🧪 En prueba | 5 escenas, variables globales, movimiento WASD/flechas, disparo al mouse con munición, mapa de Retiro con obstáculos, cámara | Fase 2: sprites del equipo y arma empuñada aparte. Fase 3: corregido el reinicio de `TieneEscopeta` (quedaba en verdadero) | Aprobación de otro integrante en Trello |
-| 2 · Enemigos y supervivencia | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con búsqueda de caminos; daño con 1 s de espera; robo del Chorro; derrota; aparición progresiva fuera de cámara; billetes; caja de balas, mate, botiquín, billetes y dólar blue; HUD de vida, balas, kills y plata | Fase 3: zombies con caminata en 4 direcciones y manos que se balancean | Aprobación en Trello; sprites definitivos de billete y dólar blue |
-| 3 · Objetivo, plata y pantallas | 🧪 En prueba | Caminata en 4 direcciones (Lionel y zombies); inventario 1 puños · 2 pistola · 3 arma principal con HUD; mano suelta estilo Among Us; zona segura → tienda; tienda con chaleco, mochila y escopeta, inflación y mensajes; escopeta en abanico; Victoria con resumen y "Jugar de nuevo"; Derrota con reintento y pérdida de la mitad de la plata del nivel; radio, 4 carteles y frases de Lionel | Golpe de puño que también alcanza a un zombie encimado; perdigones con ángulo exacto | Aprobación en Trello; cuadros de caminata definitivos (hoy derivados de los sprites de panchito) |
-| 4 · Pulido y entrega | ⬜ Pendiente | — | — | Ver "Fase siguiente" |
+| Fase | Sprint | Estado | Implementado | Mejorado / modificado | Falta |
+|---|---|---|---|---|---|
+| 0 · Base técnica | 0 | ✅ Hecha | Validador con libGD (el motor del editor), exportador HTML5, plan de fases y tablero de Trello | Fase 2: el validador maneja bien los eventos "para cada objeto" | — |
+| 1 · Núcleo jugable | 1 | 🧪 En prueba | 5 escenas, variables globales, movimiento WASD/flechas, disparo al mouse con munición, mapa con obstáculos, cámara | Fase 2: sprites del equipo. Fase 3: corregido el reinicio de `TieneEscopeta`. Fase 4: mapa de Retiro rediseñado | Aprobación de otro integrante en Trello; primeros sonidos |
+| 2 · Enemigos y supervivencia | 2 | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con búsqueda de caminos; daño con 1 s de espera; robo del Chorro; derrota; aparición progresiva; billetes y objetos; HUD | Fase 3: caminata en 4 direcciones. Fase 4: la parte de abajo de la calle quedaba encerrada para los zombies (autos reubicados) | Aprobación en Trello; sprites de Chorro y Jubilado; efectos de sonido; Nivel 2 (opcional) |
+| 3 · Objetivo, plata y pantallas | 3 | 🧪 En prueba | Zona segura → tienda con inflación; Victoria y Derrota con reintento y penalización; inventario 1-2-3; caminata; radio, carteles y frases | Fase 4: decoración argentina del mapa (pendiente de este sprint) | Aprobación en Trello; arte final de pantallas y tienda; música |
+| 4 · Pulido y entrega | 4 | 🧪 En prueba | Lionel con camiseta celeste y blanca; Retiro según fotos (trenes blancos y azules, andenes con borde amarillo y franja táctil, vías con topes, columnas de hierro, sombra de los arcos, piedra clara, puestos, bancos, cestos, faroles, carteles, bandera, banderines, grafitis, publicidades parodia, perro y palomas); pausa con Esc; parpadeo al recibir daño; avisos flotantes al juntar; exportación web; `DEMO.md` y `PRUEBAS.md` | Autos de la calle reubicados; arte viejo del mapa eliminado | Balance con las pruebas de terceros; sonido y música (archivos del equipo); publicar la versión web |
 
-**Fase siguiente: 4 · Pulido y entrega.** Pausa con Esc, parpadeo al recibir daño y aviso
-al juntar objetos, balance de números, exportación web y guía de pruebas con terceros.
-La música y los efectos de sonido entran cuando el equipo pase los archivos.
+**Fase siguiente (versión 2 / arte final):** música y efectos cuando el equipo pase los archivos,
+balance con las pruebas de 3 personas ajenas al equipo (`PRUEBAS.md`), sprites finales de cada
+zombie y de las pantallas, y el Nivel 2 (Obelisco y 9 de Julio), opcional en el MVP.
+
+## Sprints del documento y fases
+
+| Sprint (documento) | Fase | Cumplido | Falta |
+|---|---|---|---|
+| 0 · Preparación | 0 | Proyecto en GDevelop, repo con `assets/`, sprites de 32×32, Trello, convención de nombres | Paleta y estilo los define el arte del equipo |
+| 1 · Núcleo jugable | 1 | Movimiento, disparo, mapa con colisiones, escenas y variables globales | Primeros sonidos |
+| 2 · Enemigos y supervivencia | 2 | Persecución, daño, vida, muerte, aparición, ubicación de zombies y objetos, HUD, coleccionables, plata | Sprites finales de Chorro y Jubilado; efectos de sonido; Nivel 2 (opcional) |
+| 3 · Objetivo y pantallas | 3 y 4 | Victoria, reinicio, zona segura, tienda mínima, pantallas, textos, carteles, radio, decoración argentina | Arte final de pantallas; música ambiental; segundo nivel |
+| 4 · Pulido y pruebas | 4 | Pausa, parpadeo, avisos al juntar, exportación web, guion de demo, guía de pruebas | Pruebas con 3 personas de afuera; balance; sonidos al juntar; publicar |
+
+## Criterios del MVP (documento, sección 7)
+
+| # | Criterio | Estado |
+|---|---|---|
+| 1 | Mapa chico: kiosco, andenes de Retiro y zona segura | ✅ |
+| 2 | Movimiento en 4 direcciones y disparo | ✅ |
+| 3 | Chorro y Jubilado (y el Hincha) | ✅ |
+| 4 | Vida, daño y munición con HUD | ✅ |
+| 5 | Munición y mate o botiquín | ✅ |
+| 6 | Colisiones con paredes, autos y obstáculos | ✅ |
+| 7 | Contador de zombies | ✅ |
+| 8 | Pantallas de inicio, victoria y derrota | ✅ (arte provisorio) |
+| 9 | Música y 4 o 5 efectos | ❌ Esperando los archivos del equipo |
+| 10 | Victoria al llegar a la zona segura | ✅ |
+| — | Ambientación argentina | ✅ |
+| — | Probado por 3 personas de afuera | ❌ Guía lista en `PRUEBAS.md` |
 
 ## Correspondencia con Trello ("Quilombo Z – MVP")
 
@@ -200,3 +227,43 @@ Errores encontrados y corregidos en las pruebas:
   Cada perdigón va ahora en su propio subevento.
 - El atajo de variables booleanas ponía siempre verdadero (venía de la fase 1).
 - Íconos del inventario de distinto tamaño: ahora todos miden 32×32.
+
+### Fase 4 · Pulido y entrega (🧪 en prueba)
+
+Entregado:
+- Lionel con camiseta celeste y blanca a rayas (sin escudo), short negro y medias blancas, en
+  todos los cuadros de caminata (con arma y con los puños).
+- Estación Retiro rediseñada a partir de fotos de la estación: formaciones blancas con franjas
+  azules (cabina, vagones y cabina; sin logos), andenes de hormigón con borde amarillo y franja
+  de baldosas con relieve, vías con durmientes de hormigón y paragolpes (Retiro es terminal),
+  columnas de hierro remachadas, sombra de los arcos del techo de hierro y vidrio, paredes de
+  piedra clara (los kioscos siguen de ladrillo), dos puestos de diarios (obstáculos), bancos,
+  cestos azules, faroles, carteles azules "ESTACIÓN RETIRO" y "ANDÉN 1/2/3", bandera argentina
+  colgada en el hall, banderines celestes y blancos en la calle, grafitis, publicidades parodia,
+  bolsas de basura, un perro callejero y palomas. La línea sigue siendo el Sarmiento (decisión
+  del equipo).
+- Pausa con Esc: escala de tiempo 0 y capa "PAUSA" con SEGUIR (Esc, Enter o clic) y MENÚ (M o
+  clic). Toda la lógica del juego corre solo sin pausa.
+- Parpadeo en rojo de Lionel durante 0,6 s al recibir un golpe.
+- Avisos flotantes al juntar objetos ("+6 balas", "+$1000"...), que suben y se desvanecen.
+- Exportación web en `export/web` (fuera de git), [DEMO.md](DEMO.md) con el guion de la demo y
+  [PRUEBAS.md](PRUEBAS.md) con la guía de pruebas con terceros.
+
+Verificado:
+- Validador libGD: 606 instrucciones, 0 errores, 0 avisos.
+- Exportación HTML5 en el navegador: pausa (Lionel y temporizadores frenados; se retoma con Esc
+  y con clic), parpadeo (opacidad 90/255 y vuelve a normal), aviso flotante (sube, se desvanece
+  y se borra), cruces entre andenes por los huecos de los trenes sin tocar obstáculos, rodeo de
+  los puestos de diarios, los 15 puntos de aparición con camino hasta el kiosco de inicio.
+- Probado por el equipo en el editor de GDevelop con ▶ (2026-10-17).
+
+Errores encontrados y corregidos:
+- Los zombies no encontraban camino desde la parte de abajo de la calle (venía de la fase 2):
+  la búsqueda de caminos necesita pasillos de más de ~60 px y el auto rojo dejaba 32. Se
+  reubicaron los autos.
+
+No hecho / no verificado:
+- Balance de números: se mantienen los del documento hasta tener las pruebas con terceros.
+- Sonido y música: esperan los archivos del equipo.
+- No se pudo comprobar si `export/web` abre con doble clic (las exportaciones web de GDevelop
+  suelen necesitar un servidor). Para la demo se recomienda el ▶ del editor.
