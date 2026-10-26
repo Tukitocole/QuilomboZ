@@ -23,6 +23,7 @@ GDevelop). No hay bloques de JavaScript.
 | Apuntar | Mouse (Lionel y el arma giran hacia el puntero) |
 | Usar (disparar / pegar) | Clic izquierdo (o mantenerlo), toque en pantalla o Espacio |
 | Inventario | 1 puños · 2 pistola · 3 arma principal (la que se compra) |
+| Pagarle al trapito | E (nivel 3, $500) |
 | Pausa | Esc (Esc o Enter para seguir, M para ir al menú) |
 | Tienda | 1, 2, 3 o clic para comprar · Enter para seguir viaje |
 | Empezar desde el menú | Enter, Espacio o clic en JUGAR |
@@ -39,6 +40,7 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | `Menu` | Pantalla de inicio; reinicia las variables globales (partida nueva) |
 | `Nivel1_Retiro` | Kiosco de inicio, molinetes, andenes con el Sarmiento parado y salida al Kiosco de Don Ramón. Zombies, objetos para juntar y HUD |
 | `Nivel2_Obelisco` | La 9 de Julio: carriles con colectivos y autos abandonados, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
+| `Nivel3_Cabildo` | La Plaza de Mayo: Casa Rosada, Pirámide de Mayo, vallas con trapitos, carpas, palomas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
 | `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): chaleco, mochila y escopeta con inflación |
 | `Victoria` | Resumen, jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
@@ -67,6 +69,7 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | Hincha | 2 | 12 | 70 | $1.500 | Aparece en manada de 3 |
 | Delivery (nivel 2) | 1 | 10 | 230 en carga | $2.000 | Carga en línea recta, frena y vuelve a cargar |
 | Colectivero (nivel 2) | 6 | 20 | 32 | $3.000 | Más grande; "el tanque de la avenida" |
+| Trapito (nivel 3) | 3 | 0 tranquilo / 12 enojado | 55 | $800 | Pide una moneda: E para pagarle $500; si no, se enoja |
 
 - Los zombies esperan hasta ver a Lionel (450 px) o hasta que les disparen; después lo
   persiguen esquivando paredes y trenes. Pegan como máximo una vez por segundo.

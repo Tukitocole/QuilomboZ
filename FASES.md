@@ -13,7 +13,9 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 3 · Objetivo, plata y pantallas | 🧪 En prueba | Zona segura (Kiosco de Don Ramón); tienda mínima (chaleco, mochila, escopeta) con inflación; Victoria y Derrota con reintento y penalización de plata; carteles, frases de Lionel y radio | Se juega de principio a fin y se vuelve a jugar desde ambas pantallas |
 | 4 · Pulido y entrega | 🧪 En prueba | Música y efectos; parpadeo al recibir daño; pausa con Esc; balance; exportación web; guía de pruebas con terceros | Cumple los criterios de aceptación del MVP (sección 7 del documento de diseño) |
 | 5 · Nivel 2: Obelisco y 9 de Julio | 🧪 En prueba | Escena `Nivel2_Obelisco`; zombies Delivery y Colectivero; sánguche de milanesa; flujo Nivel 1 → tienda → Nivel 2 → tienda → Victoria; jugabilidad compartida en eventos externos | Se juegan los dos niveles seguidos y se vuelve a jugar desde Victoria y Derrota |
-| 6 · Nivel 3: Cabildo y Plaza de Mayo | ⏳ En curso | Escena del Cabildo y la Plaza de Mayo; zombie Trapito; Hinchas en manada; cierre en el subsuelo del Cabildo | Se juegan los tres niveles seguidos |
+| 6 · Nivel 3: Cabildo y Plaza de Mayo | 🧪 En prueba | Escena del Cabildo y la Plaza de Mayo; zombie Trapito; Hinchas en manada; cierre en el subsuelo del Cabildo | Se juegan los tres niveles seguidos |
+| 7 · Hinchas, dificultad y mapas | ⏳ En curso | Camisetas de clubes (colores y diseños, sin escudos ni nombres) para los Hinchas; más dificultad y más zombies; mapas más detallados y a escala realista | Se nota más el ambiente argentino y el juego es más exigente |
+| 8 · Nivel 4: Casa Rosada | ⬜ Pendiente | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
 
 ## Cuadro de avance
 
@@ -25,11 +27,12 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 3 · Objetivo, plata y pantallas | 3 | 🧪 En prueba | Zona segura → tienda con inflación; Victoria y Derrota con reintento y penalización; inventario 1-2-3; caminata; radio, carteles y frases | Fase 4: decoración argentina del mapa (pendiente de este sprint) | Aprobación en Trello; arte final de pantallas y tienda; música |
 | 4 · Pulido y entrega | 4 | 🧪 En prueba | Lionel con camiseta celeste y blanca; Retiro según fotos (trenes blancos y azules, andenes con borde amarillo y franja táctil, vías con topes, columnas de hierro, sombra de los arcos, piedra clara, puestos, bancos, cestos, faroles, carteles, bandera, banderines, grafitis, publicidades parodia, perro y palomas); pausa con Esc; parpadeo al recibir daño; avisos flotantes al juntar; exportación web; `DEMO.md` y `PRUEBAS.md` | Autos de la calle reubicados; arte viejo del mapa eliminado | Balance con las pruebas de terceros; sonido y música (archivos del equipo); publicar la versión web |
 | 5 · Nivel 2: Obelisco y 9 de Julio | 2-3 (opcional del MVP) | 🧪 En prueba | Escena `Nivel2_Obelisco` (dos manos de carriles, sendas, "mar de colectivos" de colores genéricos, autos, canteros con árboles, Metrobus, plaza del Obelisco, edificios, puesto de choripán, parada blindada como zona segura); Zombie Delivery (carga en línea recta) y Zombie Colectivero (6 tiros, pega 20); sánguche de milanesa (+30); flujo entre niveles; eventos externos "Jugabilidad" | Plan B de persecución (si no hay camino y Lionel está cerca, el zombie va derecho); el Obelisco y los árboles ya no dejan escondites; validador revisa los eventos externos en cada nivel; identificador del proyecto completado (la compilación en la nube daba error 400) | Sprites definitivos de Delivery y Colectivero; balance del nivel |
+| 6 · Nivel 3: Cabildo y Plaza de Mayo | Versión 2 | 🧪 En prueba | Escena `Nivel3_Cabildo` (Casa Rosada, plaza con palmeras, canteros y palomas, Pirámide de Mayo, mástil, vallas con pasos, carpas, arcadas del Cabildo con su torre y la bajada al subsuelo como zona segura); Zombie Trapito (pide una moneda: con E se le pagan $500; si no, a los 3 s se enoja); Hinchas en manada de 4; flujo de tres niveles | Las herramientas pasaron a GDevelop 5.6.284 (la exportación web estaba rota por el desfase); un zombie con daño 0 ya no hace parpadear a Lionel | Sprite definitivo del Trapito |
 
-**Fase siguiente: 6 · Nivel 3: Cabildo y Plaza de Mayo** (sección 16): arcadas, plaza con
-palomas, vallas y carpas; zombies nuevos Trapito (bloquea pasos y pide "una moneda") y el Hincha
-en manada; cierre en el subsuelo del Cabildo. Siguen pendientes el sonido (archivos del equipo) y
-las pruebas con terceros.
+**Fase siguiente: 7 · Hinchas, dificultad y mapas.** Camisetas de clubes de la Liga Profesional
+(colores y diseños, sin escudos ni nombres, como pide el documento) para los Hinchas, más dificultad
+y más zombies, y los tres mapas más detallados y a escala realista. Después, **8 · Nivel 4: Casa
+Rosada** con el jefe Zombie Político.
 
 ## Sprints del documento y fases
 
@@ -307,3 +310,33 @@ Errores encontrados y corregidos:
   los árboles dejaban escondites. El Obelisco tiene ahora una base invisible como obstáculo y los
   árboles son decorado (la copa se dibuja por encima de Lionel).
 - `projectUuid` vacío: la compilación en la nube de GDevelop respondía error 400.
+
+### Fase 6 · Nivel 3: el Cabildo y la Plaza de Mayo (🧪 en prueba)
+
+Entregado:
+- Escena `Nivel3_Cabildo` (sección 16): se cruza la Plaza de Mayo desde la Casa Rosada hasta el
+  Cabildo. Plaza con canteros, palmeras y muchas palomas, la Pirámide de Mayo (solo frena su base),
+  el mástil con la bandera, dos líneas de vallas con pasos, carpas, las arcadas del Cabildo (pilares
+  con arcos de 80 px), la torre con el reloj y la bajada al subsuelo como zona segura.
+- Zombie Trapito (sección 4): chaleco verde flúor y trapo rojo. Cuida los pasos de las vallas y
+  pide una moneda; tranquilo no hace daño. Con E se le pagan $500 y se corre; si Lionel se queda
+  3 s cerca sin pagar, o si le pegan, se enoja: persigue y pega 12.
+- Hinchas en manada de 4. Aparición del nivel 3: 25 % Chorro, 15 % Jubilado, 40 % Hinchas,
+  10 % Delivery y 10 % Colectivero.
+- Flujo de tres niveles: Nivel 2 → parada blindada → Nivel 3 → "Subsuelo del Cabildo" → Victoria.
+  "Reintentar" vuelve al nivel donde se murió.
+
+Verificado:
+- Validador libGD 5.6.284: 1518 instrucciones (la jugabilidad compartida en los tres niveles),
+  0 errores.
+- Navegador: Trapito (pide, se le paga y se corre; sin pagar se enoja a los 3 s y pega 12; si le
+  disparan se enoja); los 13 puntos de aparición con camino al inicio y al subsuelo; camino de punta
+  a punta a través de vallas y arcadas; manada de 4 Hinchas; subsuelo → tienda → Victoria; Derrota
+  → "Reintentar" vuelve al nivel 3; regresión del nivel 1.
+- Probado por el equipo en el editor de GDevelop (2026-10-26).
+
+Errores encontrados y corregidos:
+- GDevelop se actualizó a 5.6.284 y el exportador de las herramientas seguía en 5.6.283: la
+  exportación web no arrancaba (faltaba `named-easings-manager.js`). Se actualizó la librería.
+- Los pilares del Cabildo quedaban pegados (sin pasos): ahora dejan arcos de 80 px.
+- El Trapito no se corría después de cobrar (el destino quedaba contra la valla).
