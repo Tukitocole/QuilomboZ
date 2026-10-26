@@ -12,6 +12,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 2 · Enemigos y supervivencia | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con pathfinding; daño con cooldown de 1 s; spawn progresivo; HUD (vida, balas, kills, plata); munición, mate, botiquín y billetes para juntar | Se puede morir, matar zombies y juntar recursos |
 | 3 · Objetivo, plata y pantallas | 🧪 En prueba | Zona segura (Kiosco de Don Ramón); tienda mínima (chaleco, mochila, escopeta) con inflación; Victoria y Derrota con reintento y penalización de plata; carteles, frases de Lionel y radio | Se juega de principio a fin y se vuelve a jugar desde ambas pantallas |
 | 4 · Pulido y entrega | 🧪 En prueba | Música y efectos; parpadeo al recibir daño; pausa con Esc; balance; exportación web; guía de pruebas con terceros | Cumple los criterios de aceptación del MVP (sección 7 del documento de diseño) |
+| 5 · Nivel 2: Obelisco y 9 de Julio | 🧪 En prueba | Escena `Nivel2_Obelisco`; zombies Delivery y Colectivero; sánguche de milanesa; flujo Nivel 1 → tienda → Nivel 2 → tienda → Victoria; jugabilidad compartida en eventos externos | Se juegan los dos niveles seguidos y se vuelve a jugar desde Victoria y Derrota |
+| 6 · Nivel 3: Cabildo y Plaza de Mayo | ⏳ En curso | Escena del Cabildo y la Plaza de Mayo; zombie Trapito; Hinchas en manada; cierre en el subsuelo del Cabildo | Se juegan los tres niveles seguidos |
 
 ## Cuadro de avance
 
@@ -22,10 +24,12 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 2 · Enemigos y supervivencia | 2 | 🧪 En prueba | Zombies Chorro, Jubilado e Hincha con búsqueda de caminos; daño con 1 s de espera; robo del Chorro; derrota; aparición progresiva; billetes y objetos; HUD | Fase 3: caminata en 4 direcciones. Fase 4: la parte de abajo de la calle quedaba encerrada para los zombies (autos reubicados) | Aprobación en Trello; sprites de Chorro y Jubilado; efectos de sonido; Nivel 2 (opcional) |
 | 3 · Objetivo, plata y pantallas | 3 | 🧪 En prueba | Zona segura → tienda con inflación; Victoria y Derrota con reintento y penalización; inventario 1-2-3; caminata; radio, carteles y frases | Fase 4: decoración argentina del mapa (pendiente de este sprint) | Aprobación en Trello; arte final de pantallas y tienda; música |
 | 4 · Pulido y entrega | 4 | 🧪 En prueba | Lionel con camiseta celeste y blanca; Retiro según fotos (trenes blancos y azules, andenes con borde amarillo y franja táctil, vías con topes, columnas de hierro, sombra de los arcos, piedra clara, puestos, bancos, cestos, faroles, carteles, bandera, banderines, grafitis, publicidades parodia, perro y palomas); pausa con Esc; parpadeo al recibir daño; avisos flotantes al juntar; exportación web; `DEMO.md` y `PRUEBAS.md` | Autos de la calle reubicados; arte viejo del mapa eliminado | Balance con las pruebas de terceros; sonido y música (archivos del equipo); publicar la versión web |
+| 5 · Nivel 2: Obelisco y 9 de Julio | 2-3 (opcional del MVP) | 🧪 En prueba | Escena `Nivel2_Obelisco` (dos manos de carriles, sendas, "mar de colectivos" de colores genéricos, autos, canteros con árboles, Metrobus, plaza del Obelisco, edificios, puesto de choripán, parada blindada como zona segura); Zombie Delivery (carga en línea recta) y Zombie Colectivero (6 tiros, pega 20); sánguche de milanesa (+30); flujo entre niveles; eventos externos "Jugabilidad" | Plan B de persecución (si no hay camino y Lionel está cerca, el zombie va derecho); el Obelisco y los árboles ya no dejan escondites; validador revisa los eventos externos en cada nivel; identificador del proyecto completado (la compilación en la nube daba error 400) | Sprites definitivos de Delivery y Colectivero; balance del nivel |
 
-**Fase siguiente (versión 2 / arte final):** música y efectos cuando el equipo pase los archivos,
-balance con las pruebas de 3 personas ajenas al equipo (`PRUEBAS.md`), sprites finales de cada
-zombie y de las pantallas, y el Nivel 2 (Obelisco y 9 de Julio), opcional en el MVP.
+**Fase siguiente: 6 · Nivel 3: Cabildo y Plaza de Mayo** (sección 16): arcadas, plaza con
+palomas, vallas y carpas; zombies nuevos Trapito (bloquea pasos y pide "una moneda") y el Hincha
+en manada; cierre en el subsuelo del Cabildo. Siguen pendientes el sonido (archivos del equipo) y
+las pruebas con terceros.
 
 ## Sprints del documento y fases
 
@@ -267,3 +271,39 @@ No hecho / no verificado:
 - Sonido y música: esperan los archivos del equipo.
 - No se pudo comprobar si `export/web` abre con doble clic (las exportaciones web de GDevelop
   suelen necesitar un servidor). Para la demo se recomienda el ▶ del editor.
+
+### Fase 5 · Nivel 2: el Obelisco y la 9 de Julio (🧪 en prueba)
+
+Entregado:
+- Escena `Nivel2_Obelisco` (sección 16): se cruza la 9 de Julio de oeste a este. Vereda con
+  edificios porteños y el puesto de choripán ("CHORI $2.500 (AYER $2.000)"), dos manos de cinco
+  carriles con líneas y sendas peatonales, "mar de colectivos" (colores genéricos, sin líneas ni
+  empresas reales) y autos atravesados, canteros con árboles, Metrobus, la plaza del Obelisco y,
+  del otro lado, la parada blindada con bolsas de arena (zona segura).
+- Zombie Delivery: en bici, no busca caminos; cada 2,2 s apunta a Lionel y carga en línea recta a
+  ~230 px/s durante 1,3 s. Zombie Colectivero: chaleco y gorra, 30 % más grande, vida 6, pega 20,
+  muy lento. En el nivel 2 aparecen 30 % Chorro, 20 % Jubilado, 35 % Delivery y 15 % Colectivero.
+- Sánguche de milanesa (+30 de vida, sección 5) junto al puesto de choripán.
+- Flujo: Nivel 1 → Kiosco de Don Ramón → Nivel 2 (inflación ×1,2) → "Parada blindada" (la tienda
+  cambia de nombre) → Victoria. "Reintentar" vuelve al nivel donde se murió.
+- Eventos externos "Jugabilidad": todo lo común (movimiento, inventario, armas, persecución, daño,
+  objetos, zona segura, cámara, HUD, pausa, feedback) en una sola hoja que cada nivel incluye con
+  un evento de enlace. Cada nivel tiene solo lo propio (aparición, Delivery, objetos especiales).
+- Plan B de persecución: si un zombie en alerta no encuentra camino y Lionel está a menos de
+  160 px, va derecho hacia él (antes, pegarse a un obstáculo dejaba al zombie quieto).
+
+Verificado:
+- Validador libGD: 1038 instrucciones (la jugabilidad compartida se valida dentro de cada nivel),
+  0 errores. Error sembrado en la hoja compartida: lo detecta solo en el nivel donde falla.
+- Navegador: flujo completo Menú → Nivel 1 → tienda → Nivel 2 → parada → Victoria; los 13 puntos
+  de aparición con camino al inicio y a la parada (también el Colectivero); con Lionel pegado a un
+  colectivo el zombie llega y pega (plan B); Delivery carga a ~230 px/s; Colectivero muere con 6
+  tiros, pega 20 y suelta $3.000; milanesa +30; Derrota en el nivel 2 → "Reintentar" vuelve al
+  nivel 2. Regresión del nivel 1 con los mismos números de antes.
+- Probado por el equipo en el editor de GDevelop (2026-10-26).
+
+Errores encontrados y corregidos:
+- La búsqueda de caminos toma el rectángulo entero de cada obstáculo: el Obelisco y las copas de
+  los árboles dejaban escondites. El Obelisco tiene ahora una base invisible como obstáculo y los
+  árboles son decorado (la copa se dibuja por encima de Lionel).
+- `projectUuid` vacío: la compilación en la nube de GDevelop respondía error 400.

@@ -30,11 +30,16 @@ GDevelop). No hay bloques de JavaScript.
 
 ## Estructura
 
+La jugabilidad común está en los **eventos externos "Jugabilidad"** (panel del proyecto → Eventos
+externos). Cada escena de nivel la incluye con un evento de **enlace** y suma solo lo propio
+(qué zombies aparecen, objetos especiales). Un cambio en "Jugabilidad" vale para todos los niveles.
+
 | Escena | Qué tiene |
 |---|---|
 | `Menu` | Pantalla de inicio; reinicia las variables globales (partida nueva) |
 | `Nivel1_Retiro` | Kiosco de inicio, molinetes, andenes con el Sarmiento parado y salida al Kiosco de Don Ramón. Zombies, objetos para juntar y HUD |
-| `Tienda` | Kiosco de Don Ramón: chaleco, mochila y escopeta con inflación |
+| `Nivel2_Obelisco` | La 9 de Julio: carriles con colectivos y autos abandonados, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
+| `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): chaleco, mochila y escopeta con inflación |
 | `Victoria` | Resumen, jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
 
@@ -42,15 +47,16 @@ GDevelop). No hay bloques de JavaScript.
   `Inflacion`, `VidaMaxima`, `VelocidadBase`, `DanioExtra`, `ArmaActual`, `HabilidadActiva`,
   `TieneEscopeta` y las de "inicio de nivel" para el reintento (`PlataInicioNivel`,
   `MunicionInicioNivel`, `KillsInicioNivel`).
-- **Variables de `Nivel1_Retiro`:** `CadenciaDisparo` (0,3 s), `VelocidadBala` (320 px/s),
+- **Variables de cada nivel** (las usa "Jugabilidad"; además `AnchoMapa` y `AltoMapa` para la cámara): `CadenciaDisparo` (0,3 s), `VelocidadBala` (320 px/s),
   `AnguloApunte`, `IntervaloSpawn` (arranca en 4 s y baja hasta 1,5 s), `MaxZombiesBase` (4;
   se suma 1 cada 500 px que avanza Lionel), `TipoSpawn` y `PlataTexto` (la plata con punto
   de miles para el HUD).
-- **Grupo `Obstaculos`:** Pared, Tren, Columna, Molinete y Auto. Todo lo que frena a Lionel y
-  a las balas; además tienen el comportamiento de obstáculo para la búsqueda de caminos.
-- **Grupo `Zombies`:** `ZombieChorro`, `ZombieJubilado` y `ZombieHincha`. Cada uno tiene las
-  variables `Vida`, `Danio`, `Velocidad`, `Plata` (lo que suelta al morir), `Alerta` y `Color`
-  (su tinte), y el comportamiento de búsqueda de caminos `Pathfinding`.
+- **Grupo `Obstaculos`** (cada nivel arma el suyo): todo lo que frena a Lionel y a las balas;
+  además tienen el comportamiento de obstáculo para la búsqueda de caminos.
+- **Grupo `Zombies`:** todos los zombies del nivel. Cada uno tiene las variables `Vida`, `Danio`,
+  `Velocidad`, `Plata` (lo que suelta al morir), `Alerta` y `Color` (su tinte).
+- **Grupo `Caminantes`:** los zombies con el comportamiento de búsqueda de caminos `Pathfinding`
+  (todos menos el Delivery, que carga en línea recta).
 
 ### Zombies y objetos
 
@@ -59,6 +65,8 @@ GDevelop). No hay bloques de JavaScript.
 | Chorro | 1 | 10 | 95 | $1.000 | Te afana 2 balas y $500 |
 | Jubilado | 3 | 8 | 40 | $500 | — |
 | Hincha | 2 | 12 | 70 | $1.500 | Aparece en manada de 3 |
+| Delivery (nivel 2) | 1 | 10 | 230 en carga | $2.000 | Carga en línea recta, frena y vuelve a cargar |
+| Colectivero (nivel 2) | 6 | 20 | 32 | $3.000 | Más grande; "el tanque de la avenida" |
 
 - Los zombies esperan hasta ver a Lionel (450 px) o hasta que les disparen; después lo
   persiguen esquivando paredes y trenes. Pegan como máximo una vez por segundo.
