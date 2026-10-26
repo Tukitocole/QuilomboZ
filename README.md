@@ -38,9 +38,9 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | Escena | Qué tiene |
 |---|---|
 | `Menu` | Pantalla de inicio; reinicia las variables globales (partida nueva) |
-| `Nivel1_Retiro` | Kiosco de inicio, molinetes, andenes con el Sarmiento parado y salida al Kiosco de Don Ramón. Zombies, objetos para juntar y HUD |
-| `Nivel2_Obelisco` | La 9 de Julio: carriles con colectivos y autos abandonados, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
-| `Nivel3_Cabildo` | La Plaza de Mayo: Casa Rosada, Pirámide de Mayo, vallas con trapitos, carpas, palomas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
+| `Nivel1_Retiro` | Estación a escala: hall de mármol con boleterías y reloj, molinetes, dos naves con 8 andenes y trenes de 7 vagones, Torre Monumental y el Kiosco de Don Ramón cruzando la calle |
+| `Nivel2_Obelisco` | La 9 de Julio a escala: 7 carriles por mano, Metrobus, Corrientes con marquesinas, taxis y colectivos, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
+| `Nivel3_Cabildo` | La Plaza de Mayo a escala: reja de la Casa Rosada, Pirámide con los pañuelos, Monumento a Belgrano, Catedral, vallas con trapitos, carpas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
 | `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): chaleco, mochila y escopeta con inflación |
 | `Victoria` | Resumen, jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
@@ -50,8 +50,8 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
   `TieneEscopeta` y las de "inicio de nivel" para el reintento (`PlataInicioNivel`,
   `MunicionInicioNivel`, `KillsInicioNivel`).
 - **Variables de cada nivel** (las usa "Jugabilidad"; además `AnchoMapa` y `AltoMapa` para la cámara): `CadenciaDisparo` (0,3 s), `VelocidadBala` (320 px/s),
-  `AnguloApunte`, `IntervaloSpawn` (arranca en 4 s y baja hasta 1,5 s), `MaxZombiesBase` (4;
-  se suma 1 cada 500 px que avanza Lionel), `TipoSpawn` y `PlataTexto` (la plata con punto
+  `AnguloApunte`, `IntervaloSpawn` (3 / 2,6 / 2,4 s según el nivel; baja hasta 1 s), `MaxZombiesBase` (6 / 7 / 8;
+  se suma 1 cada 350 px que avanza Lionel), `TipoSpawn` y `PlataTexto` (la plata con punto
   de miles para el HUD).
 - **Grupo `Obstaculos`** (cada nivel arma el suyo): todo lo que frena a Lionel y a las balas;
   además tienen el comportamiento de obstáculo para la búsqueda de caminos.
@@ -64,14 +64,14 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 
 | | Vida (balas) | Daño | Velocidad | Suelta | Extra |
 |---|---|---|---|---|---|
-| Chorro | 1 | 10 | 95 | $1.000 | Te afana 2 balas y $500 |
-| Jubilado | 3 | 8 | 40 | $500 | — |
-| Hincha | 2 | 12 | 70 | $1.500 | Aparece en manada de 3 |
+| Chorro | 1 | 10 | 105 | $1.000 | Te afana 2 balas y $500 |
+| Jubilado | 3 | 8 | 48 | $500 | — |
+| Hincha | 2 | 12 | 80 | $1.500 | Manada de 3 (4 en el nivel 3); camiseta de club al azar (17 diseños, sin escudos) |
 | Delivery (nivel 2) | 1 | 10 | 230 en carga | $2.000 | Carga en línea recta, frena y vuelve a cargar |
 | Colectivero (nivel 2) | 6 | 20 | 32 | $3.000 | Más grande; "el tanque de la avenida" |
 | Trapito (nivel 3) | 3 | 0 tranquilo / 12 enojado | 55 | $800 | Pide una moneda: E para pagarle $500; si no, se enoja |
 
-- Los zombies esperan hasta ver a Lionel (450 px) o hasta que les disparen; después lo
+- Los zombies esperan hasta ver a Lionel (550 px) o hasta que les disparen; después lo
   persiguen esquivando paredes y trenes. Pegan como máximo una vez por segundo.
 - Al morir sueltan un billete con su plata y, a veces (30 %), una caja de balas.
 - Objetos: `CajaMunicion` (+6 balas, hasta `MunicionMaxima`), `Mate` (+15 de vida),

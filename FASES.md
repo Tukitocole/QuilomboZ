@@ -1,6 +1,6 @@
 # Quilombo Z: fases de estado y entrega
 
-Proyecto GDevelop 5 (probado con la versión 5.6.283). Toda la lógica va en **eventos nativos**
+Proyecto GDevelop 5 (probado con la versión 5.6.284). Toda la lógica va en **eventos nativos**
 (condiciones y acciones), sin bloques de JavaScript.
 
 Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · ⬜ Pendiente · ⚠️ Bloqueada
@@ -14,8 +14,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 4 · Pulido y entrega | 🧪 En prueba | Música y efectos; parpadeo al recibir daño; pausa con Esc; balance; exportación web; guía de pruebas con terceros | Cumple los criterios de aceptación del MVP (sección 7 del documento de diseño) |
 | 5 · Nivel 2: Obelisco y 9 de Julio | 🧪 En prueba | Escena `Nivel2_Obelisco`; zombies Delivery y Colectivero; sánguche de milanesa; flujo Nivel 1 → tienda → Nivel 2 → tienda → Victoria; jugabilidad compartida en eventos externos | Se juegan los dos niveles seguidos y se vuelve a jugar desde Victoria y Derrota |
 | 6 · Nivel 3: Cabildo y Plaza de Mayo | 🧪 En prueba | Escena del Cabildo y la Plaza de Mayo; zombie Trapito; Hinchas en manada; cierre en el subsuelo del Cabildo | Se juegan los tres niveles seguidos |
-| 7 · Hinchas, dificultad y mapas | ⏳ En curso | Camisetas de clubes (colores y diseños, sin escudos ni nombres) para los Hinchas; más dificultad y más zombies; mapas más detallados y a escala realista | Se nota más el ambiente argentino y el juego es más exigente |
-| 8 · Nivel 4: Casa Rosada | ⬜ Pendiente | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
+| 7 · Hinchas, dificultad y mapas | 🧪 En prueba | Camisetas de clubes (colores y diseños, sin escudos ni nombres) para los Hinchas; más dificultad y más zombies; mapas más detallados y a escala realista | Se nota más el ambiente argentino y el juego es más exigente |
+| 8 · Nivel 4: Casa Rosada | ⏳ En curso | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
 
 ## Cuadro de avance
 
@@ -28,11 +28,10 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 4 · Pulido y entrega | 4 | 🧪 En prueba | Lionel con camiseta celeste y blanca; Retiro según fotos (trenes blancos y azules, andenes con borde amarillo y franja táctil, vías con topes, columnas de hierro, sombra de los arcos, piedra clara, puestos, bancos, cestos, faroles, carteles, bandera, banderines, grafitis, publicidades parodia, perro y palomas); pausa con Esc; parpadeo al recibir daño; avisos flotantes al juntar; exportación web; `DEMO.md` y `PRUEBAS.md` | Autos de la calle reubicados; arte viejo del mapa eliminado | Balance con las pruebas de terceros; sonido y música (archivos del equipo); publicar la versión web |
 | 5 · Nivel 2: Obelisco y 9 de Julio | 2-3 (opcional del MVP) | 🧪 En prueba | Escena `Nivel2_Obelisco` (dos manos de carriles, sendas, "mar de colectivos" de colores genéricos, autos, canteros con árboles, Metrobus, plaza del Obelisco, edificios, puesto de choripán, parada blindada como zona segura); Zombie Delivery (carga en línea recta) y Zombie Colectivero (6 tiros, pega 20); sánguche de milanesa (+30); flujo entre niveles; eventos externos "Jugabilidad" | Plan B de persecución (si no hay camino y Lionel está cerca, el zombie va derecho); el Obelisco y los árboles ya no dejan escondites; validador revisa los eventos externos en cada nivel; identificador del proyecto completado (la compilación en la nube daba error 400) | Sprites definitivos de Delivery y Colectivero; balance del nivel |
 | 6 · Nivel 3: Cabildo y Plaza de Mayo | Versión 2 | 🧪 En prueba | Escena `Nivel3_Cabildo` (Casa Rosada, plaza con palmeras, canteros y palomas, Pirámide de Mayo, mástil, vallas con pasos, carpas, arcadas del Cabildo con su torre y la bajada al subsuelo como zona segura); Zombie Trapito (pide una moneda: con E se le pagan $500; si no, a los 3 s se enoja); Hinchas en manada de 4; flujo de tres niveles | Las herramientas pasaron a GDevelop 5.6.284 (la exportación web estaba rota por el desfase); un zombie con daño 0 ya no hace parpadear a Lionel | Sprite definitivo del Trapito |
+| 7 · Hinchas, dificultad y mapas | Versión 2 | 🧪 En prueba | 17 camisetas de clubes de la Liga Profesional (colores y diseños, sin escudos ni nombres) al azar en cada Hincha; más dificultad (zombies más rápidos, aparición más seguida, más zombies a la vez, alerta a 550 px); los tres mapas rehechos a escala (1 m ≈ 12 px): Retiro con hall de mármol, boleterías, reloj, molinetes, dos naves con 8 andenes, trenes de 7 vagones y Torre Monumental; 9 de Julio con 7 carriles por mano, Metrobus, Obelisco alto, taxis y marquesinas de Corrientes; Plaza de Mayo con Catedral, Cabildo con arcadas, Monumento a Belgrano, pañuelos alrededor de la Pirámide y la reja de la Casa Rosada | Un tren de Retiro cerraba el andén de abajo (corrido 10 m) | Arte definitivo de los mapas del equipo |
 
-**Fase siguiente: 7 · Hinchas, dificultad y mapas.** Camisetas de clubes de la Liga Profesional
-(colores y diseños, sin escudos ni nombres, como pide el documento) para los Hinchas, más dificultad
-y más zombies, y los tres mapas más detallados y a escala realista. Después, **8 · Nivel 4: Casa
-Rosada** con el jefe Zombie Político.
+**Fase siguiente: 8 · Nivel 4: Casa Rosada.** Patio, escaleras y balcón, con el jefe Zombie
+Político que tira promesas como proyectiles; se gana saliendo por la puerta de atrás.
 
 ## Sprints del documento y fases
 
@@ -340,3 +339,34 @@ Errores encontrados y corregidos:
   exportación web no arrancaba (faltaba `named-easings-manager.js`). Se actualizó la librería.
 - Los pilares del Cabildo quedaban pegados (sin pasos): ahora dejan arcos de 80 px.
 - El Trapito no se corría después de cobrar (el destino quedaba contra la valla).
+
+### Fase 7 · Hinchas, dificultad y mapas (🧪 en prueba)
+
+Entregado:
+- Camisetas: 17 diseños con los colores clásicos de clubes de la Liga Profesional, sin escudos,
+  nombres ni sponsors (secciones 3 y 11 del documento). Cada Hincha sale con una al azar
+  (animaciones `derecha_k`, `abajo_k`, etc.; variable `Sufijo`).
+- Dificultad: Chorro 105, Jubilado 48 y Hincha 80 de velocidad; los zombies ven a Lionel a 550 px;
+  la aparición baja 0,2 s por vez hasta 1 s; tope de zombies = base + 1 cada 350 px. Nivel 1: cada
+  3 s, base 6; nivel 2: 2,6 s, base 7; nivel 3: 2,4 s, base 8. Más zombies al arrancar cada nivel.
+- Mapas a escala realista (1 m ≈ 12 px), con datos relevados de Urbipedia, argentina.gob.ar,
+  Wikipedia y Turismo BA:
+  - Retiro (3840×1312): hall de mármol con boleterías, reloj y bancos; molinetes; dos naves de
+    250 m con arcos cada 10 m y 8 andenes; formaciones de 7 vagones; fachada con la Torre
+    Monumental; el Kiosco de Don Ramón cruzando la calle.
+  - 9 de Julio (2400×1400): 7 carriles por mano, Metrobus central, la plaza del Obelisco (base de
+    6,8 m), Corrientes con sendas y marquesinas de teatro, taxis negros y amarillos, colectivos.
+  - Plaza de Mayo (3200×1500): fachada y reja de la Casa Rosada, canteros de Thays con palmeras,
+    Pirámide con los pañuelos pintados, Monumento a Belgrano, mástil, Catedral, Cabildo con sus
+    arcadas, la torre y la bajada al subsuelo.
+
+Verificado:
+- Validador libGD 5.6.284: 1528 instrucciones, 0 errores.
+- Navegador: los 57 puntos de aparición (30 + 14 + 13) con camino al inicio y a la zona segura;
+  objetos y trapitos fuera de los obstáculos; con el mapa vacío se vuelve a llenar en 8 a 16 s;
+  camisetas variadas; vistas generales de los tres mapas.
+- Probado por el equipo en el editor de GDevelop (2026-10-26).
+
+Errores encontrados y corregidos:
+- La formación de la vía 5 de Retiro dejaba 28 px contra la fachada y los zombies del andén de
+  abajo no encontraban camino hacia el este: se corrió 10 m.
