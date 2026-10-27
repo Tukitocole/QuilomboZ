@@ -411,8 +411,10 @@ Entregado:
   zombies cercanos cada 4 a 9 s, al morir, al pegarle a Lionel y el Político al empezar la pelea).
 - Plata (sección 17): Jubilado $500, Chorro $1.000 (más lo que te robó), Hincha $1.500, Trapito
   $1.000, Delivery $2.000, Colectivero $3.000 y el Político $20.000. Se sueltan en billetes reales
-  en circulación: $500 (verde, yaguareté), $1.000 (naranja, hornero), $2.000, $10.000 y $20.000,
-  sin reproducirlos. El de $5.000 no existe: los fajos del mapa se arman con varios billetes.
+  en circulación, en pixel art a partir de las fotos del equipo: $500 (verde, ceibo y yaguareté),
+  $1.000 (naranja, San Martín), $2.000 (gris y rosado, Grierson y Carrillo), $10.000 (turquesa,
+  Remedios del Valle y Belgrano, con el sol) y $20.000 (azul sobre verde amarillento, Alberdi),
+  simplificados y sin reproducirlos. El de $5.000 no existe: los fajos del mapa se arman con varios billetes.
 - Gore: los cuerpos quedan tirados sobre un charco de sangre (cada uno con su ropa: el Hincha con
   su camiseta, el Político con su traje); salpicaduras al pegar y cuando atacan a Lionel; los zombies
   tienen sangre en la boca, heridas y huesos.
