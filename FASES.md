@@ -17,7 +17,12 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 7 · Hinchas, dificultad y mapas | 🧪 En prueba | Camisetas de clubes (colores y diseños, sin escudos ni nombres) para los Hinchas; más dificultad y más zombies; mapas más detallados y a escala realista | Se nota más el ambiente argentino y el juego es más exigente |
 | 8 · Nivel 4: Casa Rosada | 🧪 En prueba | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
 | 9 · Sonido, plata y ambiente | 🧪 En prueba | Sonidos y música del equipo; plata en billetes argentinos según el documento; cuerpos y sangre; zombies gore; Lionel demacrado según su vida; escenarios post-apocalípticos (El Eternauta, The Last of Us) | Se escucha el juego y se siente el apocalipsis porteño |
-| 10 · Nivel 5: el Monumental | ⏳ En curso | Tribunas, túnel y cancha; jefe final Gordo Barra con bombo; oleada final | Se aguanta la oleada, se vence al jefe y se entra al túnel del Club Último Refugio |
+| 10 · Munición por arma | 🧪 En prueba | Cada arma con su munición (pistola: balas de 9 mm; escopeta: cartuchos) y la tienda vende munición | Se juega sin mezclar munición y se puede reponer en la tienda |
+| 11 · Tienda completa: armas y mejoras | ⏳ En curso | Palo de escoba, bate, molotov y fusil de asalto; zapatillas, puntería, campera gruesa y billetera; tienda con pestañas | Se pueden armar distintos estilos de juego |
+| 12 · Habilidades y objetos | ⬜ Pendiente | Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia; alfajor; el Político suelta zombies chicos | Cada habilidad se compra, se elige y funciona |
+| 13 · Nivel 5: el Monumental | ⬜ Pendiente | Tribunas, túnel y cancha; oleada final; jefe Gordo Barra con bombo; llave y portón del club | Se aguanta la oleada, se vence al jefe y se entra al túnel |
+| 14 · Guardado, tutorial y puntaje | ⬜ Pendiente | Guardado de partida, tutorial en el kiosco, puntaje final y logros | Se retoma la partida y el final muestra el puntaje |
+| 15 · Pulido y publicación | ⬜ Pendiente | Temblor de pantalla, opciones de volumen, sonidos que falten, balance con pruebas de terceros, publicación | Cumple el documento completo |
 
 ## Cuadro de avance
 
@@ -33,9 +38,10 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 7 · Hinchas, dificultad y mapas | Versión 2 | 🧪 En prueba | 17 camisetas de clubes de la Liga Profesional (colores y diseños, sin escudos ni nombres) al azar en cada Hincha; más dificultad (zombies más rápidos, aparición más seguida, más zombies a la vez, alerta a 550 px); los tres mapas rehechos a escala (1 m ≈ 12 px): Retiro con hall de mármol, boleterías, reloj, molinetes, dos naves con 8 andenes, trenes de 7 vagones y Torre Monumental; 9 de Julio con 7 carriles por mano, Metrobus, Obelisco alto, taxis y marquesinas de Corrientes; Plaza de Mayo con Catedral, Cabildo con arcadas, Monumento a Belgrano, pañuelos alrededor de la Pirámide y la reja de la Casa Rosada | Un tren de Retiro cerraba el andén de abajo (corrido 10 m) | Arte definitivo de los mapas del equipo |
 | 8 · Nivel 4: Casa Rosada | Versión 2 | 🧪 En prueba | Escena `Nivel4_CasaRosada` a escala (Balcarce 50, hall, Patio de las Palmeras con fuente, palmeras y galería, escaleras Italia y Francia, Salón Blanco con arañas y sillas, balcón sobre Balcarce, Galería de los Bustos, despacho, puerta de Paseo Colón y helipuerto); jefe Zombie Político (40 de vida, promesas como proyectiles, abanico y custodia de Colectiveros en la segunda mitad, $20.000); flujo de cuatro niveles | Barra del jefe corrida para no tapar la vida; piso en los vanos de las puertas | Sprite definitivo del Político |
 | 9 · Sonido, plata y ambiente | 4 + Versión 2 | 🧪 En prueba | Los 11 sonidos del equipo (música del menú y de los niveles, disparos, recarga, recolectar, caja registradora, botones y gruñidos); plata en billetes argentinos ($500, $1.000, $2.000, $10.000 y $20.000) según la sección 17, el Chorro lleva lo que roba; cuerpos tirados con charco de sangre (cada uno con su ropa), salpicaduras al pegar y al recibir golpes; zombies gore; Lionel herido y grave (ropa rota, tierra, sangre, venda); nevada, viñeta fría, escombros, basura, yuyos, fogatas, cuerpos viejos y pintadas | El Trapito suelta $1.000 (antes $800); la música de los niveles es FLAC (venía con extensión .mp3) | Pruebas con 3 personas de afuera; balance |
+| 10 · Munición por arma | Versión 2 | 🧪 En prueba | Pistola con balas de 9 mm (12 al empezar, 24 de máximo) y escopeta con cartuchos (trae 6, máximo 12); cajas de cartuchos en los mapas y al matar zombies (si se tiene la escopeta); la mochila suma 6 balas y 2 cartuchos; HUD con la munición del arma en la mano; tienda con 5 productos (se suman Balas 9 mm $1.000 y Cartuchos $1.500, con inflación) | Avisos de sin munición según el arma | — |
 
-**Fase siguiente: 10 · Nivel 5: el Monumental.** Tribunas, túnel y cancha, la oleada final y el
-jefe Gordo Barra con su bombo; se entra al túnel del Club Último Refugio.
+**Fase siguiente: 11 · Tienda completa.** Las armas y mejoras de la sección 18 que faltan, con la
+tienda en pestañas. Después: 12 habilidades, 13 el Monumental, 14 guardado y puntaje, 15 pulido.
 
 ## Sprints del documento y fases
 
@@ -431,4 +437,25 @@ Verificado:
 - Navegador: música de menú y de nivel (la FLAC carga); Hincha muerto → cuerpo con su camiseta,
   charco y $1.000 + $500; el Chorro se lleva $500 y los suelta; Lionel sano, herido y grave; jefe →
   billete de $20.000 y cuerpo; tienda con caja registradora; regresión de los cuatro niveles.
+- Probado por el equipo en el editor de GDevelop (2026-10-27).
+
+### Fase 10 · Munición por arma (🧪 en prueba)
+
+Entregado:
+- Cada arma con su munición: la pistola usa balas de 9 mm (`Municion`, 12 al empezar, máximo
+  `MunicionMaxima` 24) y la escopeta usa cartuchos (`Cartuchos`, trae 6 al comprarla, máximo
+  `CartuchosMaximo` 12). Sin munición, el aviso dice cuál falta.
+- Cajas de cartuchos (+4) en los mapas (dos por nivel) y al matar zombies: si Lionel tiene la
+  escopeta, 4 de cada 10 cajas que caen son de cartuchos.
+- La mochila grande suma 6 balas y 2 cartuchos de capacidad. Al morir se vuelve a la munición de
+  cada tipo que se tenía al empezar el nivel.
+- HUD con la munición del arma en la mano (con los puños, las dos).
+- Tienda con 5 productos: se suman Balas 9 mm (+12, $1.000) y Cartuchos (+6, $1.500, solo con la
+  escopeta), con inflación y sin pasarse del máximo de la mochila.
+
+Verificado:
+- Validador libGD 5.6.284: 2593 instrucciones, 0 errores.
+- Navegador: comprar balas, la escopeta (trae 6), cartuchos (sin escopeta no deja; con la mochila
+  llena avisa); la escopeta gasta 1 cartucho y tira 3 perdigones sin tocar las balas; avisos sin
+  munición; juntar una caja de cartuchos; HUD según el arma.
 - Probado por el equipo en el editor de GDevelop (2026-10-27).

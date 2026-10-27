@@ -82,7 +82,8 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 - Sonidos en `assets/sonidos` (música del menú y de los niveles, disparos, recarga, recolectar,
   caja registradora, botones y gruñidos).
 - Ambiente: nevada, viñeta fría y decoración post-apocalíptica repartida sola en cada mapa.
-- Objetos: `CajaMunicion` (+6 balas, hasta `MunicionMaxima`), `Mate` (+15 de vida),
+- Munición por arma: la pistola usa balas de 9 mm (`Municion`) y la escopeta, cartuchos (`Cartuchos`).
+- Objetos: `CajaMunicion` (+6 balas de 9 mm, hasta `MunicionMaxima`), `CajaCartuchos` (+4 cartuchos), `Mate` (+15 de vida),
   `Botiquin` (+60), `Billete` (variable `Valor`) y `DolarBlue` ($15.000, escondido).
 - Los `PuntoAparicion` marcan dónde pueden nacer zombies; son invisibles durante el juego.
 - Resolución 640×360 escalada sin suavizado (pixel art).
