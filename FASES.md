@@ -16,7 +16,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 6 · Nivel 3: Cabildo y Plaza de Mayo | 🧪 En prueba | Escena del Cabildo y la Plaza de Mayo; zombie Trapito; Hinchas en manada; cierre en el subsuelo del Cabildo | Se juegan los tres niveles seguidos |
 | 7 · Hinchas, dificultad y mapas | 🧪 En prueba | Camisetas de clubes (colores y diseños, sin escudos ni nombres) para los Hinchas; más dificultad y más zombies; mapas más detallados y a escala realista | Se nota más el ambiente argentino y el juego es más exigente |
 | 8 · Nivel 4: Casa Rosada | 🧪 En prueba | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
-| 9 · Sonido, plata y ambiente | ⏳ En curso | Sonidos y música del equipo; plata en billetes argentinos según el documento; cuerpos y sangre; zombies gore; Lionel demacrado según su vida; escenarios post-apocalípticos (El Eternauta, The Last of Us) | Se escucha el juego y se siente el apocalipsis porteño |
+| 9 · Sonido, plata y ambiente | 🧪 En prueba | Sonidos y música del equipo; plata en billetes argentinos según el documento; cuerpos y sangre; zombies gore; Lionel demacrado según su vida; escenarios post-apocalípticos (El Eternauta, The Last of Us) | Se escucha el juego y se siente el apocalipsis porteño |
+| 10 · Nivel 5: el Monumental | ⏳ En curso | Tribunas, túnel y cancha; jefe final Gordo Barra con bombo; oleada final | Se aguanta la oleada, se vence al jefe y se entra al túnel del Club Último Refugio |
 
 ## Cuadro de avance
 
@@ -31,10 +32,10 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 6 · Nivel 3: Cabildo y Plaza de Mayo | Versión 2 | 🧪 En prueba | Escena `Nivel3_Cabildo` (Casa Rosada, plaza con palmeras, canteros y palomas, Pirámide de Mayo, mástil, vallas con pasos, carpas, arcadas del Cabildo con su torre y la bajada al subsuelo como zona segura); Zombie Trapito (pide una moneda: con E se le pagan $500; si no, a los 3 s se enoja); Hinchas en manada de 4; flujo de tres niveles | Las herramientas pasaron a GDevelop 5.6.284 (la exportación web estaba rota por el desfase); un zombie con daño 0 ya no hace parpadear a Lionel | Sprite definitivo del Trapito |
 | 7 · Hinchas, dificultad y mapas | Versión 2 | 🧪 En prueba | 17 camisetas de clubes de la Liga Profesional (colores y diseños, sin escudos ni nombres) al azar en cada Hincha; más dificultad (zombies más rápidos, aparición más seguida, más zombies a la vez, alerta a 550 px); los tres mapas rehechos a escala (1 m ≈ 12 px): Retiro con hall de mármol, boleterías, reloj, molinetes, dos naves con 8 andenes, trenes de 7 vagones y Torre Monumental; 9 de Julio con 7 carriles por mano, Metrobus, Obelisco alto, taxis y marquesinas de Corrientes; Plaza de Mayo con Catedral, Cabildo con arcadas, Monumento a Belgrano, pañuelos alrededor de la Pirámide y la reja de la Casa Rosada | Un tren de Retiro cerraba el andén de abajo (corrido 10 m) | Arte definitivo de los mapas del equipo |
 | 8 · Nivel 4: Casa Rosada | Versión 2 | 🧪 En prueba | Escena `Nivel4_CasaRosada` a escala (Balcarce 50, hall, Patio de las Palmeras con fuente, palmeras y galería, escaleras Italia y Francia, Salón Blanco con arañas y sillas, balcón sobre Balcarce, Galería de los Bustos, despacho, puerta de Paseo Colón y helipuerto); jefe Zombie Político (40 de vida, promesas como proyectiles, abanico y custodia de Colectiveros en la segunda mitad, $20.000); flujo de cuatro niveles | Barra del jefe corrida para no tapar la vida; piso en los vanos de las puertas | Sprite definitivo del Político |
+| 9 · Sonido, plata y ambiente | 4 + Versión 2 | 🧪 En prueba | Los 11 sonidos del equipo (música del menú y de los niveles, disparos, recarga, recolectar, caja registradora, botones y gruñidos); plata en billetes argentinos ($500, $1.000, $2.000, $10.000 y $20.000) según la sección 17, el Chorro lleva lo que roba; cuerpos tirados con charco de sangre (cada uno con su ropa), salpicaduras al pegar y al recibir golpes; zombies gore; Lionel herido y grave (ropa rota, tierra, sangre, venda); nevada, viñeta fría, escombros, basura, yuyos, fogatas, cuerpos viejos y pintadas | El Trapito suelta $1.000 (antes $800); la música de los niveles es FLAC (venía con extensión .mp3) | Pruebas con 3 personas de afuera; balance |
 
-**Fase siguiente: 9 · Sonido, plata y ambiente.** Sonidos y música del equipo, billetes argentinos,
-cuerpos y sangre, Lionel demacrado y escenarios post-apocalípticos. Después, **10 · Nivel 5: el
-Monumental** con el jefe final Gordo Barra.
+**Fase siguiente: 10 · Nivel 5: el Monumental.** Tribunas, túnel y cancha, la oleada final y el
+jefe Gordo Barra con su bombo; se entra al túnel del Club Último Refugio.
 
 ## Sprints del documento y fases
 
@@ -58,7 +59,7 @@ Monumental** con el jefe final Gordo Barra.
 | 6 | Colisiones con paredes, autos y obstáculos | ✅ |
 | 7 | Contador de zombies | ✅ |
 | 8 | Pantallas de inicio, victoria y derrota | ✅ (arte provisorio) |
-| 9 | Música y 4 o 5 efectos | ❌ Esperando los archivos del equipo |
+| 9 | Música y 4 o 5 efectos | ✅ (archivos del equipo, fase 9) |
 | 10 | Victoria al llegar a la zona segura | ✅ |
 | — | Ambientación argentina | ✅ |
 | — | Probado por 3 personas de afuera | ❌ Guía lista en `PRUEBAS.md` |
@@ -398,4 +399,34 @@ Verificado:
   activa desde la calle; promesas, frases, segunda mitad (abanico y custodia), muerte ($20.000),
   puerta que se abre; con la puerta cerrada no se puede salir; tienda → Victoria; Derrota →
   nivel 4; regresión de los niveles 1 a 3.
+- Probado por el equipo en el editor de GDevelop (2026-10-27).
+
+### Fase 9 · Sonido, plata y ambiente post-apocalíptico (🧪 en prueba)
+
+Entregado:
+- Sonido (sección 19), con los archivos del equipo en `assets/sonidos`: música del menú (menú,
+  tienda, Victoria y Derrota) y de los niveles en el canal 1; disparo de pistola y de escopeta;
+  recarga al juntar balas o cambiar de arma; recolectar (mate, botiquín, milanesa); caja
+  registradora (billetes, dólar blue, trapito, compras); botones (pasar y clic); gruñidos (los
+  zombies cercanos cada 4 a 9 s, al morir, al pegarle a Lionel y el Político al empezar la pelea).
+- Plata (sección 17): Jubilado $500, Chorro $1.000 (más lo que te robó), Hincha $1.500, Trapito
+  $1.000, Delivery $2.000, Colectivero $3.000 y el Político $20.000. Se sueltan en billetes reales
+  en circulación: $500 (verde, yaguareté), $1.000 (naranja, hornero), $2.000, $10.000 y $20.000,
+  sin reproducirlos. El de $5.000 no existe: los fajos del mapa se arman con varios billetes.
+- Gore: los cuerpos quedan tirados sobre un charco de sangre (cada uno con su ropa: el Hincha con
+  su camiseta, el Político con su traje); salpicaduras al pegar y cuando atacan a Lionel; los zombies
+  tienen sangre en la boca, heridas y huesos.
+- Lionel se ve según su vida: sano, herido (≤ 60 %: ropa rota, tierra, raspones) y grave (≤ 30 %:
+  más sangre, pálido y con una venda en la cabeza).
+- Ambiente post-apocalíptico, con El Eternauta y The Last of Us como referencia: nevada en dos
+  capas (menos en la Casa Rosada, que es por dentro), viñeta fría, escombros, basura, sangre seca,
+  nieve acumulada, yuyos entre las baldosas, fogatas en tachos, zapatillas perdidas, cuerpos viejos
+  y pintadas ("LO VIEJO FUNCIONA", "NO SALGAN: LA NEVADA MATA", "QUE SE VAYAN TODOS (YA SE
+  FUERON)"...). Se reparten solos en los lugares libres de cada mapa.
+
+Verificado:
+- Validador libGD 5.6.284: 2419 instrucciones, 0 errores; los sonidos se exportan.
+- Navegador: música de menú y de nivel (la FLAC carga); Hincha muerto → cuerpo con su camiseta,
+  charco y $1.000 + $500; el Chorro se lleva $500 y los suelta; Lionel sano, herido y grave; jefe →
+  billete de $20.000 y cuerpo; tienda con caja registradora; regresión de los cuatro niveles.
 - Probado por el equipo en el editor de GDevelop (2026-10-27).

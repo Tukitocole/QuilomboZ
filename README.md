@@ -71,11 +71,17 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | Delivery (nivel 2) | 1 | 10 | 230 en carga | $2.000 | Carga en línea recta, frena y vuelve a cargar |
 | Colectivero (nivel 2) | 6 | 20 | 32 | $3.000 | Más grande; "el tanque de la avenida" |
 | Zombie Político (jefe, nivel 4) | 40 | 20 (promesas: 8) | 45 / 70 | $20.000 | Tira promesas; a mitad de vida, abanico y custodia de Colectiveros |
-| Trapito (nivel 3) | 3 | 0 tranquilo / 12 enojado | 55 | $800 | Pide una moneda: E para pagarle $500; si no, se enoja |
+| Trapito (nivel 3) | 3 | 0 tranquilo / 12 enojado | 55 | $1.000 | Pide una moneda: E para pagarle $500; si no, se enoja |
 
 - Los zombies esperan hasta ver a Lionel (550 px) o hasta que les disparen; después lo
   persiguen esquivando paredes y trenes. Pegan como máximo una vez por segundo.
-- Al morir sueltan un billete con su plata y, a veces (30 %), una caja de balas.
+- Al morir quedan tirados sobre un charco de sangre y sueltan su plata en billetes argentinos
+  ($500, $1.000, $2.000, $10.000 y $20.000) y, a veces (30 %), una caja de balas. El Chorro suelta
+  también lo que te robó.
+- Lionel se ve herido (≤ 60 % de vida) y grave (≤ 30 %).
+- Sonidos en `assets/sonidos` (música del menú y de los niveles, disparos, recarga, recolectar,
+  caja registradora, botones y gruñidos).
+- Ambiente: nevada, viñeta fría y decoración post-apocalíptica repartida sola en cada mapa.
 - Objetos: `CajaMunicion` (+6 balas, hasta `MunicionMaxima`), `Mate` (+15 de vida),
   `Botiquin` (+60), `Billete` (variable `Valor`) y `DolarBlue` ($15.000, escondido).
 - Los `PuntoAparicion` marcan dónde pueden nacer zombies; son invisibles durante el juego.
