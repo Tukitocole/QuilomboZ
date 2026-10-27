@@ -15,7 +15,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 5 · Nivel 2: Obelisco y 9 de Julio | 🧪 En prueba | Escena `Nivel2_Obelisco`; zombies Delivery y Colectivero; sánguche de milanesa; flujo Nivel 1 → tienda → Nivel 2 → tienda → Victoria; jugabilidad compartida en eventos externos | Se juegan los dos niveles seguidos y se vuelve a jugar desde Victoria y Derrota |
 | 6 · Nivel 3: Cabildo y Plaza de Mayo | 🧪 En prueba | Escena del Cabildo y la Plaza de Mayo; zombie Trapito; Hinchas en manada; cierre en el subsuelo del Cabildo | Se juegan los tres niveles seguidos |
 | 7 · Hinchas, dificultad y mapas | 🧪 En prueba | Camisetas de clubes (colores y diseños, sin escudos ni nombres) para los Hinchas; más dificultad y más zombies; mapas más detallados y a escala realista | Se nota más el ambiente argentino y el juego es más exigente |
-| 8 · Nivel 4: Casa Rosada | ⏳ En curso | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
+| 8 · Nivel 4: Casa Rosada | 🧪 En prueba | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
+| 9 · Sonido, plata y ambiente | ⏳ En curso | Sonidos y música del equipo; plata en billetes argentinos según el documento; cuerpos y sangre; zombies gore; Lionel demacrado según su vida; escenarios post-apocalípticos (El Eternauta, The Last of Us) | Se escucha el juego y se siente el apocalipsis porteño |
 
 ## Cuadro de avance
 
@@ -29,9 +30,11 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 5 · Nivel 2: Obelisco y 9 de Julio | 2-3 (opcional del MVP) | 🧪 En prueba | Escena `Nivel2_Obelisco` (dos manos de carriles, sendas, "mar de colectivos" de colores genéricos, autos, canteros con árboles, Metrobus, plaza del Obelisco, edificios, puesto de choripán, parada blindada como zona segura); Zombie Delivery (carga en línea recta) y Zombie Colectivero (6 tiros, pega 20); sánguche de milanesa (+30); flujo entre niveles; eventos externos "Jugabilidad" | Plan B de persecución (si no hay camino y Lionel está cerca, el zombie va derecho); el Obelisco y los árboles ya no dejan escondites; validador revisa los eventos externos en cada nivel; identificador del proyecto completado (la compilación en la nube daba error 400) | Sprites definitivos de Delivery y Colectivero; balance del nivel |
 | 6 · Nivel 3: Cabildo y Plaza de Mayo | Versión 2 | 🧪 En prueba | Escena `Nivel3_Cabildo` (Casa Rosada, plaza con palmeras, canteros y palomas, Pirámide de Mayo, mástil, vallas con pasos, carpas, arcadas del Cabildo con su torre y la bajada al subsuelo como zona segura); Zombie Trapito (pide una moneda: con E se le pagan $500; si no, a los 3 s se enoja); Hinchas en manada de 4; flujo de tres niveles | Las herramientas pasaron a GDevelop 5.6.284 (la exportación web estaba rota por el desfase); un zombie con daño 0 ya no hace parpadear a Lionel | Sprite definitivo del Trapito |
 | 7 · Hinchas, dificultad y mapas | Versión 2 | 🧪 En prueba | 17 camisetas de clubes de la Liga Profesional (colores y diseños, sin escudos ni nombres) al azar en cada Hincha; más dificultad (zombies más rápidos, aparición más seguida, más zombies a la vez, alerta a 550 px); los tres mapas rehechos a escala (1 m ≈ 12 px): Retiro con hall de mármol, boleterías, reloj, molinetes, dos naves con 8 andenes, trenes de 7 vagones y Torre Monumental; 9 de Julio con 7 carriles por mano, Metrobus, Obelisco alto, taxis y marquesinas de Corrientes; Plaza de Mayo con Catedral, Cabildo con arcadas, Monumento a Belgrano, pañuelos alrededor de la Pirámide y la reja de la Casa Rosada | Un tren de Retiro cerraba el andén de abajo (corrido 10 m) | Arte definitivo de los mapas del equipo |
+| 8 · Nivel 4: Casa Rosada | Versión 2 | 🧪 En prueba | Escena `Nivel4_CasaRosada` a escala (Balcarce 50, hall, Patio de las Palmeras con fuente, palmeras y galería, escaleras Italia y Francia, Salón Blanco con arañas y sillas, balcón sobre Balcarce, Galería de los Bustos, despacho, puerta de Paseo Colón y helipuerto); jefe Zombie Político (40 de vida, promesas como proyectiles, abanico y custodia de Colectiveros en la segunda mitad, $20.000); flujo de cuatro niveles | Barra del jefe corrida para no tapar la vida; piso en los vanos de las puertas | Sprite definitivo del Político |
 
-**Fase siguiente: 8 · Nivel 4: Casa Rosada.** Patio, escaleras y balcón, con el jefe Zombie
-Político que tira promesas como proyectiles; se gana saliendo por la puerta de atrás.
+**Fase siguiente: 9 · Sonido, plata y ambiente.** Sonidos y música del equipo, billetes argentinos,
+cuerpos y sangre, Lionel demacrado y escenarios post-apocalípticos. Después, **10 · Nivel 5: el
+Monumental** con el jefe final Gordo Barra.
 
 ## Sprints del documento y fases
 
@@ -370,3 +373,29 @@ Verificado:
 Errores encontrados y corregidos:
 - La formación de la vía 5 de Retiro dejaba 28 px contra la fachada y los zombies del andén de
   abajo no encontraban camino hacia el este: se corrió 10 m.
+
+### Fase 8 · Nivel 4: la Casa Rosada (🧪 en prueba)
+
+Entregado:
+- Escena `Nivel4_CasaRosada` (sección 16), a escala (1 m ≈ 12 px; la manzana mide unos 100 × 130 m),
+  con datos del sitio oficial de la Casa Rosada: entrada por Balcarce 50; hall con bustos; Patio de
+  las Palmeras (patio de honor) con piso cerámico, las cuatro palmeras, la fuente central, dos
+  jarrones y la galería de columnas; escaleras de honor Italia y Francia con alfombra roja; Salón
+  Blanco con parquet, arañas y sillas; el balcón sobre Balcarce; Galería de los Bustos; Salón de los
+  Científicos y despacho; la puerta de atrás en Paseo Colón y la explanada con el helipuerto como
+  zona segura.
+- Jefe Zombie Político (sección 4): traje, corbata y megáfono. Da su discurso desde el balcón hasta
+  que Lionel entra al Salón Blanco o le pegan. 40 de vida, pega 20, tira promesas de campaña (8 de
+  daño) con frases que aparecen sobre su cabeza. En la segunda mitad tira tres en abanico, camina
+  más rápido y llama a dos Colectiveros de custodia. Suelta $20.000. Al vencerlo se abre la puerta
+  de Paseo Colón.
+- Flujo de cuatro niveles: Nivel 3 → subsuelo → Nivel 4 → helipuerto → Victoria. "Reintentar"
+  vuelve al nivel 4.
+
+Verificado:
+- Validador libGD 5.6.284: 2048 instrucciones, 0 errores.
+- Navegador: los 18 puntos de aparición con camino a la entrada y al Salón Blanco; el jefe no se
+  activa desde la calle; promesas, frases, segunda mitad (abanico y custodia), muerte ($20.000),
+  puerta que se abre; con la puerta cerrada no se puede salir; tienda → Victoria; Derrota →
+  nivel 4; regresión de los niveles 1 a 3.
+- Probado por el equipo en el editor de GDevelop (2026-10-27).

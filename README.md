@@ -41,6 +41,7 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | `Nivel1_Retiro` | Estación a escala: hall de mármol con boleterías y reloj, molinetes, dos naves con 8 andenes y trenes de 7 vagones, Torre Monumental y el Kiosco de Don Ramón cruzando la calle |
 | `Nivel2_Obelisco` | La 9 de Julio a escala: 7 carriles por mano, Metrobus, Corrientes con marquesinas, taxis y colectivos, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
 | `Nivel3_Cabildo` | La Plaza de Mayo a escala: reja de la Casa Rosada, Pirámide con los pañuelos, Monumento a Belgrano, Catedral, vallas con trapitos, carpas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
+| `Nivel4_CasaRosada` | La Casa Rosada por dentro: Patio de las Palmeras, escaleras de honor, Salón Blanco, balcón, Galería de los Bustos y la puerta de atrás a Paseo Colón. Jefe Zombie Político |
 | `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): chaleco, mochila y escopeta con inflación |
 | `Victoria` | Resumen, jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
@@ -69,6 +70,7 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | Hincha | 2 | 12 | 80 | $1.500 | Manada de 3 (4 en el nivel 3); camiseta de club al azar (17 diseños, sin escudos) |
 | Delivery (nivel 2) | 1 | 10 | 230 en carga | $2.000 | Carga en línea recta, frena y vuelve a cargar |
 | Colectivero (nivel 2) | 6 | 20 | 32 | $3.000 | Más grande; "el tanque de la avenida" |
+| Zombie Político (jefe, nivel 4) | 40 | 20 (promesas: 8) | 45 / 70 | $20.000 | Tira promesas; a mitad de vida, abanico y custodia de Colectiveros |
 | Trapito (nivel 3) | 3 | 0 tranquilo / 12 enojado | 55 | $800 | Pide una moneda: E para pagarle $500; si no, se enoja |
 
 - Los zombies esperan hasta ver a Lionel (550 px) o hasta que les disparen; después lo
