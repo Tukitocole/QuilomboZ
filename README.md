@@ -22,10 +22,10 @@ GDevelop). No hay bloques de JavaScript.
 | Moverse (4 direcciones) | WASD o flechas |
 | Apuntar | Mouse (Lionel y el arma giran hacia el puntero) |
 | Usar (disparar / pegar) | Clic izquierdo (o mantenerlo), toque en pantalla o Espacio |
-| Inventario | 1 puños · 2 pistola · 3 arma principal (la que se compra) |
+| Inventario | 1 cuerpo a cuerpo (puños, palo o bate) · 2 pistola · 3 escopeta · 4 fusil · 5 molotov |
 | Pagarle al trapito | E (nivel 3, $500) |
 | Pausa | Esc (Esc o Enter para seguir, M para ir al menú) |
-| Tienda | 1, 2, 3 o clic para comprar · Enter para seguir viaje |
+| Tienda | ← → o clic para cambiar de pestaña · 1 a 6 o clic para comprar · Enter para seguir viaje |
 | Empezar desde el menú | Enter, Espacio o clic en JUGAR |
 | Victoria / Derrota | Enter: jugar de nuevo / reintentar · M: menú |
 
@@ -42,7 +42,7 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | `Nivel2_Obelisco` | La 9 de Julio a escala: 7 carriles por mano, Metrobus, Corrientes con marquesinas, taxis y colectivos, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
 | `Nivel3_Cabildo` | La Plaza de Mayo a escala: reja de la Casa Rosada, Pirámide con los pañuelos, Monumento a Belgrano, Catedral, vallas con trapitos, carpas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
 | `Nivel4_CasaRosada` | La Casa Rosada por dentro: Patio de las Palmeras, escaleras de honor, Salón Blanco, balcón, Galería de los Bustos y la puerta de atrás a Paseo Colón. Jefe Zombie Político |
-| `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): chaleco, mochila y escopeta con inflación |
+| `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): tres pestañas (armas, mejoras y munición) con inflación |
 | `Victoria` | Resumen, jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
 
@@ -82,7 +82,9 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 - Sonidos en `assets/sonidos` (música del menú y de los niveles, disparos, recarga, recolectar,
   caja registradora, botones y gruñidos).
 - Ambiente: nevada, viñeta fría y decoración post-apocalíptica repartida sola en cada mapa.
-- Munición por arma: la pistola usa balas de 9 mm (`Municion`) y la escopeta, cartuchos (`Cartuchos`).
+- Munición por arma: la pistola usa balas de 9 mm (`Municion`), la escopeta cartuchos (`Cartuchos`), el fusil
+  `BalasFusil` y el molotov se cuenta en `Molotovs`.
+- Mejoras (hasta 5 niveles): chaleco, zapatillas, mochila, puntería, campera gruesa y billetera.
 - Objetos: `CajaMunicion` (+6 balas de 9 mm, hasta `MunicionMaxima`), `CajaCartuchos` (+4 cartuchos), `Mate` (+15 de vida),
   `Botiquin` (+60), `Billete` (variable `Valor`) y `DolarBlue` ($15.000, escondido).
 - Los `PuntoAparicion` marcan dónde pueden nacer zombies; son invisibles durante el juego.
@@ -102,6 +104,6 @@ cambian.
 | `assets/zombies/` | `zgenerico.png` y su caminata provisoria `zombie_<dir>_<0-3>.png` (los tres tipos, con tinte distinto); `ztincho1.png` para un zombie futuro |
 | `assets/objetos/` | Bala, caja de balas, mate, botiquín (del equipo), billete y dólar blue |
 | `assets/escenario/` | Estación Retiro: piso del hall, franja táctil, vías de hormigón, topes, muro de piedra, vagones y cabinas, columnas de hierro, sombra del techo, puesto de diarios, bancos, cestos, faroles, bandera, banderines, grafitis, bolsas, perro, palomas; además paredes de ladrillo, molinetes, autos y zona segura |
-| `assets/interfaz/` | Botón, fondos del menú y de la tienda, barra (HUD), íconos (puño, chaleco, mochila), cartel y marcador de punto de aparición |
+| `assets/interfaz/` | Botón, fondos del menú y de la tienda, barra (HUD), íconos (puño, chaleco, mochila, zapatillas, puntería, campera, billetera), cartel y marcador de punto de aparición |
 
 El avance por fases y sprints está en [FASES.md](FASES.md). Guion de la demo: [DEMO.md](DEMO.md). Pruebas con terceros: [PRUEBAS.md](PRUEBAS.md).

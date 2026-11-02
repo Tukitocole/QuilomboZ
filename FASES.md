@@ -18,8 +18,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 8 · Nivel 4: Casa Rosada | 🧪 En prueba | Patio, escaleras y balcón; jefe Zombie Político (promesas como proyectiles) | Se derrota al jefe y se sale por la puerta de atrás |
 | 9 · Sonido, plata y ambiente | 🧪 En prueba | Sonidos y música del equipo; plata en billetes argentinos según el documento; cuerpos y sangre; zombies gore; Lionel demacrado según su vida; escenarios post-apocalípticos (El Eternauta, The Last of Us) | Se escucha el juego y se siente el apocalipsis porteño |
 | 10 · Munición por arma | 🧪 En prueba | Cada arma con su munición (pistola: balas de 9 mm; escopeta: cartuchos) y la tienda vende munición | Se juega sin mezclar munición y se puede reponer en la tienda |
-| 11 · Tienda completa: armas y mejoras | ⏳ En curso | Palo de escoba, bate, molotov y fusil de asalto; zapatillas, puntería, campera gruesa y billetera; tienda con pestañas | Se pueden armar distintos estilos de juego |
-| 12 · Habilidades y objetos | ⬜ Pendiente | Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia; alfajor; el Político suelta zombies chicos | Cada habilidad se compra, se elige y funciona |
+| 11 · Tienda completa: armas y mejoras | 🧪 En prueba | Palo de escoba, bate, molotov y fusil de asalto; zapatillas, puntería, campera gruesa y billetera; tienda con pestañas | Se pueden armar distintos estilos de juego |
+| 12 · Habilidades y objetos | ⏳ En curso | Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia; alfajor; el Político suelta zombies chicos | Cada habilidad se compra, se elige y funciona |
 | 13 · Nivel 5: el Monumental | ⬜ Pendiente | Tribunas, túnel y cancha; oleada final; jefe Gordo Barra con bombo; llave y portón del club | Se aguanta la oleada, se vence al jefe y se entra al túnel |
 | 14 · Guardado, tutorial y puntaje | ⬜ Pendiente | Guardado de partida, tutorial en el kiosco, puntaje final y logros | Se retoma la partida y el final muestra el puntaje |
 | 15 · Pulido y publicación | ⬜ Pendiente | Temblor de pantalla, opciones de volumen, sonidos que falten, balance con pruebas de terceros, publicación | Cumple el documento completo |
@@ -39,9 +39,11 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 8 · Nivel 4: Casa Rosada | Versión 2 | 🧪 En prueba | Escena `Nivel4_CasaRosada` a escala (Balcarce 50, hall, Patio de las Palmeras con fuente, palmeras y galería, escaleras Italia y Francia, Salón Blanco con arañas y sillas, balcón sobre Balcarce, Galería de los Bustos, despacho, puerta de Paseo Colón y helipuerto); jefe Zombie Político (40 de vida, promesas como proyectiles, abanico y custodia de Colectiveros en la segunda mitad, $20.000); flujo de cuatro niveles | Barra del jefe corrida para no tapar la vida; piso en los vanos de las puertas | Sprite definitivo del Político |
 | 9 · Sonido, plata y ambiente | 4 + Versión 2 | 🧪 En prueba | Los 11 sonidos del equipo (música del menú y de los niveles, disparos, recarga, recolectar, caja registradora, botones y gruñidos); plata en billetes argentinos ($500, $1.000, $2.000, $10.000 y $20.000) según la sección 17, el Chorro lleva lo que roba; cuerpos tirados con charco de sangre (cada uno con su ropa), salpicaduras al pegar y al recibir golpes; zombies gore; Lionel herido y grave (ropa rota, tierra, sangre, venda); nevada, viñeta fría, escombros, basura, yuyos, fogatas, cuerpos viejos y pintadas | El Trapito suelta $1.000 (antes $800); la música de los niveles es FLAC (venía con extensión .mp3) | Pruebas con 3 personas de afuera; balance |
 | 10 · Munición por arma | Versión 2 | 🧪 En prueba | Pistola con balas de 9 mm (12 al empezar, 24 de máximo) y escopeta con cartuchos (trae 6, máximo 12); cajas de cartuchos en los mapas y al matar zombies (si se tiene la escopeta); la mochila suma 6 balas y 2 cartuchos; HUD con la munición del arma en la mano; tienda con 5 productos (se suman Balas 9 mm $1.000 y Cartuchos $1.500, con inflación) | Avisos de sin munición según el arma | — |
+| 11 · Tienda completa | Versión 2 | 🧪 En prueba | Tienda en tres pestañas (armas, mejoras, munición); armas: palo de escoba ($2.000), bate ($4.000, pega 2 y empuja), molotov ($6.000, fuego en área que quema 3,5 s) y fusil de asalto ($40.000, desde el nivel 4, ráfaga rápida); mejoras de hasta 5 niveles: zapatillas (+8 % velocidad), puntería (+10 % daño), campera gruesa (−10 % daño recibido) y billetera (+10 % pesos); munición para las cuatro armas de fuego y arrojadizas; 5 casilleros (1 cuerpo a cuerpo, 2 pistola, 3 escopeta, 4 fusil, 5 molotov) | El fuego quema desde el primer contacto; títulos de la tienda más cortos; números de los casilleros visibles sobre la radio | Arte definitivo de las armas nuevas |
 
-**Fase siguiente: 11 · Tienda completa.** Las armas y mejoras de la sección 18 que faltan, con la
-tienda en pestañas. Después: 12 habilidades, 13 el Monumental, 14 guardado y puntaje, 15 pulido.
+**Fase siguiente: 12 · Habilidades y objetos.** Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y
+Asado de emergencia; el alfajor; el Político suelta zombies chicos. Después: 13 el Monumental,
+14 guardado y puntaje, 15 pulido.
 
 ## Sprints del documento y fases
 
@@ -459,3 +461,25 @@ Verificado:
   llena avisa); la escopeta gasta 1 cartucho y tira 3 perdigones sin tocar las balas; avisos sin
   munición; juntar una caja de cartuchos; HUD según el arma.
 - Probado por el equipo en el editor de GDevelop (2026-10-27).
+
+### Fase 11 · Tienda completa (🧪 en prueba)
+
+Entregado:
+- Tienda en tres pestañas (ARMAS, MEJORAS, MUNICIÓN), con clic o ← →; se compra con 1 a 6 o clic.
+  Todo con inflación por nivel; en el nivel 4 la tienda es el carrito de Don Ramón en Paseo Colón.
+- Armas: palo de escoba ($2.000, pega 1), bate ($4.000, pega 2 y empuja), molotov ($6.000, trae 3;
+  explota al tocar o a los 0,6 s y deja fuego 3,5 s que quema 1 cada 0,5 s) y fusil de asalto
+  ($40.000, desde el nivel 4, trae 30 balas, ráfaga de 0,1 s con dispersión de ±4°).
+- Mejoras de hasta 5 niveles (el precio sube ×1,5 por nivel): chaleco, zapatillas (+8 % velocidad),
+  mochila (+6 balas, +2 cartuchos, +10 de fusil, +1 molotov), puntería (+10 % daño), campera gruesa
+  (−10 % daño recibido, también de las promesas) y billetera (+10 % de pesos en cada billete).
+- Munición: balas de 9 mm, cartuchos, balas de fusil y molotovs, sin pasarse de la mochila.
+- Inventario de 5 casilleros: 1 cuerpo a cuerpo (puños, palo o bate), 2 pistola, 3 escopeta,
+  4 fusil, 5 molotov. Al morir se vuelve a la munición que se tenía al empezar el nivel.
+
+Verificado:
+- Validador libGD 5.6.284: 3800 instrucciones, 0 errores.
+- Navegador: compras en las tres pestañas y avisos ("ya la tenés", requisito del fusil, mochila
+  llena); bate 2,2 de daño con puntería 1 y empuje; ráfaga del fusil; fuego del molotov; campera
+  (10 → 9), zapatillas (118,8), billetera; los cuatro niveles arrancan.
+- Probado por el equipo en el editor de GDevelop (2026-11-02).
