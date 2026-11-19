@@ -28,7 +28,8 @@ GDevelop). No hay bloques de JavaScript.
 | Pagarle al trapito | E con un trapito pidiendo plata al lado (nivel 3, $500) |
 | Pausa | Esc (Esc o Enter para seguir, M para ir al menú) |
 | Tienda | ← → o clic para cambiar de pestaña · 1 a 6 o clic para comprar · Enter para seguir viaje |
-| Empezar desde el menú | Enter, Espacio o clic en JUGAR |
+| Empezar desde el menú | Enter, Espacio o clic en ¡A JUGAR! · C: seguir partida · L: logros |
+| Saltear el tutorial | Tab |
 | Victoria / Derrota | Enter: jugar de nuevo / reintentar · M: menú |
 
 ## Estructura
@@ -39,14 +40,15 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 
 | Escena | Qué tiene |
 |---|---|
-| `Menu` | Pantalla de inicio; reinicia las variables globales (partida nueva) |
+| `Menu` | Pantalla de inicio argentinizada y tétrica; seguir la partida guardada o empezar una nueva |
+| `Logros` | Los 10 logros, guardados entre partidas |
 | `Nivel1_Retiro` | Estación a escala: hall de mármol con boleterías y reloj, molinetes, dos naves con 8 andenes y trenes de 7 vagones, Torre Monumental y el Kiosco de Don Ramón cruzando la calle |
 | `Nivel2_Obelisco` | La 9 de Julio a escala: 7 carriles por mano, Metrobus, Corrientes con marquesinas, taxis y colectivos, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
 | `Nivel3_Cabildo` | La Plaza de Mayo a escala: reja de la Casa Rosada, Pirámide con los pañuelos, Monumento a Belgrano, Catedral, vallas con trapitos, carpas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
 | `Nivel4_CasaRosada` | La Casa Rosada por dentro: Patio de las Palmeras, escaleras de honor, Salón Blanco, balcón, Galería de los Bustos y la puerta de atrás a Paseo Colón. Jefe Zombie Político |
 | `Nivel5_River` | El Monumental (Club Atlético Último Refugio): avenida, estacionamiento, tribunas, cancha, palco y túnel. Oleada final y jefe Gordo Barra; la llave del palco abre el túnel (fin del juego) |
 | `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): cuatro pestañas (armas, mejoras, munición y habilidades) con inflación; la atiende Don Ramón |
-| `Victoria` | Resumen, jugar de nuevo y menú |
+| `Victoria` | Puntaje final con rango y récord; jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
 
 - **Variables globales:** `Kills`, `Municion`, `MunicionMaxima`, `Plata`, `NivelActual`,

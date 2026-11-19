@@ -22,8 +22,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 12 · Habilidades y objetos | 🧪 En prueba | Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia; alfajor; el Político suelta zombies chicos | Cada habilidad se compra, se elige y funciona |
 | 13 · Nivel 5: el Monumental | 🧪 En prueba | Tribunas, túnel y cancha; oleada final; jefe Gordo Barra con bombo; llave y portón del club | Se aguanta la oleada, se vence al jefe y se entra al túnel |
 | 14 · Tienda 2.0 y controles | 🧪 En prueba | Precios que desaparecen al comprar o llegar al máximo; fusil bloqueado hasta el nivel 4 con precio fijo; habilidades que se desbloquean por nivel; dos habilidades (Q y E); Don Ramón animado que atiende la tienda; movimiento en diagonal; mira verde (cruz, círculo o cuadrado) | La tienda se entiende sola y se juega más cómodo |
-| 15 · Guardado, tutorial y puntaje | ⏳ En curso | Guardado de partida, tutorial en el kiosco, puntaje final y logros | Se retoma la partida y el final muestra el puntaje |
-| 16 · Pulido y publicación | ⬜ Pendiente | Temblor de pantalla, opciones de volumen, sonidos que falten, balance con pruebas de terceros, publicación | Cumple el documento completo |
+| 15 · Guardado, tutorial y puntaje | 🧪 En prueba | Guardado de partida, tutorial en el kiosco, puntaje final y logros | Se retoma la partida y el final muestra el puntaje |
+| 16 · Pulido y publicación | ⏳ En curso | Temblor de pantalla, opciones de volumen, sonidos que falten, balance con pruebas de terceros, publicación | Cumple el documento completo |
 
 ## Cuadro de avance
 
@@ -44,9 +44,10 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 12 · Habilidades y objetos | Versión 2 | 🧪 En prueba | Cuarta pestaña de la tienda: Gambeta ($8.000, esquive con Q, 3 s de espera), Bocinazo ($10.000, aturde 2 s a los cercanos), Chamuyo ($9.000, un zombie no ataca por 5 s), Mate Power ($12.000, regenera si no te pegan), Rebusque ($11.000, +25 % de plata) y Asado de emergencia ($14.000, vida llena una vez por nivel); se compran una vez y se elige la activa; casillero de habilidad en el HUD con la espera; alfajor (+10 de vida y +10 de velocidad por 5 s) en cada nivel y al matar zombies; el Político camina menos y suelta Punteros (zombies chicos) | Descripción del Bocinazo más corta para que entre en la tienda | Arte definitivo de los íconos y del Puntero |
 | 13 · Nivel 5: el Monumental | Versión 2 | 🧪 En prueba | Escena `Nivel5_River`: el estadio dibujado a partir de fotos del Monumental (ovalado, tres bandejas con franjas rojas y blancas, fachada blanca con franja roja, techo, pasto y LED alrededor de la cancha, pantallas, palco, túnel, torres de luz y trapos), sin escudos ni nombres (Club Atlético Último Refugio); avenida, estacionamiento y explanada; oleada final de 60 s al pisar el césped; jefe Gordo Barra (50 de vida, el bombo aturde 1 s, manada en la segunda mitad, $20.000); llave del club en el palco; portón del túnel; el túnel termina el juego | Estadio rehecho en una sola imagen con límites que siguen las curvas; oleada más suave (manada cada 2,2 s, hasta 22 zombies) | Arte definitivo del Gordo Barra |
 | 14 · Tienda 2.0 y controles | Versión 2 | 🧪 En prueba | Lo comprado o al máximo ya no muestra precio (YA ES TUYO, TENÉS EL BATE, AL MÁXIMO, LLENO); fusil a $40.000 fijos y bloqueado hasta después del nivel 4; habilidades que se desbloquean por nivel con orden sorteado en cada partida; dos habilidades a la vez (Q y E) con botones para equipar; Don Ramón animado que atiende y habla en un globo; movimiento en diagonal; mira verde (cruz, círculo o cuadrado; tecla C o botón en la pausa) | La E paga al trapito solo si hay uno pidiendo plata cerca; casilleros Q y E en orden | Arte definitivo de Don Ramón |
+| 15 · Guardado, tutorial y puntaje | Versión 2 | 🧪 En prueba | Guardado automático en la tienda y botón SEGUIR PARTIDA; tutorial de 6 pasos en el nivel 1 (Tab lo saltea); puntaje final con rango y récord en Victoria; 10 logros con su pantalla; menú argentinizado y tétrico (fileteado, guirnalda, Lionel con el mate, hinchas y zombies que pasan, noticiero de ÚLTIMO MOMENTO, relámpagos, niebla, sangre que chorrea y manos que salen del piso) | Derrota cuenta las muertes; botones del menú se acomodan si no hay partida guardada | Arte definitivo del menú |
 
-**Fase siguiente: 15 · Guardado, tutorial y puntaje.** Guardar la partida para retomarla, tutorial en
-el kiosco, puntaje final y logros. Después: 16 pulido y publicación.
+**Fase siguiente: 16 · Pulido y publicación.** Temblor de pantalla, opciones de volumen, sonidos que
+falten (golpe, victoria, derrota), balance con pruebas de terceros y publicación.
 
 ## Sprints del documento y fases
 
@@ -564,4 +565,25 @@ Verificado:
 - Navegador: precios y bloqueos, orden de desbloqueo, compra con equipado automático e intercambio Q/E,
   aviso de munición, fusil después del nivel 4, diagonales, mira, Q y E por separado, trapito con E;
   los cinco niveles, Victoria y Derrota arrancan.
+- Probado por el equipo en el editor de GDevelop (2026-11-19).
+
+### Fase 15 · Guardado, tutorial y puntaje (🧪 en prueba)
+
+Entregado:
+- Guardado: la tienda guarda la partida sola (archivo `quilomboz_partida`) y avisa "Partida guardada";
+  el menú muestra SEGUIR PARTIDA (tecla C) cuando hay una. Las opciones (mira) van aparte en
+  `quilomboz_opciones`.
+- Tutorial en el nivel 1, en el kiosco: 6 pasos (moverse, apuntar y disparar, cambiar de arma, juntar cosas,
+  habilidades y el objetivo); Tab lo saltea y no vuelve a salir.
+- Puntaje final en Victoria: kills, plata, tiempo, muertes y jefes vencidos, con rango y récord.
+- Logros: 10 logros guardados entre partidas, con su pantalla (`Logros`, tecla L desde el menú).
+- Menú argentinizado y con clima de terror: esquinas de fileteado porteño, guirnalda celeste y blanca,
+  cinta con la frase del juego, Lionel tomando mate con frases que cambian, hinchas y zombies que
+  cruzan, noticiero de ÚLTIMO MOMENTO con titulares en joda, sello "Industria Argentina"; relámpagos
+  con trueno, título que titila, niebla, sangre que chorrea del título, manos de zombie y gruñidos.
+
+Verificado:
+- Validador libGD 5.6.287: 7978 instrucciones, 0 errores.
+- Navegador: guardar y seguir partida, tutorial completo y salteado, puntaje y récord, logros, menú
+  con y sin partida guardada.
 - Probado por el equipo en el editor de GDevelop (2026-11-19).
