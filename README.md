@@ -23,6 +23,7 @@ GDevelop). No hay bloques de JavaScript.
 | Apuntar | Mouse (Lionel y el arma giran hacia el puntero) |
 | Usar (disparar / pegar) | Clic izquierdo (o mantenerlo), toque en pantalla o Espacio |
 | Inventario | 1 cuerpo a cuerpo (puños, palo o bate) · 2 pistola · 3 escopeta · 4 fusil · 5 molotov |
+| Habilidad | Q (Gambeta, Bocinazo, Chamuyo o Asado; Mate Power y Rebusque andan solas) |
 | Pagarle al trapito | E (nivel 3, $500) |
 | Pausa | Esc (Esc o Enter para seguir, M para ir al menú) |
 | Tienda | ← → o clic para cambiar de pestaña · 1 a 6 o clic para comprar · Enter para seguir viaje |
@@ -42,7 +43,7 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | `Nivel2_Obelisco` | La 9 de Julio a escala: 7 carriles por mano, Metrobus, Corrientes con marquesinas, taxis y colectivos, el Obelisco, puesto de choripán y la parada blindada. Zombies Delivery y Colectivero |
 | `Nivel3_Cabildo` | La Plaza de Mayo a escala: reja de la Casa Rosada, Pirámide con los pañuelos, Monumento a Belgrano, Catedral, vallas con trapitos, carpas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
 | `Nivel4_CasaRosada` | La Casa Rosada por dentro: Patio de las Palmeras, escaleras de honor, Salón Blanco, balcón, Galería de los Bustos y la puerta de atrás a Paseo Colón. Jefe Zombie Político |
-| `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): tres pestañas (armas, mejoras y munición) con inflación |
+| `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): cuatro pestañas (armas, mejoras, munición y habilidades) con inflación |
 | `Victoria` | Resumen, jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
 
@@ -70,7 +71,8 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | Hincha | 2 | 12 | 80 | $1.500 | Manada de 3 (4 en el nivel 3); camiseta de club al azar (17 diseños, sin escudos) |
 | Delivery (nivel 2) | 1 | 10 | 230 en carga | $2.000 | Carga en línea recta, frena y vuelve a cargar |
 | Colectivero (nivel 2) | 6 | 20 | 32 | $3.000 | Más grande; "el tanque de la avenida" |
-| Zombie Político (jefe, nivel 4) | 40 | 20 (promesas: 8) | 45 / 70 | $20.000 | Tira promesas; a mitad de vida, abanico y custodia de Colectiveros |
+| Zombie Político (jefe, nivel 4) | 40 | 20 (promesas: 8) | 25 / 40 | $20.000 | Tira promesas y suelta Punteros; a mitad de vida, abanico y custodia de Colectiveros |
+| Zombie Puntero (lo suelta el Político) | 1 | 5 | 95 | $500 | Chico y rápido, de a dos |
 | Trapito (nivel 3) | 3 | 0 tranquilo / 12 enojado | 55 | $1.000 | Pide una moneda: E para pagarle $500; si no, se enoja |
 
 - Los zombies esperan hasta ver a Lionel (550 px) o hasta que les disparen; después lo
@@ -85,6 +87,8 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 - Munición por arma: la pistola usa balas de 9 mm (`Municion`), la escopeta cartuchos (`Cartuchos`), el fusil
   `BalasFusil` y el molotov se cuenta en `Molotovs`.
 - Mejoras (hasta 5 niveles): chaleco, zapatillas, mochila, puntería, campera gruesa y billetera.
+- Habilidades (se compran una vez, se usa la elegida): Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia.
+- `Alfajor`: +10 de vida y +10 de velocidad por 5 s.
 - Objetos: `CajaMunicion` (+6 balas de 9 mm, hasta `MunicionMaxima`), `CajaCartuchos` (+4 cartuchos), `Mate` (+15 de vida),
   `Botiquin` (+60), `Billete` (variable `Valor`) y `DolarBlue` ($15.000, escondido).
 - Los `PuntoAparicion` marcan dónde pueden nacer zombies; son invisibles durante el juego.

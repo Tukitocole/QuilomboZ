@@ -19,8 +19,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 9 · Sonido, plata y ambiente | 🧪 En prueba | Sonidos y música del equipo; plata en billetes argentinos según el documento; cuerpos y sangre; zombies gore; Lionel demacrado según su vida; escenarios post-apocalípticos (El Eternauta, The Last of Us) | Se escucha el juego y se siente el apocalipsis porteño |
 | 10 · Munición por arma | 🧪 En prueba | Cada arma con su munición (pistola: balas de 9 mm; escopeta: cartuchos) y la tienda vende munición | Se juega sin mezclar munición y se puede reponer en la tienda |
 | 11 · Tienda completa: armas y mejoras | 🧪 En prueba | Palo de escoba, bate, molotov y fusil de asalto; zapatillas, puntería, campera gruesa y billetera; tienda con pestañas | Se pueden armar distintos estilos de juego |
-| 12 · Habilidades y objetos | ⏳ En curso | Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia; alfajor; el Político suelta zombies chicos | Cada habilidad se compra, se elige y funciona |
-| 13 · Nivel 5: el Monumental | ⬜ Pendiente | Tribunas, túnel y cancha; oleada final; jefe Gordo Barra con bombo; llave y portón del club | Se aguanta la oleada, se vence al jefe y se entra al túnel |
+| 12 · Habilidades y objetos | 🧪 En prueba | Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia; alfajor; el Político suelta zombies chicos | Cada habilidad se compra, se elige y funciona |
+| 13 · Nivel 5: el Monumental | ⏳ En curso | Tribunas, túnel y cancha; oleada final; jefe Gordo Barra con bombo; llave y portón del club | Se aguanta la oleada, se vence al jefe y se entra al túnel |
 | 14 · Guardado, tutorial y puntaje | ⬜ Pendiente | Guardado de partida, tutorial en el kiosco, puntaje final y logros | Se retoma la partida y el final muestra el puntaje |
 | 15 · Pulido y publicación | ⬜ Pendiente | Temblor de pantalla, opciones de volumen, sonidos que falten, balance con pruebas de terceros, publicación | Cumple el documento completo |
 
@@ -40,10 +40,10 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 9 · Sonido, plata y ambiente | 4 + Versión 2 | 🧪 En prueba | Los 11 sonidos del equipo (música del menú y de los niveles, disparos, recarga, recolectar, caja registradora, botones y gruñidos); plata en billetes argentinos ($500, $1.000, $2.000, $10.000 y $20.000) según la sección 17, el Chorro lleva lo que roba; cuerpos tirados con charco de sangre (cada uno con su ropa), salpicaduras al pegar y al recibir golpes; zombies gore; Lionel herido y grave (ropa rota, tierra, sangre, venda); nevada, viñeta fría, escombros, basura, yuyos, fogatas, cuerpos viejos y pintadas | El Trapito suelta $1.000 (antes $800); la música de los niveles es FLAC (venía con extensión .mp3) | Pruebas con 3 personas de afuera; balance |
 | 10 · Munición por arma | Versión 2 | 🧪 En prueba | Pistola con balas de 9 mm (12 al empezar, 24 de máximo) y escopeta con cartuchos (trae 6, máximo 12); cajas de cartuchos en los mapas y al matar zombies (si se tiene la escopeta); la mochila suma 6 balas y 2 cartuchos; HUD con la munición del arma en la mano; tienda con 5 productos (se suman Balas 9 mm $1.000 y Cartuchos $1.500, con inflación) | Avisos de sin munición según el arma | — |
 | 11 · Tienda completa | Versión 2 | 🧪 En prueba | Tienda en tres pestañas (armas, mejoras, munición); armas: palo de escoba ($2.000), bate ($4.000, pega 2 y empuja), molotov ($6.000, fuego en área que quema 3,5 s) y fusil de asalto ($40.000, desde el nivel 4, ráfaga rápida); mejoras de hasta 5 niveles: zapatillas (+8 % velocidad), puntería (+10 % daño), campera gruesa (−10 % daño recibido) y billetera (+10 % pesos); munición para las cuatro armas de fuego y arrojadizas; 5 casilleros (1 cuerpo a cuerpo, 2 pistola, 3 escopeta, 4 fusil, 5 molotov) | El fuego quema desde el primer contacto; títulos de la tienda más cortos; números de los casilleros visibles sobre la radio | Arte definitivo de las armas nuevas |
+| 12 · Habilidades y objetos | Versión 2 | 🧪 En prueba | Cuarta pestaña de la tienda: Gambeta ($8.000, esquive con Q, 3 s de espera), Bocinazo ($10.000, aturde 2 s a los cercanos), Chamuyo ($9.000, un zombie no ataca por 5 s), Mate Power ($12.000, regenera si no te pegan), Rebusque ($11.000, +25 % de plata) y Asado de emergencia ($14.000, vida llena una vez por nivel); se compran una vez y se elige la activa; casillero de habilidad en el HUD con la espera; alfajor (+10 de vida y +10 de velocidad por 5 s) en cada nivel y al matar zombies; el Político camina menos y suelta Punteros (zombies chicos) | Descripción del Bocinazo más corta para que entre en la tienda | Arte definitivo de los íconos y del Puntero |
 
-**Fase siguiente: 12 · Habilidades y objetos.** Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y
-Asado de emergencia; el alfajor; el Político suelta zombies chicos. Después: 13 el Monumental,
-14 guardado y puntaje, 15 pulido.
+**Fase siguiente: 13 · Nivel 5: el Monumental.** Tribunas, túnel y cancha; oleada final; jefe Gordo
+Barra con su bombo; llave y portón del club. Después: 14 guardado y puntaje, 15 pulido.
 
 ## Sprints del documento y fases
 
@@ -483,3 +483,29 @@ Verificado:
   llena); bate 2,2 de daño con puntería 1 y empuje; ráfaga del fusil; fuego del molotov; campera
   (10 → 9), zapatillas (118,8), billetera; los cuatro niveles arrancan.
 - Probado por el equipo en el editor de GDevelop (2026-11-02).
+
+### Fase 12 · Habilidades y objetos (🧪 en prueba)
+
+Entregado:
+- Pestaña HABILIDADES en la tienda (sección 18). Se compran una vez; si ya se tiene, se elige como
+  la activa (`HabilidadActiva`). Botón COMPRAR / ELEGIR / USANDO.
+- Con Q: Gambeta (esquive de 0,2 s hacia donde se camina, sin recibir daño, 3 s de espera),
+  Bocinazo (bocina: los zombies a menos de 130 px quedan aturdidos 2 s, 8 s de espera), Chamuyo
+  (el zombie más cercano no ataca por 5 s, 10 s de espera) y Asado de emergencia (vida llena, una
+  vez por nivel).
+- Solas: Mate Power (si no te pegan en 4 s, +3 de vida por segundo) y Rebusque (+25 % de plata,
+  se suma a la Billetera).
+- Casillero de la habilidad en el HUD (a la izquierda del inventario), gris con los segundos que
+  faltan mientras recarga. Zombies aturdidos en amarillo y chamuyados en rosa.
+- Alfajor: +10 de vida y +10 de velocidad por 5 s; uno por nivel cerca del primer mate y 5 % de
+  chance al matar un zombie.
+- Zombie Político: camina más lento (25 y 40 en la segunda mitad) y cada 6 s (4 s en la segunda
+  mitad) suelta dos Punteros, zombies chicos y rápidos (1 de vida, $500), hasta 6 a la vez.
+
+Verificado:
+- Validador libGD 5.6.284: 4761 instrucciones, 0 errores.
+- Navegador: compra y elección en la tienda; gambeta (~120 px, sin daño), bocinazo (aturde a los
+  cercanos y no a los lejanos), chamuyo (solo el más cercano; avisa si no hay nadie), asado (una
+  vez), mate power, rebusque ($3.000 → $3.750 de promedio), alfajor, Punteros del Político; los
+  cuatro niveles arrancan.
+- Probado por el equipo en el editor de GDevelop (2026-11-18).
