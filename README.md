@@ -19,12 +19,13 @@ GDevelop). No hay bloques de JavaScript.
 
 | Acción | Tecla |
 |---|---|
-| Moverse (4 direcciones) | WASD o flechas |
+| Moverse (también en diagonal) | WASD o flechas |
 | Apuntar | Mouse (Lionel y el arma giran hacia el puntero) |
 | Usar (disparar / pegar) | Clic izquierdo (o mantenerlo), toque en pantalla o Espacio |
 | Inventario | 1 cuerpo a cuerpo (puños, palo o bate) · 2 pistola · 3 escopeta · 4 fusil · 5 molotov |
-| Habilidad | Q (Gambeta, Bocinazo, Chamuyo o Asado; Mate Power y Rebusque andan solas) |
-| Pagarle al trapito | E (nivel 3, $500) |
+| Habilidades | Q y E (Gambeta, Bocinazo, Chamuyo o Asado; Mate Power y Rebusque andan solas) |
+| Mira | C: cruz, círculo o cuadrado (también desde la pausa) |
+| Pagarle al trapito | E con un trapito pidiendo plata al lado (nivel 3, $500) |
 | Pausa | Esc (Esc o Enter para seguir, M para ir al menú) |
 | Tienda | ← → o clic para cambiar de pestaña · 1 a 6 o clic para comprar · Enter para seguir viaje |
 | Empezar desde el menú | Enter, Espacio o clic en JUGAR |
@@ -44,7 +45,7 @@ externos). Cada escena de nivel la incluye con un evento de **enlace** y suma so
 | `Nivel3_Cabildo` | La Plaza de Mayo a escala: reja de la Casa Rosada, Pirámide con los pañuelos, Monumento a Belgrano, Catedral, vallas con trapitos, carpas y las arcadas del Cabildo con la bajada al subsuelo. Zombie Trapito |
 | `Nivel4_CasaRosada` | La Casa Rosada por dentro: Patio de las Palmeras, escaleras de honor, Salón Blanco, balcón, Galería de los Bustos y la puerta de atrás a Paseo Colón. Jefe Zombie Político |
 | `Nivel5_River` | El Monumental (Club Atlético Último Refugio): avenida, estacionamiento, tribunas, cancha, palco y túnel. Oleada final y jefe Gordo Barra; la llave del palco abre el túnel (fin del juego) |
-| `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): cuatro pestañas (armas, mejoras, munición y habilidades) con inflación |
+| `Tienda` | Kiosco de Don Ramón (nivel 1) o Parada blindada (nivel 2): cuatro pestañas (armas, mejoras, munición y habilidades) con inflación; la atiende Don Ramón |
 | `Victoria` | Resumen, jugar de nuevo y menú |
 | `Derrota` | Pierde la mitad de la plata del nivel; reintentar o menú |
 

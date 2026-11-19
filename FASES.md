@@ -21,8 +21,8 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 11 · Tienda completa: armas y mejoras | 🧪 En prueba | Palo de escoba, bate, molotov y fusil de asalto; zapatillas, puntería, campera gruesa y billetera; tienda con pestañas | Se pueden armar distintos estilos de juego |
 | 12 · Habilidades y objetos | 🧪 En prueba | Gambeta, Bocinazo, Chamuyo, Mate Power, Rebusque y Asado de emergencia; alfajor; el Político suelta zombies chicos | Cada habilidad se compra, se elige y funciona |
 | 13 · Nivel 5: el Monumental | 🧪 En prueba | Tribunas, túnel y cancha; oleada final; jefe Gordo Barra con bombo; llave y portón del club | Se aguanta la oleada, se vence al jefe y se entra al túnel |
-| 14 · Tienda 2.0 y controles | ⏳ En curso | Precios que desaparecen al comprar o llegar al máximo; fusil bloqueado hasta el nivel 4 con precio fijo; habilidades que se desbloquean por nivel; dos habilidades (Q y E); Don Ramón animado que atiende la tienda; movimiento en diagonal; mira verde (cruz, círculo o cuadrado) | La tienda se entiende sola y se juega más cómodo |
-| 15 · Guardado, tutorial y puntaje | ⬜ Pendiente | Guardado de partida, tutorial en el kiosco, puntaje final y logros | Se retoma la partida y el final muestra el puntaje |
+| 14 · Tienda 2.0 y controles | 🧪 En prueba | Precios que desaparecen al comprar o llegar al máximo; fusil bloqueado hasta el nivel 4 con precio fijo; habilidades que se desbloquean por nivel; dos habilidades (Q y E); Don Ramón animado que atiende la tienda; movimiento en diagonal; mira verde (cruz, círculo o cuadrado) | La tienda se entiende sola y se juega más cómodo |
+| 15 · Guardado, tutorial y puntaje | ⏳ En curso | Guardado de partida, tutorial en el kiosco, puntaje final y logros | Se retoma la partida y el final muestra el puntaje |
 | 16 · Pulido y publicación | ⬜ Pendiente | Temblor de pantalla, opciones de volumen, sonidos que falten, balance con pruebas de terceros, publicación | Cumple el documento completo |
 
 ## Cuadro de avance
@@ -43,10 +43,10 @@ Estados: ✅ Hecha · 🧪 Entregada, en prueba del equipo · ⏳ En curso · �
 | 11 · Tienda completa | Versión 2 | 🧪 En prueba | Tienda en tres pestañas (armas, mejoras, munición); armas: palo de escoba ($2.000), bate ($4.000, pega 2 y empuja), molotov ($6.000, fuego en área que quema 3,5 s) y fusil de asalto ($40.000, desde el nivel 4, ráfaga rápida); mejoras de hasta 5 niveles: zapatillas (+8 % velocidad), puntería (+10 % daño), campera gruesa (−10 % daño recibido) y billetera (+10 % pesos); munición para las cuatro armas de fuego y arrojadizas; 5 casilleros (1 cuerpo a cuerpo, 2 pistola, 3 escopeta, 4 fusil, 5 molotov) | El fuego quema desde el primer contacto; títulos de la tienda más cortos; números de los casilleros visibles sobre la radio | Arte definitivo de las armas nuevas |
 | 12 · Habilidades y objetos | Versión 2 | 🧪 En prueba | Cuarta pestaña de la tienda: Gambeta ($8.000, esquive con Q, 3 s de espera), Bocinazo ($10.000, aturde 2 s a los cercanos), Chamuyo ($9.000, un zombie no ataca por 5 s), Mate Power ($12.000, regenera si no te pegan), Rebusque ($11.000, +25 % de plata) y Asado de emergencia ($14.000, vida llena una vez por nivel); se compran una vez y se elige la activa; casillero de habilidad en el HUD con la espera; alfajor (+10 de vida y +10 de velocidad por 5 s) en cada nivel y al matar zombies; el Político camina menos y suelta Punteros (zombies chicos) | Descripción del Bocinazo más corta para que entre en la tienda | Arte definitivo de los íconos y del Puntero |
 | 13 · Nivel 5: el Monumental | Versión 2 | 🧪 En prueba | Escena `Nivel5_River`: el estadio dibujado a partir de fotos del Monumental (ovalado, tres bandejas con franjas rojas y blancas, fachada blanca con franja roja, techo, pasto y LED alrededor de la cancha, pantallas, palco, túnel, torres de luz y trapos), sin escudos ni nombres (Club Atlético Último Refugio); avenida, estacionamiento y explanada; oleada final de 60 s al pisar el césped; jefe Gordo Barra (50 de vida, el bombo aturde 1 s, manada en la segunda mitad, $20.000); llave del club en el palco; portón del túnel; el túnel termina el juego | Estadio rehecho en una sola imagen con límites que siguen las curvas; oleada más suave (manada cada 2,2 s, hasta 22 zombies) | Arte definitivo del Gordo Barra |
+| 14 · Tienda 2.0 y controles | Versión 2 | 🧪 En prueba | Lo comprado o al máximo ya no muestra precio (YA ES TUYO, TENÉS EL BATE, AL MÁXIMO, LLENO); fusil a $40.000 fijos y bloqueado hasta después del nivel 4; habilidades que se desbloquean por nivel con orden sorteado en cada partida; dos habilidades a la vez (Q y E) con botones para equipar; Don Ramón animado que atiende y habla en un globo; movimiento en diagonal; mira verde (cruz, círculo o cuadrado; tecla C o botón en la pausa) | La E paga al trapito solo si hay uno pidiendo plata cerca; casilleros Q y E en orden | Arte definitivo de Don Ramón |
 
-**Fase siguiente: 14 · Tienda 2.0 y controles.** Pedidos del equipo tras probar la fase 13: precios y
-bloqueos claros en la tienda, habilidades por nivel, dos habilidades (Q y E), Don Ramón animado,
-movimiento en diagonal y mira. Después: 15 guardado y puntaje, 16 pulido.
+**Fase siguiente: 15 · Guardado, tutorial y puntaje.** Guardar la partida para retomarla, tutorial en
+el kiosco, puntaje final y logros. Después: 16 pulido y publicación.
 
 ## Sprints del documento y fases
 
@@ -537,4 +537,31 @@ Verificado:
 - Validador libGD 5.6.284: 5813 instrucciones, 0 errores.
 - Navegador: caminos entre todas las zonas (el túnel queda cerrado hasta abrir el portón); oleada;
   bombo que aturde; segunda mitad del Gordo; los tres avisos del portón; llave; portón; Victoria.
+- Probado por el equipo en el editor de GDevelop (2026-11-19).
+
+### Fase 14 · Tienda 2.0 y controles (🧪 en prueba)
+
+Pedidos del equipo después de probar la fase 13.
+
+Entregado:
+- Tienda: lo que ya se tiene no muestra precio (YA ES TUYO, TENÉS EL BATE, AL MÁXIMO, LLENO).
+- Fusil de asalto a $40.000 fijos (sin inflación), BLOQUEADO hasta después del nivel 4.
+- Habilidades por nivel: cada partida sortea uno de cuatro órdenes (`OrdenHabilidades`); aparecen 2
+  después del nivel 1, 1 después del 2, 2 después del 3 y 1 después del 4. Las bloqueadas se ven en
+  gris con "Tras el nivel N".
+- Dos habilidades a la vez: Q (`HabilidadActiva`) y E (`HabilidadActiva2`), cada una con su espera y
+  su casillero en el HUD. En la tienda, botones Q y E para equipar (si ya estaba en la otra, se
+  intercambian). En el nivel 3, la E le paga al trapito si hay uno pidiendo plata cerca.
+- Don Ramón animado (quieto, habla, contento, triste) atiende la tienda y habla en un globo: saluda y
+  cuenta lo nuevo, agradece, "no te alcanza", "todavía no me llegó", comenta cada pestaña, tira frases
+  de kiosco y frena una vez si Lionel se va con poca munición.
+- Movimiento en diagonal.
+- Mira verde a 48 px o más de Lionel, en cruz, círculo o cuadrado (`EstiloMira`; tecla C o botón en la
+  pausa). El cursor se oculta en los niveles.
+
+Verificado:
+- Validador libGD 5.6.284: 6977 instrucciones, 0 errores.
+- Navegador: precios y bloqueos, orden de desbloqueo, compra con equipado automático e intercambio Q/E,
+  aviso de munición, fusil después del nivel 4, diagonales, mira, Q y E por separado, trapito con E;
+  los cinco niveles, Victoria y Derrota arrancan.
 - Probado por el equipo en el editor de GDevelop (2026-11-19).
