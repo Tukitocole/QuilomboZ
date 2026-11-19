@@ -171117,7 +171117,7 @@
                     },
                     {
                       "type": {
-                        "value": "ChangeColor"
+                        "value": "TextObject::ChangeColor"
                       },
                       "parameters": [
                         "TextoLlave",
